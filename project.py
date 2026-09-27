@@ -5,7 +5,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.ensemble import RandomForestRegressor
-
+from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import r2_score
+import joblib
 
 DATA_PATH = "data/baku_housing_sample.csv"
 
@@ -32,13 +34,14 @@ print(obj_clm.head())
 y=df['price_azn']
 X=df.drop('price_azn' , axis=1)
 
-X_train,X_test,y_train,y_test=train_test_split(X,y, test_size=0.2 , train_size=0.8)
+X_train,X_test,y_train,y_test=train_test_split(
+    X, y, test_size=0.2, train_size=0.8, random_state=42
+)
 
 print(X_train.shape)
 print(X_test.shape)
 print(y_train.shape)
 print(y_test.shape)
-
 
 numeric_features = [
     "area_m2",
@@ -95,5 +98,17 @@ final_model.fit(X_train,y_train)
 print(final_model)
 
 y_pred=final_model.predict(X_test)
+
+mae=mean_absolute_error(y_test,y_pred)
+print("Mean Absolute Error:", mae)
+
+r2=r2_score(y_test,y_pred)
+print("The R2 score:" , r2 )
+
 print(y_pred[0:5])
 print(y_test[0:5])
+
+final_model.fit(X,y)
+print(final_model)
+
+joblib.dump(final_model , 'baku_price_model.joblib')
