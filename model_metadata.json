@@ -1,0 +1,157 @@
+{
+  "dataset_rows": 1000,
+  "selected_model": "extra_trees",
+  "mae_azn": 75440.08,
+  "mape_percent": 21.29,
+  "r2": 0.5807,
+  "numeric_features": [
+    "area_m2",
+    "rooms",
+    "floor",
+    "total_floors"
+  ],
+  "categorical_features": [
+    "property_type",
+    "building_type",
+    "district",
+    "location_name",
+    "metro_near",
+    "repair_quality",
+    "has_parking"
+  ],
+  "districts": [
+    "Absheron",
+    "Garadagh",
+    "Khatai",
+    "Khazar",
+    "Narimanov",
+    "Nasimi",
+    "Nizami",
+    "Sabail",
+    "Sabunchu",
+    "Surakhani",
+    "Yasamal"
+  ],
+  "locations_by_district": {
+    "Absheron": [
+      "Abşeron r.",
+      "Ceyranbatan q.",
+      "Digah q.",
+      "Görədil q.",
+      "Masazır q.",
+      "Mehdiabad q.",
+      "Məmmədli q.",
+      "Novxanı q.",
+      "Pirallahı r.",
+      "Saray q."
+    ],
+    "Garadagh": [
+      "Lökbatan q."
+    ],
+    "Khatai": [
+      "Ağ şəhər q.",
+      "Həzi Aslanov m.",
+      "Həzi Aslanov q.",
+      "Köhnə Günəşli q.",
+      "NZS q.",
+      "Xalqlar Dostluğu m.",
+      "Xətai r.",
+      "Şah İsmayıl Xətai m.",
+      "Əhmədli m.",
+      "Əhmədli q."
+    ],
+    "Khazar": [
+      "Binə q.",
+      "Buzovna q.",
+      "Mərdəkan q.",
+      "Qala q.",
+      "Şağan q.",
+      "Şüvəlan q."
+    ],
+    "Narimanov": [
+      "28 May m.",
+      "Bakmil m.",
+      "Gənclik m.",
+      "Koroğlu m.",
+      "Nəriman Nərimanov m.",
+      "Nərimanov r.",
+      "Ulduz m."
+    ],
+    "Nasimi": [
+      "20 Yanvar m.",
+      "28 May m.",
+      "8 Noyabr m.",
+      "Memar Əcəmi m.",
+      "Nizami m.",
+      "Nəsimi m.",
+      "Nəsimi r.",
+      "Sahil m."
+    ],
+    "Nizami": [
+      "8-ci kilometr q.",
+      "Koroğlu m.",
+      "Neftçilər m.",
+      "Nizami r.",
+      "Qara Qarayev m.",
+      "Xalqlar Dostluğu m."
+    ],
+    "Sabail": [
+      "20-ci sahə q.",
+      "28 May m.",
+      "Badamdar q.",
+      "Bayıl q.",
+      "Nizami m.",
+      "Sahil m.",
+      "Səbail r.",
+      "İçəri Şəhər m.",
+      "Şıxov q."
+    ],
+    "Sabunchu": [
+      "Bakıxanov q.",
+      "Balaxanı q.",
+      "Bilgəh q.",
+      "Bülbülə q.",
+      "Kürdəxanı q.",
+      "Maştağa q.",
+      "Nardaran q.",
+      "Neftçilər m.",
+      "Pirşağı q.",
+      "Ramana q.",
+      "Sabunçu q.",
+      "Sabunçu r.",
+      "Savalan q.",
+      "Sea Breeze q.",
+      "Zabrat q."
+    ],
+    "Surakhani": [
+      "Bülbülə q.",
+      "Hövsan q.",
+      "Massiv V q.",
+      "Qaraçuxur q.",
+      "Suraxanı r.",
+      "Yeni Günəşli q.",
+      "Yeni Suraxanı q.",
+      "Zığ q."
+    ],
+    "Yasamal": [
+      "20 Yanvar m.",
+      "Elmlər Akademiyası m.",
+      "Nizami m.",
+      "Yasamal q.",
+      "Yasamal r.",
+      "Yeni Yasamal q.",
+      "İnşaatçılar m.",
+      "İçəri Şəhər m."
+    ]
+  },
+  "area_limits": {
+    "apartment": {
+      "min": 20,
+      "max": 500
+    },
+    "house": {
+      "min": 36,
+      "max": 1250
+    }
+  }
+}
