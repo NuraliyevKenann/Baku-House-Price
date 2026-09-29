@@ -87,6 +87,7 @@ def thread_session():
 def fetch_text(session, url, timeout=25):
     response = session.get(url, timeout=timeout)
     response.raise_for_status()
+    response.encoding = "utf-8"
     return response.text
 
 
