@@ -6,16 +6,18 @@ import folium
 import joblib
 import pandas as pd
 import streamlit as st
+from branca.element import MacroElement, Template
 from streamlit_folium import st_folium
 
 
 ROOT = Path(__file__).parent
 MODEL_PATH = ROOT / "baku_price_model.joblib"
 METADATA_PATH = ROOT / "model_metadata.json"
-MAP_PATH = ROOT / "assets" / "baku-districts.geojson"
+MAP_PATH = ROOT / "assets" / "baku-districts-land.geojson"
 BAKU_MAP_BOUNDS = [[39.45, 49.10], [40.85, 50.45]]
 MAP_MIN_ZOOM = 9
 MAP_MAX_ZOOM = 14
+PREDICTION_ZOOM = 12
 
 TEXT = {
     "ru": {
@@ -253,7 +255,33 @@ def selected_bounds(features, district):
     return [[min(latitudes), min(longitudes)], [max(latitudes), max(longitudes)]]
 
 
-def build_map(boundaries, selected_district, language, supported_districts):
+class MapPresentation(MacroElement):
+    def __init__(self, fly_bounds=None):
+        super().__init__()
+        self.fly_bounds_json = json.dumps(fly_bounds) if fly_bounds else "null"
+        self.prediction_zoom = PREDICTION_ZOOM
+        self._template = Template(
+            """
+            {% macro script(this, kwargs) %}
+            var map = {{ this._parent.get_name() }};
+            map.attributionControl.setPrefix(false);
+            var flyBounds = {{ this.fly_bounds_json }};
+            if (flyBounds) {
+                var center = [
+                    (flyBounds[0][0] + flyBounds[1][0]) / 2,
+                    (flyBounds[0][1] + flyBounds[1][1]) / 2
+                ];
+                map.flyTo(center, {{ this.prediction_zoom }}, {
+                    animate: true,
+                    duration: 1.25
+                });
+            }
+            {% endmacro %}
+            """
+        )
+
+
+def build_map(boundaries, selected_district, language, supported_districts, highlight):
     features = []
     for feature in boundaries["features"]:
         district = feature["properties"]["district"]
@@ -291,38 +319,47 @@ def build_map(boundaries, selected_district, language, supported_districts):
         no_wrap=True,
         control=False,
     ).add_to(district_map)
-    district_map.fit_bounds(
-        selected_bounds(features, selected_district),
-        padding=(24, 24),
-        max_zoom=11,
-    )
-
     folium.GeoJson(
         map_data,
         name="districts",
         style_function=lambda feature: {
             "fillColor": (
                 "#c81d25"
-                if feature["properties"]["district"] == selected_district
+                if highlight
+                and feature["properties"]["district"] == selected_district
                 else "#aeb2b7"
             ),
             "color": "#ffffff",
             "weight": 1.5,
             "fillOpacity": (
                 0.72
-                if feature["properties"]["district"] == selected_district
+                if highlight
+                and feature["properties"]["district"] == selected_district
                 else 0.35
             ),
         },
-        highlight_function=lambda _: {
-            "fillColor": "#e21d2d",
-            "color": "#9f141b",
+        highlight_function=lambda feature: {
+            "fillColor": (
+                "#e21d2d"
+                if highlight
+                and feature["properties"]["district"] == selected_district
+                else "#c7cbd0"
+            ),
+            "color": (
+                "#9f141b"
+                if highlight
+                and feature["properties"]["district"] == selected_district
+                else "#6f747a"
+            ),
             "weight": 2.5,
-            "fillOpacity": 0.72,
+            "fillOpacity": 0.72 if highlight else 0.5,
         },
         tooltip=folium.GeoJsonTooltip(
             fields=["display_name"], aliases=[""], labels=False, sticky=True
         ),
+    ).add_to(district_map)
+    MapPresentation(
+        selected_bounds(features, selected_district) if highlight else None
     ).add_to(district_map)
     return district_map
 
@@ -470,11 +507,17 @@ with map_column:
         unsafe_allow_html=True,
     )
     map_result = st_folium(
-        build_map(boundaries, district_choice, language, set(districts)),
+        build_map(
+            boundaries,
+            district_choice,
+            language,
+            set(districts),
+            highlight=estimate,
+        ),
         height=650,
         width=None,
         returned_objects=["last_object_clicked_tooltip"],
-        key=f"district_map_{district_choice}_{language}",
+        key=f"district_map_{district_choice}_{language}_{int(estimate)}",
     )
     clicked_name = map_result.get("last_object_clicked_tooltip")
     district_by_display_name = {
