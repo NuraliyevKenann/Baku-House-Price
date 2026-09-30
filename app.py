@@ -14,7 +14,7 @@ MODEL_PATH = ROOT / "baku_price_model.joblib"
 METADATA_PATH = ROOT / "model_metadata.json"
 MAP_PATH = ROOT / "assets" / "baku-districts.geojson"
 BAKU_MAP_BOUNDS = [[39.45, 49.10], [40.85, 50.45]]
-MAP_MIN_ZOOM = 8
+MAP_MIN_ZOOM = 9
 MAP_MAX_ZOOM = 14
 
 TEXT = {
@@ -267,7 +267,7 @@ def build_map(boundaries, selected_district, language, supported_districts):
     district_map = folium.Map(
         location=[40.40, 49.90],
         tiles=None,
-        zoom_start=9,
+        zoom_start=10,
         min_zoom=MAP_MIN_ZOOM,
         max_zoom=MAP_MAX_ZOOM,
         min_lat=BAKU_MAP_BOUNDS[0][0],
@@ -292,7 +292,9 @@ def build_map(boundaries, selected_district, language, supported_districts):
         control=False,
     ).add_to(district_map)
     district_map.fit_bounds(
-        selected_bounds(features, selected_district), max_zoom=10
+        selected_bounds(features, selected_district),
+        padding=(24, 24),
+        max_zoom=11,
     )
 
     folium.GeoJson(
