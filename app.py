@@ -98,6 +98,7 @@ TEXT = {
 
 DISTRICT_NAMES = {
     "Absheron": {"ru": "Абшерон", "az": "Abşeron"},
+    "Binagadi": {"ru": "Бинагади", "az": "Binəqədi"},
     "Garadagh": {"ru": "Гарадаг", "az": "Qaradağ"},
     "Khatai": {"ru": "Хатаи", "az": "Xətai"},
     "Khazar": {"ru": "Хазар", "az": "Xəzər"},
