@@ -13,6 +13,9 @@ ROOT = Path(__file__).parent
 MODEL_PATH = ROOT / "baku_price_model.joblib"
 METADATA_PATH = ROOT / "model_metadata.json"
 MAP_PATH = ROOT / "assets" / "baku-districts.geojson"
+BAKU_MAP_BOUNDS = [[39.45, 49.10], [40.85, 50.45]]
+MAP_MIN_ZOOM = 8
+MAP_MAX_ZOOM = 14
 
 TEXT = {
     "ru": {
@@ -188,7 +191,14 @@ st.markdown(
         }
         .map-heading strong { font-size: 1.2rem; }
         .map-heading span { color: var(--red-dark); font-weight: 700; }
-        iframe { border-radius: 6px; }
+        [data-testid="stIFrame"] {
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        iframe {
+            display: block;
+            border-radius: 6px;
+        }
         .price-result {
             margin-top: 1rem;
             padding: 1.15rem 1.3rem;
@@ -256,11 +266,31 @@ def build_map(boundaries, selected_district, language, supported_districts):
     map_data = {"type": "FeatureCollection", "features": features}
     district_map = folium.Map(
         location=[40.40, 49.90],
-        tiles="OpenStreetMap",
+        tiles=None,
+        zoom_start=9,
+        min_zoom=MAP_MIN_ZOOM,
+        max_zoom=MAP_MAX_ZOOM,
+        min_lat=BAKU_MAP_BOUNDS[0][0],
+        max_lat=BAKU_MAP_BOUNDS[1][0],
+        min_lon=BAKU_MAP_BOUNDS[0][1],
+        max_lon=BAKU_MAP_BOUNDS[1][1],
+        max_bounds=True,
         zoom_control=True,
         control_scale=True,
         prefer_canvas=True,
     )
+    district_map.options.update(
+        minZoom=MAP_MIN_ZOOM,
+        maxZoom=MAP_MAX_ZOOM,
+        maxBoundsViscosity=1.0,
+    )
+    folium.TileLayer(
+        "OpenStreetMap",
+        min_zoom=MAP_MIN_ZOOM,
+        max_zoom=MAP_MAX_ZOOM,
+        no_wrap=True,
+        control=False,
+    ).add_to(district_map)
     district_map.fit_bounds(
         selected_bounds(features, selected_district), max_zoom=10
     )
