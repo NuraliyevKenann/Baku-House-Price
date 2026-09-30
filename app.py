@@ -369,6 +369,15 @@ def sync_district_from_select():
     st.session_state.selected_district = st.session_state.district_widget
 
 
+def canonical_district(value, available_districts):
+    if value in available_districts:
+        return value
+    for district in available_districts:
+        if value in DISTRICT_NAMES[district].values():
+            return district
+    return "Yasamal" if "Yasamal" in available_districts else available_districts[0]
+
+
 model = load_model()
 metadata = load_json(METADATA_PATH)
 boundaries = load_json(MAP_PATH)
@@ -408,10 +417,13 @@ st.markdown(
 st.markdown("</div>", unsafe_allow_html=True)
 
 districts = metadata["districts"]
-if "selected_district" not in st.session_state:
-    st.session_state.selected_district = "Yasamal"
-if "district_widget" not in st.session_state:
-    st.session_state.district_widget = st.session_state.selected_district
+st.session_state.selected_district = canonical_district(
+    st.session_state.get("selected_district", "Yasamal"), districts
+)
+st.session_state.district_widget = canonical_district(
+    st.session_state.get("district_widget", st.session_state.selected_district),
+    districts,
+)
 if st.session_state.district_widget != st.session_state.selected_district:
     st.session_state.district_widget = st.session_state.selected_district
 
