@@ -443,8 +443,7 @@ with brand_column:
 st.markdown('<div class="hero">', unsafe_allow_html=True)
 st.image(ROOT / "assets" / "baku-skyline-red.png", width="stretch")
 st.markdown(
-    f'<div class="hero-copy"><h1>{t["page_title"]}</h1>'
-    f'<p>{t["data_note"].format(rows=metadata["dataset_rows"])}</p></div>',
+    f'<div class="hero-copy"><h1>{t["page_title"]}</h1></div>',
     unsafe_allow_html=True,
 )
 st.markdown("</div>", unsafe_allow_html=True)
