@@ -13,6 +13,7 @@ from streamlit_folium import st_folium
 ROOT = Path(__file__).parent
 MODEL_PATH = ROOT / "baku_price_model.joblib"
 METADATA_PATH = ROOT / "model_metadata.json"
+EVALUATION_PATH = ROOT / "model_evaluation.json"
 MAP_PATH = ROOT / "assets" / "baku-districts-land.geojson"
 BAKU_MAP_BOUNDS = [[39.45, 49.10], [40.85, 50.45]]
 MAP_MIN_ZOOM = 9
@@ -54,6 +55,7 @@ TEXT = {
         "result": "Примерная рыночная стоимость",
         "range": "Ожидаемый диапазон",
         "model_quality": "Средняя процентная ошибка модели на тесте: {mape:.1f}%",
+        "fresh_quality": "Проверка на {rows:,} новых объявлениях: средняя ошибка {mape:.1f}% ({mae:,.0f} AZN)",
         "disclaimer": "Экспериментальная оценка по открытым объявлениям, не профессиональная экспертиза.",
         "data_note": "Модель обучена на {rows:,} объявлениях о продаже.",
     },
@@ -91,6 +93,7 @@ TEXT = {
         "result": "Təxmini bazar qiyməti",
         "range": "Gözlənilən interval",
         "model_quality": "Modelin test üzrə orta faiz xətası: {mape:.1f}%",
+        "fresh_quality": "{rows:,} yeni elan üzrə yoxlama: orta xəta {mape:.1f}% ({mae:,.0f} AZN)",
         "disclaimer": "Açıq elanlar əsasında eksperimental qiymətləndirmədir, peşəkar ekspertiza deyil.",
         "data_note": "Model {rows:,} satış elanı ilə öyrədilib.",
     },
@@ -164,7 +167,11 @@ st.markdown(
         }
         .hero-copy h1 { color: white; font-size: 2.25rem !important; }
         .hero-copy p { margin: .2rem 0 0; color: rgba(255,255,255,.88); }
-        .control-panel { border-top: 3px solid var(--red); padding-top: .9rem; }
+        .control-panel {
+            border-top: 3px solid var(--red);
+            padding: 1rem 0 .35rem;
+            margin-bottom: .35rem;
+        }
         [data-testid="stSelectbox"] label,
         [data-testid="stNumberInput"] label {
             color: var(--ink);
@@ -203,7 +210,7 @@ st.markdown(
             border-radius: 6px;
         }
         .price-result {
-            margin-top: 1rem;
+            margin: .7rem 0 1.15rem;
             padding: 1.15rem 1.3rem;
             background: var(--surface);
             border: 1px solid #dedfe1;
@@ -282,7 +289,7 @@ class MapPresentation(MacroElement):
         )
 
 
-def build_map(boundaries, selected_district, language, supported_districts, highlight):
+def build_map(boundaries, selected_district, language, supported_districts, focus_selected):
     features = []
     for feature in boundaries["features"]:
         district = feature["properties"]["district"]
@@ -326,47 +333,44 @@ def build_map(boundaries, selected_district, language, supported_districts, high
         style_function=lambda feature: {
             "fillColor": (
                 "#c81d25"
-                if highlight
-                and feature["properties"]["district"] == selected_district
+                if feature["properties"]["district"] == selected_district
                 else "#aeb2b7"
             ),
             "color": "#ffffff",
             "weight": 1.5,
             "fillOpacity": (
                 0.72
-                if highlight
-                and feature["properties"]["district"] == selected_district
+                if feature["properties"]["district"] == selected_district
                 else 0.35
             ),
         },
         highlight_function=lambda feature: {
             "fillColor": (
                 "#e21d2d"
-                if highlight
-                and feature["properties"]["district"] == selected_district
+                if feature["properties"]["district"] == selected_district
                 else "#c7cbd0"
             ),
             "color": (
                 "#9f141b"
-                if highlight
-                and feature["properties"]["district"] == selected_district
+                if feature["properties"]["district"] == selected_district
                 else "#6f747a"
             ),
             "weight": 2.5,
-            "fillOpacity": 0.72 if highlight else 0.5,
+            "fillOpacity": 0.72,
         },
         tooltip=folium.GeoJsonTooltip(
             fields=["display_name"], aliases=[""], labels=False, sticky=True
         ),
     ).add_to(district_map)
     MapPresentation(
-        selected_bounds(features, selected_district) if highlight else None
+        selected_bounds(features, selected_district) if focus_selected else None
     ).add_to(district_map)
     return district_map
 
 
 def sync_district_from_select():
     st.session_state.selected_district = st.session_state.district_widget
+    st.session_state.focus_selected_district = True
 
 
 def canonical_district(value, available_districts):
@@ -380,6 +384,7 @@ def canonical_district(value, available_districts):
 
 model = load_model()
 metadata = load_json(METADATA_PATH)
+evaluation = load_json(EVALUATION_PATH)
 boundaries = load_json(MAP_PATH)
 
 brand_column, language_column = st.columns(
@@ -388,11 +393,11 @@ brand_column, language_column = st.columns(
 with language_column:
     language_label = st.segmented_control(
         "Language",
-        ["RU", "AZ"],
-        default="RU",
+        ["AZ", "RU"],
+        default="AZ",
         label_visibility="collapsed",
     )
-language = (language_label or "RU").lower()
+language = (language_label or "AZ").lower()
 t = TEXT[language]
 
 brand_mark = base64.b64encode(
@@ -427,16 +432,17 @@ st.session_state.district_widget = canonical_district(
 if st.session_state.district_widget != st.session_state.selected_district:
     st.session_state.district_widget = st.session_state.selected_district
 
-controls_column, map_column = st.columns([0.82, 1.18], gap="large")
+st.markdown('<div class="control-panel">', unsafe_allow_html=True)
+st.subheader(t["details"])
 
-with controls_column:
-    st.markdown('<div class="control-panel">', unsafe_allow_html=True)
-    st.subheader(t["details"])
+first_row = st.columns([1, 1, 1.35, 1], gap="medium")
+with first_row[0]:
     property_choice = st.selectbox(
         t["property"],
         ["apartment", "house"],
         format_func=lambda value: t[value],
     )
+with first_row[1]:
     st.selectbox(
         t["district"],
         districts,
@@ -444,22 +450,11 @@ with controls_column:
         format_func=lambda value: DISTRICT_NAMES[value][language],
         on_change=sync_district_from_select,
     )
-    district_choice = st.session_state.selected_district
+district_choice = st.session_state.selected_district
+with first_row[2]:
     locations = metadata["locations_by_district"][district_choice]
     location_choice = st.selectbox(t["location"], locations)
-
-    area_limits = metadata["area_limits"][property_choice]
-    area_default = 85 if property_choice == "apartment" else 160
-    area_m2 = st.number_input(
-        t["area"],
-        min_value=int(area_limits["min"]),
-        max_value=int(area_limits["max"]),
-        value=area_default,
-        step=1,
-    )
-    rooms_count = st.number_input(
-        t["rooms"], min_value=1, max_value=16, value=3, step=1
-    )
+with first_row[3]:
     building_options = (
         ["new_building", "old_building"]
         if property_choice == "apartment"
@@ -473,6 +468,23 @@ with controls_column:
         ),
         disabled=property_choice == "house",
     )
+
+second_row = st.columns(4, gap="medium")
+with second_row[0]:
+    area_limits = metadata["area_limits"][property_choice]
+    area_default = 85 if property_choice == "apartment" else 160
+    area_m2 = st.number_input(
+        t["area"],
+        min_value=int(area_limits["min"]),
+        max_value=int(area_limits["max"]),
+        value=area_default,
+        step=1,
+    )
+with second_row[1]:
+    rooms_count = st.number_input(
+        t["rooms"], min_value=1, max_value=16, value=3, step=1
+    )
+with second_row[2]:
     total_floors = st.number_input(
         t["total_floors"],
         min_value=1,
@@ -480,6 +492,7 @@ with controls_column:
         value=15 if property_choice == "apartment" else 1,
         step=1,
     )
+with second_row[3]:
     if property_choice == "apartment":
         floor = st.number_input(
             t["floor"],
@@ -489,57 +502,35 @@ with controls_column:
             step=1,
         )
     else:
+        st.number_input(t["floor"], min_value=1, value=1, disabled=True)
         floor = 1
+
+third_row = st.columns([1, 1, 1, 1.15], gap="medium", vertical_alignment="bottom")
+with third_row[0]:
     repair_choice = st.selectbox(
         t["repair"],
         ["needs_repair", "average", "good", "excellent"],
         index=2,
         format_func=lambda value: t[value],
     )
+with third_row[1]:
     metro_choice = st.selectbox(
         t["metro"], ["yes", "no"], format_func=lambda value: t[value]
     )
+with third_row[2]:
     parking_choice = st.selectbox(
         t["parking"],
         ["yes", "unknown"],
         format_func=lambda value: t[value],
     )
+with third_row[3]:
     estimate = st.button(
         t["estimate"],
         icon=":material/calculate:",
         width="stretch",
         type="primary",
     )
-    st.markdown("</div>", unsafe_allow_html=True)
-
-with map_column:
-    district_display = DISTRICT_NAMES[district_choice][language]
-    st.markdown(
-        f'<div class="map-heading"><strong>{t["map"]}</strong>'
-        f'<span>{t["selected"]}: {district_display}</span></div>',
-        unsafe_allow_html=True,
-    )
-    map_result = st_folium(
-        build_map(
-            boundaries,
-            district_choice,
-            language,
-            set(districts),
-            highlight=estimate,
-        ),
-        height=650,
-        width=None,
-        returned_objects=["last_object_clicked_tooltip"],
-        key=f"district_map_{district_choice}_{language}_{int(estimate)}",
-    )
-    clicked_name = map_result.get("last_object_clicked_tooltip")
-    district_by_display_name = {
-        DISTRICT_NAMES[district][language]: district for district in districts
-    }
-    clicked_district = district_by_display_name.get(clicked_name)
-    if clicked_district and clicked_district != district_choice:
-        st.session_state.selected_district = clicked_district
-        st.rerun()
+st.markdown("</div>", unsafe_allow_html=True)
 
 input_data = pd.DataFrame(
     [
@@ -561,7 +552,8 @@ input_data = pd.DataFrame(
 
 if estimate:
     prediction = float(model.predict(input_data)[0])
-    error_margin = float(metadata["mae_azn"])
+    property_metrics = evaluation["by_property_type"][property_choice]
+    error_margin = float(property_metrics["mae_azn"])
     lower_price = max(0, prediction - error_margin)
     upper_price = prediction + error_margin
     st.markdown(
@@ -573,10 +565,45 @@ if estimate:
                 {t["range"]}: {lower_price:,.0f} - {upper_price:,.0f} AZN
             </div>
             <div class="quality-note">
-                {t["model_quality"].format(mape=metadata["mape_percent"])}<br>
+                {t["fresh_quality"].format(
+                    rows=property_metrics["rows"],
+                    mape=property_metrics["mape_percent"],
+                    mae=property_metrics["mae_azn"],
+                )}<br>
                 {t["disclaimer"]}
             </div>
         </div>
         """,
         unsafe_allow_html=True,
     )
+
+district_display = DISTRICT_NAMES[district_choice][language]
+st.markdown(
+    f'<div class="map-heading"><strong>{t["map"]}</strong>'
+    f'<span>{t["selected"]}: {district_display}</span></div>',
+    unsafe_allow_html=True,
+)
+focus_selected = bool(st.session_state.pop("focus_selected_district", False)) or estimate
+map_result = st_folium(
+    build_map(
+        boundaries,
+        district_choice,
+        language,
+        set(districts),
+        focus_selected=focus_selected,
+    ),
+    height=720,
+    width=None,
+    returned_objects=["last_object_clicked_tooltip"],
+    key=f"district_map_{district_choice}_{language}_{int(focus_selected)}",
+)
+clicked_name = map_result.get("last_object_clicked_tooltip")
+district_by_display_name = {
+    DISTRICT_NAMES[district][language]: district for district in districts
+}
+clicked_district = district_by_display_name.get(clicked_name)
+if clicked_district and clicked_district != district_choice:
+    st.session_state.selected_district = clicked_district
+    st.session_state.district_widget = clicked_district
+    st.session_state.focus_selected_district = True
+    st.rerun()
