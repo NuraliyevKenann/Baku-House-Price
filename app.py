@@ -289,7 +289,14 @@ class MapPresentation(MacroElement):
         )
 
 
-def build_map(boundaries, selected_district, language, supported_districts, focus_selected):
+def build_map(
+    boundaries,
+    selected_district,
+    language,
+    supported_districts,
+    highlight_selected,
+    focus_selected,
+):
     features = []
     for feature in boundaries["features"]:
         district = feature["properties"]["district"]
@@ -333,26 +340,30 @@ def build_map(boundaries, selected_district, language, supported_districts, focu
         style_function=lambda feature: {
             "fillColor": (
                 "#c81d25"
-                if feature["properties"]["district"] == selected_district
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
                 else "#aeb2b7"
             ),
             "color": "#ffffff",
             "weight": 1.5,
             "fillOpacity": (
                 0.72
-                if feature["properties"]["district"] == selected_district
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
                 else 0.35
             ),
         },
         highlight_function=lambda feature: {
             "fillColor": (
                 "#e21d2d"
-                if feature["properties"]["district"] == selected_district
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
                 else "#c7cbd0"
             ),
             "color": (
                 "#9f141b"
-                if feature["properties"]["district"] == selected_district
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
                 else "#6f747a"
             ),
             "weight": 2.5,
@@ -370,6 +381,7 @@ def build_map(boundaries, selected_district, language, supported_districts, focu
 
 def sync_district_from_select():
     st.session_state.selected_district = st.session_state.district_widget
+    st.session_state.has_district_selection = True
     st.session_state.focus_selected_district = True
 
 
@@ -584,12 +596,14 @@ st.markdown(
     unsafe_allow_html=True,
 )
 focus_selected = bool(st.session_state.pop("focus_selected_district", False)) or estimate
+highlight_selected = bool(st.session_state.get("has_district_selection", False)) or estimate
 map_result = st_folium(
     build_map(
         boundaries,
         district_choice,
         language,
         set(districts),
+        highlight_selected=highlight_selected,
         focus_selected=focus_selected,
     ),
     height=720,
@@ -605,5 +619,6 @@ clicked_district = district_by_display_name.get(clicked_name)
 if clicked_district and clicked_district != district_choice:
     st.session_state.selected_district = clicked_district
     st.session_state.district_widget = clicked_district
+    st.session_state.has_district_selection = True
     st.session_state.focus_selected_district = True
     st.rerun()
