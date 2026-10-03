@@ -1,14 +1,15 @@
 # Dataset notes
 
-`baku_housing_all_current.csv` is a snapshot of 51,619 public Baku sale
-listings collected from `bina.az` on 2026-10-01. It contains 42,515 apartments
-and 9,104 houses after validation and duplicate removal.
+`baku_housing_all_current.csv` is a snapshot of 62,627 public Baku sale
+listings collected from `bina.az` through 2026-10-03. It contains 52,045
+apartments and 10,582 houses after validation and duplicate removal.
 
 `baku_housing_1000.csv` is the earlier 1,000-row snapshot from 2026-09-29.
 
-The collector uses the public sitemap and listing pages allowed by the site's
-`robots.txt`. It stores property characteristics and source URLs only. Seller
-names, phone numbers, photos, and contact details are not collected.
+The collector stores property characteristics and source URLs only. Seller
+names, phone numbers, photos, and contact details are not collected. Before
+running it again, obtain permission from the source owner and review the
+current site terms; automated access is not enabled as a scheduled service.
 
 The dataset contains asking prices, not confirmed transaction prices. Parking
 is marked `unknown` unless it is explicitly mentioned in the listing text.
@@ -25,7 +26,7 @@ floors, repair quality, parking, title deed, and mortgage availability.
 Run the collector again with:
 
 ```powershell
-py scripts/collect_bina_listings.py --target 0 --workers 16 --checkpoint-every 500 --resume --output data/baku_housing_all_current.csv
+py scripts/collect_bina_listings.py --authorized-access --target 0 --workers 16 --checkpoint-every 500 --resume --output data/baku_housing_all_current.csv
 ```
 
 `--target 0` scans the complete public sitemap. `--resume` continues from the

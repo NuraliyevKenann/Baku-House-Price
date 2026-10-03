@@ -442,8 +442,11 @@ def property_fingerprint(row):
     return tuple(
         str(row[column])
         for column in (
+            "property_type",
+            "building_type",
             "district",
             "location_name",
+            "address",
             "price_azn",
             "area_m2",
             "rooms",
@@ -460,7 +463,17 @@ def read_existing_rows(output_path):
         return list(csv.DictReader(file))
 
 
-def collect(target, workers, output_path, checkpoint_every, resume, location_id):
+def collect(
+    target,
+    workers,
+    output_path,
+    checkpoint_every,
+    resume,
+    refresh,
+    backfill,
+    skip_urls,
+    location_id,
+):
     session = build_session()
     urls = (
         location_entries(session, location_id)
@@ -468,11 +481,30 @@ def collect(target, workers, output_path, checkpoint_every, resume, location_id)
         else sitemap_entries(session)
     )
 
-    rows = read_existing_rows(output_path) if resume else []
+    rows = read_existing_rows(output_path) if resume or refresh or backfill else []
     seen_ids = {str(row["listing_id"]) for row in rows}
     seen_properties = {property_fingerprint(row) for row in rows}
     batch_size = max(workers * 5, 20)
-    if seen_ids and not location_id:
+    if refresh:
+        if not seen_ids:
+            raise RuntimeError("--refresh requires an existing output dataset")
+        numeric_ids = [int(listing_id) for listing_id in seen_ids if listing_id.isdigit()]
+        if not numeric_ids:
+            raise RuntimeError("No Bina listing IDs found in the existing dataset")
+        newest_saved_id = max(numeric_ids)
+        urls = [
+            url
+            for url in urls
+            if int(url.rsplit("/", 1)[-1]) > newest_saved_id
+        ]
+    elif backfill:
+        if not seen_ids:
+            raise RuntimeError("--backfill requires an existing output dataset")
+        urls = [
+            url for url in urls if url.rsplit("/", 1)[-1] not in seen_ids
+        ]
+        urls = urls[skip_urls:]
+    elif seen_ids and not location_id:
         saved_positions = [
             index
             for index, url in enumerate(urls)
@@ -483,7 +515,11 @@ def collect(target, workers, output_path, checkpoint_every, resume, location_id)
             urls = urls[resume_at:]
     checked = 0
 
-    if rows:
+    if refresh:
+        print(f"Refreshing {len(rows)} saved listings from {len(urls)} new URLs")
+    elif backfill:
+        print(f"Backfilling {len(rows)} saved listings from {len(urls)} unseen URLs")
+    elif rows:
         print(f"Resuming with {len(rows)} saved listings")
 
     for start in range(0, len(urls), batch_size):
@@ -540,6 +576,14 @@ def main():
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--checkpoint-every", type=int, default=500)
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--refresh", action="store_true")
+    parser.add_argument("--backfill", action="store_true")
+    parser.add_argument(
+        "--authorized-access",
+        action="store_true",
+        help="Confirm that the source owner authorized automated access.",
+    )
+    parser.add_argument("--skip-urls", type=int, default=0)
     parser.add_argument("--location-id", type=int)
     parser.add_argument(
         "--output",
@@ -548,12 +592,21 @@ def main():
     )
     args = parser.parse_args()
 
+    if not args.authorized_access:
+        parser.error(
+            "Automated access requires permission from the source owner. "
+            "After permission is granted, pass --authorized-access."
+        )
+
     rows, checked = collect(
         args.target,
         args.workers,
         args.output,
         args.checkpoint_every,
         args.resume,
+        args.refresh,
+        args.backfill,
+        args.skip_urls,
         args.location_id,
     )
     if args.target and len(rows) < args.target:
