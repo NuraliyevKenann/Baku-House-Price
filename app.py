@@ -31,6 +31,7 @@ TEXT = {
         "house": "Дом",
         "district": "Район",
         "location": "Расположение",
+        "location_in_district": "Место в выбранном районе",
         "area": "Площадь, м²",
         "rooms": "Количество комнат",
         "building": "Тип здания",
@@ -69,6 +70,7 @@ TEXT = {
         "house": "Həyət evi",
         "district": "Rayon",
         "location": "Ərazi",
+        "location_in_district": "Seçilmiş rayon daxilində ərazi",
         "area": "Sahə, m²",
         "rooms": "Otaq sayı",
         "building": "Bina növü",
@@ -394,6 +396,20 @@ def canonical_district(value, available_districts):
     return "Yasamal" if "Yasamal" in available_districts else available_districts[0]
 
 
+def district_location_options(locations):
+    def location_order(value):
+        normalized = value.strip().lower()
+        if normalized.endswith(" q."):
+            return 0
+        if normalized.endswith(" r."):
+            return 1
+        if normalized.endswith(" m."):
+            return 2
+        return 3
+
+    return sorted(locations, key=lambda value: (location_order(value), value))
+
+
 model = load_model()
 metadata = load_json(METADATA_PATH)
 evaluation = load_json(EVALUATION_PATH)
@@ -464,8 +480,10 @@ with first_row[1]:
     )
 district_choice = st.session_state.selected_district
 with first_row[2]:
-    locations = metadata["locations_by_district"][district_choice]
-    location_choice = st.selectbox(t["location"], locations)
+    locations = district_location_options(
+        metadata["locations_by_district"][district_choice]
+    )
+    location_choice = st.selectbox(t["location_in_district"], locations)
 with first_row[3]:
     building_options = (
         ["new_building", "old_building"]
@@ -497,45 +515,44 @@ with second_row[1]:
         t["rooms"], min_value=1, max_value=16, value=3, step=1
     )
 with second_row[2]:
-    total_floors = st.number_input(
-        t["total_floors"],
-        min_value=1,
-        max_value=28 if property_choice == "apartment" else 4,
-        value=15 if property_choice == "apartment" else 1,
-        step=1,
-    )
-with second_row[3]:
     if property_choice == "apartment":
         floor = st.number_input(
             t["floor"],
             min_value=1,
-            max_value=int(total_floors),
-            value=min(6, int(total_floors)),
+            max_value=40,
+            value=6,
             step=1,
         )
     else:
         st.number_input(t["floor"], min_value=1, value=1, disabled=True)
         floor = 1
-
-third_row = st.columns([1, 1, 1, 1.15], gap="medium", vertical_alignment="bottom")
-with third_row[0]:
+with second_row[3]:
     repair_choice = st.selectbox(
         t["repair"],
         ["needs_repair", "average", "good", "excellent"],
         index=2,
         format_func=lambda value: t[value],
     )
-with third_row[1]:
+
+typical_total_floors = {
+    "new_building": 16,
+    "old_building": 9,
+    "house": 1,
+}
+total_floors = max(floor, typical_total_floors[building_type])
+
+third_row = st.columns([1, 1, 1.15], gap="medium", vertical_alignment="bottom")
+with third_row[0]:
     metro_choice = st.selectbox(
         t["metro"], ["yes", "no"], format_func=lambda value: t[value]
     )
-with third_row[2]:
+with third_row[1]:
     parking_choice = st.selectbox(
         t["parking"],
         ["yes", "unknown"],
         format_func=lambda value: t[value],
     )
-with third_row[3]:
+with third_row[2]:
     estimate = st.button(
         t["estimate"],
         icon=":material/calculate:",
