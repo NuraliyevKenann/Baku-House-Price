@@ -1,0 +1,25 @@
+{
+  "evaluated_at": "2026-10-03",
+  "method": "Evaluation on listings added after the model training snapshot",
+  "training_rows": 51619,
+  "evaluation_rows": 11008,
+  "mae_azn": 25159.51,
+  "mape_percent": 8.2085,
+  "median_ape_percent": 3.6928,
+  "within_10_percent": 76.29,
+  "within_13_percent": 82.2129,
+  "by_property_type": {
+    "apartment": {
+      "rows": 9530,
+      "mae_azn": 17968.46,
+      "mape_percent": 6.0125,
+      "median_ape_percent": 3.0458
+    },
+    "house": {
+      "rows": 1478,
+      "mae_azn": 71526.68,
+      "mape_percent": 22.368,
+      "median_ape_percent": 14.8645
+    }
+  }
+}

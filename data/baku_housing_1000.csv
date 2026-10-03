@@ -1,0 +1,1001 @@
+listing_id,source_url,updated_at,price_azn,property_type,building_type,district,location_name,metro_near,area_m2,rooms,floor,total_floors,repair_quality,has_parking
+6474669,https://bina.az/items/6474669,2026-09-29T04:56:38+04:00,145000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,55.0,2,14,15,excellent,unknown
+6400077,https://bina.az/items/6400077,2026-09-29T04:56:13+04:00,155000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,67.0,2,15,20,good,unknown
+6438843,https://bina.az/items/6438843,2026-09-29T04:57:01+04:00,243000,apartment,old_building,Yasamal,Yeni Yasamal q.,no,110.0,4,4,9,good,unknown
+6489931,https://bina.az/items/6489931,2026-09-29T04:55:39+04:00,279000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,140.0,3,16,19,good,unknown
+6498151,https://bina.az/items/6498151,2026-09-29T14:07:53+04:00,110000,apartment,old_building,Khatai,Xətai r.,no,50.0,1,4,9,good,unknown
+6495098,https://bina.az/items/6495098,2026-09-29T04:54:41+04:00,173000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,65.0,3,14,18,good,unknown
+6374305,https://bina.az/items/6374305,2026-09-29T12:36:35+04:00,266000,apartment,new_building,Narimanov,Nərimanov r.,no,102.5,2,7,10,needs_repair,unknown
+6187414,https://bina.az/items/6187414,2026-09-29T04:39:00+04:00,419000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,100.0,3,4,7,good,unknown
+6456391,https://bina.az/items/6456391,2026-09-29T18:20:16+04:00,1250000,house,house,Khazar,Mərdəkan q.,no,350.0,4,1,2,good,yes
+6467237,https://bina.az/items/6467237,2026-09-29T04:27:34+04:00,177000,house,house,Absheron,Masazır q.,no,260.0,4,1,3,good,yes
+6417041,https://bina.az/items/6417041,2026-09-29T04:24:45+04:00,145000,apartment,new_building,Nizami,Qara Qarayev m.,yes,36.0,1,2,17,good,unknown
+6478405,https://bina.az/items/6478405,2026-09-29T04:23:07+04:00,289000,apartment,old_building,Nasimi,Nəsimi r.,no,120.0,4,5,9,good,unknown
+6473951,https://bina.az/items/6473951,2026-09-29T18:35:44+04:00,175000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,85.0,3,8,9,good,unknown
+6470078,https://bina.az/items/6470078,2026-09-29T04:13:15+04:00,355000,apartment,new_building,Nasimi,Nizami m.,yes,95.0,3,16,17,good,unknown
+6499901,https://bina.az/items/6499901,2026-09-29T03:54:35+04:00,134500,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,36.0,2,5,5,good,unknown
+6224169,https://bina.az/items/6224169,2026-09-29T14:43:44+04:00,319000,apartment,new_building,Khatai,Əhmədli m.,yes,132.0,3,6,17,good,unknown
+6481802,https://bina.az/items/6481802,2026-09-29T03:51:00+04:00,385000,house,house,Sabunchu,Sabunçu q.,no,400.0,6,1,3,excellent,yes
+6499309,https://bina.az/items/6499309,2026-09-29T11:47:00+04:00,155000,apartment,new_building,Khatai,Əhmədli m.,yes,50.0,2,5,18,good,unknown
+6486922,https://bina.az/items/6486922,2026-09-29T03:37:50+04:00,197500,apartment,old_building,Nizami,Neftçilər m.,yes,80.0,4,3,5,good,unknown
+6449243,https://bina.az/items/6449243,2026-09-29T03:32:27+04:00,135000,apartment,old_building,Nasimi,Sahil m.,yes,56.0,2,1,3,good,unknown
+6461328,https://bina.az/items/6461328,2026-09-29T03:32:07+04:00,160000,house,house,Sabail,Bayıl q.,no,144.0,6,1,1,good,unknown
+6415157,https://bina.az/items/6415157,2026-09-29T03:25:00+04:00,580000,apartment,new_building,Yasamal,Nizami m.,yes,160.0,4,8,17,good,yes
+6192602,https://bina.az/items/6192602,2026-09-29T03:25:30+04:00,299000,house,house,Sabail,Badamdar q.,no,400.0,5,1,3,needs_repair,unknown
+6411026,https://bina.az/items/6411026,2026-09-29T03:13:22+04:00,55000,apartment,new_building,Absheron,Novxanı q.,no,52.0,2,2,6,good,unknown
+6202973,https://bina.az/items/6202973,2026-09-29T03:18:22+04:00,1030000,apartment,new_building,Nasimi,Nəsimi r.,no,245.0,4,5,24,good,unknown
+6463693,https://bina.az/items/6463693,2026-09-29T03:19:07+04:00,508000,apartment,new_building,Nasimi,28 May m.,yes,195.0,4,8,16,good,yes
+6489036,https://bina.az/items/6489036,2026-09-29T03:12:52+04:00,289000,apartment,new_building,Nizami,Qara Qarayev m.,yes,90.0,2,4,17,good,unknown
+6469761,https://bina.az/items/6469761,2026-09-29T03:08:40+04:00,248999,apartment,new_building,Khatai,Həzi Aslanov m.,yes,85.0,3,6,16,good,unknown
+6431867,https://bina.az/items/6431867,2026-09-29T03:08:55+04:00,342999,apartment,new_building,Nizami,Qara Qarayev m.,yes,115.0,3,16,18,good,yes
+5852017,https://bina.az/items/5852017,2026-09-29T03:09:05+04:00,295000,apartment,new_building,Nizami,Qara Qarayev m.,yes,127.0,4,8,16,needs_repair,unknown
+6495322,https://bina.az/items/6495322,2026-09-29T03:07:05+04:00,266999,apartment,new_building,Nizami,Neftçilər m.,yes,97.0,3,7,16,good,unknown
+6292038,https://bina.az/items/6292038,2026-09-29T03:08:10+04:00,329999,apartment,new_building,Nizami,Qara Qarayev m.,yes,110.0,3,4,16,good,yes
+6210321,https://bina.az/items/6210321,2026-09-29T03:08:25+04:00,448999,apartment,new_building,Nizami,Qara Qarayev m.,yes,140.0,4,14,17,good,yes
+6497086,https://bina.az/items/6497086,2026-09-29T08:32:23+04:00,105000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,55.0,2,1,9,good,unknown
+6093056,https://bina.az/items/6093056,2026-09-29T02:52:52+04:00,800000,house,house,Absheron,Abşeron r.,no,600.0,10,1,1,good,yes
+6367666,https://bina.az/items/6367666,2026-09-29T02:57:30+04:00,95000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,75.4,3,14,19,good,unknown
+6499800,https://bina.az/items/6499800,2026-09-29T18:24:27+04:00,425000,apartment,new_building,Yasamal,20 Yanvar m.,yes,185.0,4,14,17,good,yes
+6426404,https://bina.az/items/6426404,2026-09-29T02:48:30+04:00,198500,apartment,new_building,Garadagh,Lökbatan q.,no,90.0,4,10,10,good,unknown
+6366609,https://bina.az/items/6366609,2026-09-29T02:48:55+04:00,359000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,115.0,3,12,17,good,unknown
+6499841,https://bina.az/items/6499841,2026-09-29T10:49:25+04:00,117000,apartment,new_building,Surakhani,Hövsan q.,no,52.0,2,3,7,good,yes
+6492681,https://bina.az/items/6492681,2026-09-29T02:44:30+04:00,535000,apartment,new_building,Nasimi,28 May m.,yes,120.0,3,10,17,good,unknown
+6494960,https://bina.az/items/6494960,2026-09-29T02:46:00+04:00,159000,apartment,new_building,Sabunchu,Bakıxanov q.,no,82.0,2,6,20,good,unknown
+5339471,https://bina.az/items/5339471,2026-09-29T02:45:24+04:00,155000,apartment,new_building,Narimanov,Nərimanov r.,no,51.0,2,5,11,needs_repair,yes
+6399149,https://bina.az/items/6399149,2026-09-29T02:46:25+04:00,370000,apartment,new_building,Narimanov,Nərimanov r.,no,107.0,3,15,17,good,yes
+6462898,https://bina.az/items/6462898,2026-09-29T18:36:21+04:00,217500,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,75.0,2,14,15,needs_repair,unknown
+6305486,https://bina.az/items/6305486,2026-09-29T02:39:20+04:00,230000,apartment,old_building,Sabunchu,Bakıxanov q.,no,85.0,3,2,9,good,unknown
+6473005,https://bina.az/items/6473005,2026-09-29T02:28:13+04:00,185000,apartment,new_building,Nizami,Neftçilər m.,yes,60.0,2,16,17,excellent,unknown
+6433422,https://bina.az/items/6433422,2026-09-29T07:42:00+04:00,470000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,100.0,2,8,15,good,unknown
+6283897,https://bina.az/items/6283897,2026-09-29T02:17:17+04:00,165000,apartment,old_building,Khatai,Köhnə Günəşli q.,no,80.0,3,1,9,good,unknown
+6495110,https://bina.az/items/6495110,2026-09-29T02:36:10+04:00,146500,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,50.0,2,5,5,good,unknown
+6330014,https://bina.az/items/6330014,2026-09-29T02:16:50+04:00,214000,house,house,Khatai,Əhmədli m.,yes,260.0,6,1,2,good,unknown
+6473315,https://bina.az/items/6473315,2026-09-29T10:13:20+04:00,110000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,30.0,1,1,2,good,unknown
+6461318,https://bina.az/items/6461318,2026-09-29T02:10:45+04:00,160000,apartment,new_building,Yasamal,20 Yanvar m.,yes,82.0,2,6,12,needs_repair,unknown
+6480769,https://bina.az/items/6480769,2026-09-29T11:57:50+04:00,795000,house,house,Khazar,Şüvəlan q.,no,350.0,6,1,2,good,unknown
+5270469,https://bina.az/items/5270469,2026-09-29T02:11:30+04:00,230000,house,house,Sabunchu,Bakıxanov q.,no,220.0,5,1,2,good,unknown
+6494676,https://bina.az/items/6494676,2026-09-29T18:05:57+04:00,170000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,55.0,2,12,17,good,unknown
+6383932,https://bina.az/items/6383932,2026-09-29T10:09:21+04:00,60000,apartment,old_building,Sabail,Bayıl q.,no,40.0,2,1,2,good,unknown
+6405900,https://bina.az/items/6405900,2026-09-29T02:06:10+04:00,980000,apartment,new_building,Khatai,Ağ şəhər q.,no,144.0,4,2,7,good,unknown
+6497687,https://bina.az/items/6497687,2026-09-29T02:02:27+04:00,218000,apartment,new_building,Khatai,Xətai r.,no,96.0,3,10,17,excellent,unknown
+6497415,https://bina.az/items/6497415,2026-09-29T02:01:37+04:00,121000,apartment,old_building,Nizami,Qara Qarayev m.,yes,40.0,1,3,5,good,unknown
+6277179,https://bina.az/items/6277179,2026-09-29T01:59:12+04:00,115000,apartment,new_building,Garadagh,Lökbatan q.,no,100.0,2,5,16,needs_repair,unknown
+6499627,https://bina.az/items/6499627,2026-09-29T01:59:02+04:00,670000,house,house,Sabunchu,Sabunçu r.,no,250.0,6,1,1,good,unknown
+6437289,https://bina.az/items/6437289,2026-09-29T17:55:57+04:00,250000,house,house,Absheron,Novxanı q.,no,300.0,5,1,1,good,unknown
+6281669,https://bina.az/items/6281669,2026-09-29T17:55:33+04:00,398000,apartment,new_building,Khatai,Həzi Aslanov q.,no,500.0,5,17,18,good,yes
+6453370,https://bina.az/items/6453370,2026-09-29T09:55:12+04:00,129500,apartment,new_building,Surakhani,Hövsan q.,no,73.0,3,1,9,good,unknown
+6461300,https://bina.az/items/6461300,2026-09-29T01:51:35+04:00,253000,apartment,new_building,Sabunchu,Sea Breeze q.,no,103.8,2,5,9,needs_repair,unknown
+6431053,https://bina.az/items/6431053,2026-09-29T01:47:07+04:00,460000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,92.0,3,15,21,excellent,unknown
+6349557,https://bina.az/items/6349557,2026-09-29T01:51:50+04:00,55000,house,house,Khazar,Binə q.,no,70.0,3,1,1,good,unknown
+6395728,https://bina.az/items/6395728,2026-09-29T01:42:25+04:00,143000,apartment,new_building,Absheron,Saray q.,no,86.0,2,7,14,good,yes
+6380393,https://bina.az/items/6380393,2026-09-29T01:41:52+04:00,100000,apartment,new_building,Sabunchu,Sea Breeze q.,no,39.0,1,6,16,needs_repair,unknown
+6380408,https://bina.az/items/6380408,2026-09-29T01:41:47+04:00,97000,apartment,new_building,Sabunchu,Sea Breeze q.,no,38.0,1,8,16,needs_repair,unknown
+6477301,https://bina.az/items/6477301,2026-09-29T09:39:15+04:00,217000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6495109,https://bina.az/items/6495109,2026-09-29T18:40:23+04:00,312000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,good,unknown
+6461077,https://bina.az/items/6461077,2026-09-29T12:29:43+04:00,725000,apartment,new_building,Khatai,Ağ şəhər q.,no,140.0,3,4,7,excellent,unknown
+6460846,https://bina.az/items/6460846,2026-09-29T01:33:37+04:00,270000,house,house,Khazar,Şüvəlan q.,no,148.0,5,1,1,good,unknown
+6500114,https://bina.az/items/6500114,2026-09-29T01:30:43+04:00,77000,apartment,old_building,Surakhani,Hövsan q.,no,32.0,1,4,5,good,unknown
+6172629,https://bina.az/items/6172629,2026-09-29T01:31:17+04:00,750000,house,house,Sabunchu,Bilgəh q.,no,400.0,5,1,1,excellent,unknown
+6422476,https://bina.az/items/6422476,2026-09-29T01:30:39+04:00,188000,apartment,new_building,Surakhani,Qaraçuxur q.,no,80.0,3,13,14,good,yes
+6393109,https://bina.az/items/6393109,2026-09-29T01:30:05+04:00,116000,apartment,old_building,Nizami,Qara Qarayev m.,yes,32.0,1,3,5,good,unknown
+6177036,https://bina.az/items/6177036,2026-09-29T01:30:35+04:00,739000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,214.0,5,4,17,excellent,yes
+6495654,https://bina.az/items/6495654,2026-09-29T01:29:51+04:00,114400,apartment,new_building,Absheron,Ceyranbatan q.,no,80.0,3,9,10,good,yes
+6464155,https://bina.az/items/6464155,2026-09-29T01:27:47+04:00,330000,apartment,new_building,Sabunchu,Sea Breeze q.,no,65.0,2,2,5,good,unknown
+5776084,https://bina.az/items/5776084,2026-09-29T01:28:30+04:00,285000,apartment,new_building,Sabunchu,Nardaran q.,no,58.0,1,4,4,good,unknown
+6481034,https://bina.az/items/6481034,2026-09-29T01:23:17+04:00,94000,apartment,new_building,Sabunchu,Nardaran q.,no,38.6,1,2,9,needs_repair,unknown
+6480943,https://bina.az/items/6480943,2026-09-29T01:23:07+04:00,40000,apartment,new_building,Sabunchu,Nardaran q.,no,60.6,1,11,24,needs_repair,yes
+6482685,https://bina.az/items/6482685,2026-09-29T01:22:49+04:00,178000,apartment,new_building,Sabunchu,Nardaran q.,no,51.1,1,5,9,needs_repair,unknown
+6481230,https://bina.az/items/6481230,2026-09-29T01:22:57+04:00,110000,apartment,new_building,Sabunchu,Nardaran q.,no,44.8,1,9,9,needs_repair,unknown
+6482839,https://bina.az/items/6482839,2026-09-29T01:22:42+04:00,261000,apartment,new_building,Sabunchu,Nardaran q.,no,64.1,1,6,7,needs_repair,unknown
+6402342,https://bina.az/items/6402342,2026-09-29T01:22:17+04:00,94000,apartment,new_building,Sabunchu,Sea Breeze q.,no,39.0,1,8,9,needs_repair,unknown
+6482939,https://bina.az/items/6482939,2026-09-29T01:22:37+04:00,159000,apartment,new_building,Sabunchu,Nardaran q.,no,53.1,1,3,8,needs_repair,unknown
+6498944,https://bina.az/items/6498944,2026-09-29T01:20:33+04:00,78000,house,house,Absheron,Masazır q.,no,95.0,3,1,2,good,yes
+6456923,https://bina.az/items/6456923,2026-09-29T01:20:48+04:00,295000,apartment,new_building,Narimanov,Gənclik m.,yes,100.5,2,16,17,excellent,unknown
+6475600,https://bina.az/items/6475600,2026-09-29T01:19:38+04:00,81000,house,house,Absheron,Masazır q.,no,54.0,3,1,1,good,yes
+6057026,https://bina.az/items/6057026,2026-09-29T01:19:39+04:00,409000,apartment,new_building,Nasimi,28 May m.,yes,155.0,3,9,16,needs_repair,unknown
+6039651,https://bina.az/items/6039651,2026-09-29T01:15:30+04:00,57000,house,house,Absheron,Məmmədli q.,no,50.0,2,1,1,good,unknown
+6400990,https://bina.az/items/6400990,2026-09-29T01:15:22+04:00,103000,house,house,Absheron,Məmmədli q.,no,96.0,4,1,1,good,unknown
+6319649,https://bina.az/items/6319649,2026-09-29T01:15:15+04:00,116000,house,house,Absheron,Məmmədli q.,no,120.0,4,1,1,good,unknown
+6398793,https://bina.az/items/6398793,2026-09-29T01:15:04+04:00,63000,house,house,Sabunchu,Savalan q.,no,90.0,3,1,1,good,unknown
+6319651,https://bina.az/items/6319651,2026-09-29T01:15:10+04:00,125000,house,house,Sabunchu,Zabrat q.,no,120.0,4,1,1,good,unknown
+6192845,https://bina.az/items/6192845,2026-09-29T01:14:53+04:00,120000,house,house,Absheron,Məmmədli q.,no,110.0,4,1,1,good,unknown
+6400975,https://bina.az/items/6400975,2026-09-29T01:14:29+04:00,80000,house,house,Sabunchu,Zabrat q.,no,90.0,3,1,1,good,unknown
+6238952,https://bina.az/items/6238952,2026-09-29T01:14:46+04:00,135000,house,house,Absheron,Məmmədli q.,no,140.0,4,1,1,good,unknown
+6399070,https://bina.az/items/6399070,2026-09-29T01:14:40+04:00,95000,house,house,Absheron,Məmmədli q.,no,100.0,4,1,1,good,unknown
+6213331,https://bina.az/items/6213331,2026-09-29T01:14:19+04:00,180000,house,house,Absheron,Məmmədli q.,no,200.0,6,1,1,good,unknown
+6417536,https://bina.az/items/6417536,2026-09-29T01:13:52+04:00,100000,house,house,Sabunchu,Savalan q.,no,100.0,3,1,1,good,unknown
+5811563,https://bina.az/items/5811563,2026-09-29T01:14:01+04:00,82000,house,house,Absheron,Abşeron r.,no,100.0,3,1,1,good,unknown
+6499432,https://bina.az/items/6499432,2026-09-29T01:11:38+04:00,135500,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,44.0,2,2,5,good,unknown
+6409324,https://bina.az/items/6409324,2026-09-29T01:14:10+04:00,68000,house,house,Absheron,Məmmədli q.,no,50.0,2,1,1,good,unknown
+6447764,https://bina.az/items/6447764,2026-09-29T01:11:48+04:00,88500,apartment,new_building,Absheron,Masazır q.,no,57.0,2,3,6,good,unknown
+6477850,https://bina.az/items/6477850,2026-09-29T19:05:06+04:00,147000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,55.0,2,5,5,good,unknown
+6183050,https://bina.az/items/6183050,2026-09-29T01:08:18+04:00,428000,apartment,new_building,Narimanov,Koroğlu m.,yes,105.0,3,14,17,good,yes
+6447745,https://bina.az/items/6447745,2026-09-29T01:11:08+04:00,88500,apartment,new_building,Absheron,Masazır q.,no,54.0,2,2,6,good,unknown
+6456394,https://bina.az/items/6456394,2026-09-29T01:06:24+04:00,144000,apartment,old_building,Surakhani,Hövsan q.,no,67.0,3,7,9,good,unknown
+6182693,https://bina.az/items/6182693,2026-09-29T01:05:47+04:00,628000,apartment,new_building,Nasimi,28 May m.,yes,217.0,4,12,19,good,unknown
+6348403,https://bina.az/items/6348403,2026-09-29T01:04:53+04:00,850000,house,house,Khazar,Mərdəkan q.,no,280.0,5,1,1,good,unknown
+6484733,https://bina.az/items/6484733,2026-09-29T08:31:51+04:00,110000,apartment,old_building,Khatai,Əhmədli m.,yes,45.0,1,4,9,good,unknown
+6348470,https://bina.az/items/6348470,2026-09-29T01:04:38+04:00,820000,house,house,Khazar,Mərdəkan q.,no,250.0,5,1,1,good,unknown
+6493676,https://bina.az/items/6493676,2026-09-29T01:03:36+04:00,197000,apartment,new_building,Sabunchu,Nardaran q.,no,32.0,1,8,27,good,unknown
+6494055,https://bina.az/items/6494055,2026-09-29T01:02:51+04:00,429000,apartment,new_building,Khatai,Ağ şəhər q.,no,135.0,4,14,16,good,unknown
+6357802,https://bina.az/items/6357802,2026-09-29T01:02:46+04:00,133500,apartment,old_building,Khatai,Şah İsmayıl Xətai m.,yes,38.0,1,4,5,good,unknown
+6494438,https://bina.az/items/6494438,2026-09-29T01:01:45+04:00,539478,apartment,new_building,Sabunchu,Nardaran q.,no,75.0,2,7,13,good,unknown
+6489677,https://bina.az/items/6489677,2026-09-29T01:01:50+04:00,450000,apartment,new_building,Nizami,Neftçilər m.,yes,146.0,3,7,17,good,unknown
+6489691,https://bina.az/items/6489691,2026-09-29T01:01:40+04:00,425000,apartment,new_building,Nizami,Qara Qarayev m.,yes,127.0,3,12,14,excellent,unknown
+6489678,https://bina.az/items/6489678,2026-09-29T01:01:20+04:00,420000,apartment,new_building,Nizami,Neftçilər m.,yes,139.0,3,10,16,good,unknown
+6494384,https://bina.az/items/6494384,2026-09-29T10:35:57+04:00,130001,house,house,Absheron,Masazır q.,no,170.0,4,1,1,good,unknown
+6360196,https://bina.az/items/6360196,2026-09-29T16:59:40+04:00,919000,house,house,Khatai,Xətai r.,no,400.0,6,1,1,good,yes
+6498191,https://bina.az/items/6498191,2026-09-29T10:08:39+04:00,229900,house,house,Khazar,Şüvəlan q.,no,130.0,4,1,1,excellent,unknown
+6475750,https://bina.az/items/6475750,2026-09-29T00:58:37+04:00,160000,house,house,Sabunchu,Savalan q.,no,160.0,6,1,2,good,unknown
+6475892,https://bina.az/items/6475892,2026-09-29T00:58:15+04:00,133000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,60.0,2,1,5,average,unknown
+6411418,https://bina.az/items/6411418,2026-09-29T00:57:53+04:00,210000,apartment,new_building,Narimanov,28 May m.,yes,42.0,1,6,16,good,unknown
+6483329,https://bina.az/items/6483329,2026-09-29T00:56:17+04:00,95000,house,house,Khazar,Buzovna q.,no,82.0,3,1,1,good,unknown
+6017884,https://bina.az/items/6017884,2026-09-29T00:54:55+04:00,124500,apartment,old_building,Yasamal,İnşaatçılar m.,yes,45.0,2,1,5,good,unknown
+6493571,https://bina.az/items/6493571,2026-09-29T15:20:48+04:00,460000,apartment,new_building,Narimanov,Gənclik m.,yes,130.0,3,10,15,good,unknown
+6157345,https://bina.az/items/6157345,2026-09-29T00:55:00+04:00,144000,apartment,old_building,Nasimi,Sahil m.,yes,45.0,2,1,3,good,unknown
+6067607,https://bina.az/items/6067607,2026-09-29T00:54:53+04:00,144000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,60.0,2,5,16,good,unknown
+6477492,https://bina.az/items/6477492,2026-09-29T00:54:52+04:00,136000,apartment,old_building,Yasamal,Yasamal r.,no,35.0,2,5,5,good,unknown
+6482773,https://bina.az/items/6482773,2026-09-29T00:54:51+04:00,439000,apartment,new_building,Yasamal,Nizami m.,yes,135.0,3,4,18,good,unknown
+6477546,https://bina.az/items/6477546,2026-09-29T00:50:18+04:00,329000,apartment,new_building,Nasimi,8 Noyabr m.,yes,130.0,3,12,17,good,unknown
+6378841,https://bina.az/items/6378841,2026-09-29T00:51:04+04:00,175000,apartment,old_building,Khatai,Xalqlar Dostluğu m.,yes,60.0,3,1,9,good,unknown
+6422618,https://bina.az/items/6422618,2026-09-29T00:50:45+04:00,163000,apartment,new_building,Sabunchu,Sea Breeze q.,no,50.0,1,6,9,needs_repair,unknown
+6434503,https://bina.az/items/6434503,2026-09-29T00:48:05+04:00,115000,house,house,Absheron,Masazır q.,no,187.0,4,1,1,needs_repair,unknown
+5263470,https://bina.az/items/5263470,2026-09-29T00:46:10+04:00,816000,apartment,new_building,Sabunchu,Sea Breeze q.,no,135.0,3,4,5,good,unknown
+6297357,https://bina.az/items/6297357,2026-09-29T08:45:29+04:00,235000,apartment,new_building,Khatai,Xalqlar Dostluğu m.,yes,110.0,3,16,17,good,unknown
+5978391,https://bina.az/items/5978391,2026-09-29T00:43:58+04:00,570000,house,house,Sabunchu,Bilgəh q.,no,300.0,6,1,1,good,unknown
+6473069,https://bina.az/items/6473069,2026-09-29T00:43:22+04:00,263500,apartment,new_building,Sabunchu,Sea Breeze q.,no,43.0,1,6,6,good,unknown
+6473100,https://bina.az/items/6473100,2026-09-29T00:43:12+04:00,350000,apartment,new_building,Sabunchu,Sea Breeze q.,no,74.0,2,2,5,good,unknown
+6473095,https://bina.az/items/6473095,2026-09-29T00:43:02+04:00,360000,apartment,new_building,Sabunchu,Sea Breeze q.,no,76.0,2,3,6,good,unknown
+6500339,https://bina.az/items/6500339,2026-09-29T00:40:08+04:00,165000,apartment,new_building,Sabunchu,Bakıxanov q.,no,90.0,2,15,20,good,unknown
+6500342,https://bina.az/items/6500342,2026-09-29T00:38:40+04:00,295000,apartment,new_building,Sabail,Badamdar q.,no,110.0,3,18,19,excellent,unknown
+6465480,https://bina.az/items/6465480,2026-09-29T00:37:33+04:00,225000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+5801502,https://bina.az/items/5801502,2026-09-29T00:37:29+04:00,825000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,200.0,4,16,17,good,yes
+5407427,https://bina.az/items/5407427,2026-09-29T00:37:30+04:00,320000,apartment,new_building,Narimanov,Nərimanov r.,no,140.0,3,17,17,good,unknown
+6500147,https://bina.az/items/6500147,2026-09-29T00:37:24+04:00,92000,house,house,Absheron,Masazır q.,no,120.0,4,1,1,good,unknown
+6327839,https://bina.az/items/6327839,2026-09-29T00:37:04+04:00,245000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+6289808,https://bina.az/items/6289808,2026-09-29T00:36:37+04:00,165000,house,house,Khazar,Şüvəlan q.,no,130.0,3,1,1,good,unknown
+6367584,https://bina.az/items/6367584,2026-09-29T00:36:14+04:00,197000,house,house,Khazar,Mərdəkan q.,no,150.0,4,1,1,good,unknown
+6500337,https://bina.az/items/6500337,2026-09-29T00:36:20+04:00,355000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,106.0,3,12,14,good,unknown
+6226979,https://bina.az/items/6226979,2026-09-29T00:35:57+04:00,345000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6141394,https://bina.az/items/6141394,2026-09-29T00:35:38+04:00,350000,house,house,Khazar,Mərdəkan q.,no,180.0,4,1,1,good,unknown
+6480496,https://bina.az/items/6480496,2026-09-29T00:35:24+04:00,143000,house,house,Khazar,Şüvəlan q.,no,110.0,3,1,1,good,unknown
+6294829,https://bina.az/items/6294829,2026-09-29T00:34:31+04:00,620000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,210.0,4,4,19,good,unknown
+6437953,https://bina.az/items/6437953,2026-09-29T11:40:51+04:00,40000,house,house,Sabunchu,Ramana q.,no,187.0,4,1,1,good,unknown
+6500167,https://bina.az/items/6500167,2026-09-29T00:29:00+04:00,320000,house,house,Khazar,Mərdəkan q.,no,170.0,4,1,1,good,unknown
+6464118,https://bina.az/items/6464118,2026-09-29T17:29:39+04:00,115000,apartment,new_building,Absheron,Masazır q.,no,71.0,3,5,8,good,unknown
+6037838,https://bina.az/items/6037838,2026-09-29T00:25:49+04:00,255000,apartment,new_building,Yasamal,Nizami m.,yes,90.0,3,15,16,good,unknown
+6480747,https://bina.az/items/6480747,2026-09-29T00:28:45+04:00,210000,house,house,Khazar,Binə q.,no,133.0,5,1,1,good,unknown
+6384229,https://bina.az/items/6384229,2026-09-29T00:24:12+04:00,92000,apartment,old_building,Sabail,Nizami m.,yes,22.0,1,1,2,good,unknown
+5853728,https://bina.az/items/5853728,2026-09-29T00:23:15+04:00,172000,apartment,old_building,Sabail,Bayıl q.,no,62.0,3,1,6,good,unknown
+6500332,https://bina.az/items/6500332,2026-09-29T00:21:48+04:00,55000,house,house,Khazar,Binə q.,no,84.0,3,1,1,good,unknown
+6495318,https://bina.az/items/6495318,2026-09-29T00:17:51+04:00,299000,house,house,Surakhani,Qaraçuxur q.,no,200.0,6,1,1,good,unknown
+5996975,https://bina.az/items/5996975,2026-09-29T00:16:32+04:00,140000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,35.0,1,3,5,good,unknown
+6415200,https://bina.az/items/6415200,2026-09-29T00:15:00+04:00,316000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,100.0,3,12,18,good,unknown
+6483718,https://bina.az/items/6483718,2026-09-29T00:14:05+04:00,525000,house,house,Khazar,Mərdəkan q.,no,180.0,4,1,1,good,unknown
+6495053,https://bina.az/items/6495053,2026-09-29T00:13:07+04:00,218000,apartment,new_building,Nizami,Qara Qarayev m.,yes,50.0,2,10,16,good,unknown
+6492194,https://bina.az/items/6492194,2026-09-29T00:12:31+04:00,620000,house,house,Khazar,Mərdəkan q.,no,220.0,5,1,1,good,unknown
+6483720,https://bina.az/items/6483720,2026-09-29T00:12:31+04:00,340000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6475790,https://bina.az/items/6475790,2026-09-29T00:12:31+04:00,129500,apartment,old_building,Nizami,Qara Qarayev m.,yes,35.0,2,4,5,excellent,unknown
+6482247,https://bina.az/items/6482247,2026-09-29T00:12:31+04:00,165000,house,house,Khazar,Şüvəlan q.,no,140.0,4,1,1,good,unknown
+6407057,https://bina.az/items/6407057,2026-09-29T00:12:21+04:00,278000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,90.0,3,13,24,good,yes
+6500330,https://bina.az/items/6500330,2026-09-29T14:03:48+04:00,110000,house,house,Sabunchu,Zabrat q.,no,129.0,4,1,1,excellent,unknown
+6500329,https://bina.az/items/6500329,2026-09-29T00:11:03+04:00,167000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,50.0,2,2,5,good,unknown
+6456260,https://bina.az/items/6456260,2026-09-29T00:11:03+04:00,2000000,apartment,new_building,Sabunchu,Sea Breeze q.,no,266.0,3,7,8,good,unknown
+6456270,https://bina.az/items/6456270,2026-09-29T00:10:58+04:00,350000,apartment,new_building,Sabunchu,Sea Breeze q.,no,76.0,2,2,5,good,unknown
+6456274,https://bina.az/items/6456274,2026-09-29T00:10:48+04:00,350000,apartment,new_building,Sabunchu,Sea Breeze q.,no,69.0,2,1,5,good,unknown
+6475775,https://bina.az/items/6475775,2026-09-29T08:10:30+04:00,95000,house,house,Surakhani,Hövsan q.,no,72.0,3,1,1,good,unknown
+6456290,https://bina.az/items/6456290,2026-09-29T00:10:38+04:00,207000,apartment,new_building,Sabunchu,Sea Breeze q.,no,64.0,2,3,6,needs_repair,unknown
+6500119,https://bina.az/items/6500119,2026-09-29T00:07:50+04:00,225000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,50.0,2,10,17,good,unknown
+6393075,https://bina.az/items/6393075,2026-09-29T00:08:32+04:00,565000,apartment,new_building,Nasimi,Nəsimi r.,no,170.0,4,3,16,good,unknown
+6500328,https://bina.az/items/6500328,2026-09-29T00:07:41+04:00,131000,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,40.0,2,3,5,good,unknown
+6448486,https://bina.az/items/6448486,2026-09-29T00:07:49+04:00,67000,apartment,old_building,Khazar,Mərdəkan q.,no,41.0,3,2,2,good,unknown
+6417588,https://bina.az/items/6417588,2026-09-29T00:07:27+04:00,215000,apartment,old_building,Narimanov,Gənclik m.,yes,65.0,2,2,9,good,unknown
+6052975,https://bina.az/items/6052975,2026-09-29T00:07:22+04:00,455000,house,house,Khazar,Mərdəkan q.,no,350.0,6,1,1,good,unknown
+6373307,https://bina.az/items/6373307,2026-09-29T00:06:15+04:00,770000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,210.0,4,15,15,excellent,yes
+6486059,https://bina.az/items/6486059,2026-09-29T00:05:42+04:00,130000,apartment,old_building,Nizami,Neftçilər m.,yes,50.0,2,5,5,good,unknown
+6492737,https://bina.az/items/6492737,2026-09-29T08:04:41+04:00,390000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,106.0,3,11,15,good,unknown
+6412278,https://bina.az/items/6412278,2026-09-29T00:04:13+04:00,330000,apartment,new_building,Nizami,Neftçilər m.,yes,105.0,3,12,16,good,unknown
+6124574,https://bina.az/items/6124574,2026-09-29T00:04:13+04:00,169000,house,house,Khazar,Buzovna q.,no,100.0,3,1,1,good,unknown
+6500327,https://bina.az/items/6500327,2026-09-29T00:03:53+04:00,137000,apartment,old_building,Surakhani,Hövsan q.,no,58.0,3,5,9,good,unknown
+6475720,https://bina.az/items/6475720,2026-09-29T00:02:35+04:00,230000,apartment,new_building,Sabunchu,Nardaran q.,no,95.0,2,8,9,needs_repair,yes
+6461010,https://bina.az/items/6461010,2026-09-29T00:02:30+04:00,110000,house,house,Sabunchu,Ramana q.,no,120.0,4,1,1,good,yes
+6500320,https://bina.az/items/6500320,2026-09-29T00:01:49+04:00,269000,apartment,new_building,Nizami,Qara Qarayev m.,yes,100.0,3,10,16,needs_repair,unknown
+6186818,https://bina.az/items/6186818,2026-09-29T00:01:40+04:00,615000,apartment,new_building,Nasimi,Nəsimi r.,no,207.0,4,15,17,needs_repair,unknown
+6476370,https://bina.az/items/6476370,2026-09-29T00:00:42+04:00,300000,apartment,new_building,Sabunchu,Bakıxanov q.,no,148.9,4,13,14,needs_repair,unknown
+6491228,https://bina.az/items/6491228,2026-09-28T23:58:37+04:00,124000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,34.0,1,4,5,good,unknown
+6500318,https://bina.az/items/6500318,2026-09-28T23:58:31+04:00,175000,apartment,old_building,Khatai,Xalqlar Dostluğu m.,yes,65.3,3,1,9,excellent,unknown
+6449629,https://bina.az/items/6449629,2026-09-29T18:48:50+04:00,189000,apartment,old_building,Khatai,Əhmədli m.,yes,86.0,3,6,9,good,unknown
+6500316,https://bina.az/items/6500316,2026-09-28T23:57:59+04:00,273000,apartment,new_building,Nizami,Qara Qarayev m.,yes,122.2,3,12,13,needs_repair,unknown
+6500314,https://bina.az/items/6500314,2026-09-28T23:55:17+04:00,136000,apartment,new_building,Nizami,Qara Qarayev m.,yes,36.0,1,13,16,needs_repair,unknown
+6483643,https://bina.az/items/6483643,2026-09-28T23:54:30+04:00,1700000,house,house,Sabunchu,Nardaran q.,no,330.0,6,1,1,good,yes
+6384781,https://bina.az/items/6384781,2026-09-28T23:55:12+04:00,200000,apartment,old_building,Nizami,Qara Qarayev m.,yes,55.0,2,5,9,good,unknown
+6500315,https://bina.az/items/6500315,2026-09-28T23:55:04+04:00,252000,apartment,new_building,Nizami,Qara Qarayev m.,yes,90.0,3,8,16,needs_repair,unknown
+6399911,https://bina.az/items/6399911,2026-09-28T23:53:50+04:00,490000,apartment,new_building,Yasamal,Nizami m.,yes,108.0,3,16,18,good,unknown
+6200391,https://bina.az/items/6200391,2026-09-29T15:55:27+04:00,98000,house,house,Sabunchu,Balaxanı q.,no,100.0,3,1,1,good,unknown
+6280343,https://bina.az/items/6280343,2026-09-28T23:51:22+04:00,200000,apartment,new_building,Khatai,Həzi Aslanov q.,no,85.0,2,20,20,good,unknown
+6467296,https://bina.az/items/6467296,2026-09-28T23:51:43+04:00,61500,apartment,new_building,Absheron,Masazır q.,no,50.0,2,7,9,needs_repair,unknown
+6500310,https://bina.az/items/6500310,2026-09-28T23:51:15+04:00,164000,apartment,new_building,Nizami,Qara Qarayev m.,yes,52.0,1,10,16,needs_repair,unknown
+6496025,https://bina.az/items/6496025,2026-09-28T23:50:59+04:00,44000,house,house,Surakhani,Hövsan q.,no,85.0,3,1,1,needs_repair,unknown
+6332334,https://bina.az/items/6332334,2026-09-28T23:51:02+04:00,555000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,135.0,4,10,15,good,unknown
+6500312,https://bina.az/items/6500312,2026-09-28T23:50:52+04:00,238000,apartment,new_building,Nizami,Qara Qarayev m.,yes,87.0,3,12,16,needs_repair,unknown
+6500311,https://bina.az/items/6500311,2026-09-28T23:50:21+04:00,160000,apartment,new_building,Nizami,Qara Qarayev m.,yes,49.0,1,4,16,needs_repair,unknown
+6497240,https://bina.az/items/6497240,2026-09-28T23:48:07+04:00,100500,apartment,new_building,Surakhani,Hövsan q.,no,44.0,1,5,9,good,unknown
+6470198,https://bina.az/items/6470198,2026-09-29T10:36:17+04:00,113000,house,house,Absheron,Saray q.,no,143.0,4,1,2,good,yes
+6500309,https://bina.az/items/6500309,2026-09-28T23:46:17+04:00,210000,apartment,new_building,Nizami,Qara Qarayev m.,yes,77.0,2,15,16,needs_repair,unknown
+6500307,https://bina.az/items/6500307,2026-09-29T11:54:47+04:00,214000,apartment,new_building,Nizami,Qara Qarayev m.,yes,65.0,3,16,17,excellent,unknown
+6500306,https://bina.az/items/6500306,2026-09-28T23:45:49+04:00,210000,apartment,new_building,Nizami,Qara Qarayev m.,yes,77.0,2,7,16,needs_repair,unknown
+6449248,https://bina.az/items/6449248,2026-09-28T23:45:03+04:00,220000,apartment,old_building,Khatai,Əhmədli q.,no,100.0,5,5,9,good,unknown
+5909898,https://bina.az/items/5909898,2026-09-28T23:44:15+04:00,345000,apartment,new_building,Narimanov,Gənclik m.,yes,96.7,3,17,17,good,unknown
+6440536,https://bina.az/items/6440536,2026-09-29T07:44:10+04:00,254000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,135.0,3,4,16,good,unknown
+6490970,https://bina.az/items/6490970,2026-09-28T23:44:05+04:00,195000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,55.0,2,3,17,good,unknown
+5996305,https://bina.az/items/5996305,2026-09-28T23:42:55+04:00,1050000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,165.0,4,10,15,good,unknown
+5930733,https://bina.az/items/5930733,2026-09-28T23:41:42+04:00,535000,apartment,new_building,Narimanov,Nərimanov r.,no,209.0,4,9,13,good,yes
+6465470,https://bina.az/items/6465470,2026-09-28T23:42:45+04:00,126000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,65.0,2,9,10,good,unknown
+6500304,https://bina.az/items/6500304,2026-09-28T23:41:33+04:00,188000,apartment,old_building,Nizami,Neftçilər m.,yes,96.0,3,5,5,good,unknown
+6500303,https://bina.az/items/6500303,2026-09-28T23:41:16+04:00,380000,apartment,new_building,Yasamal,Yasamal q.,no,125.0,3,14,17,good,yes
+6483495,https://bina.az/items/6483495,2026-09-28T23:41:05+04:00,265000,apartment,new_building,Yasamal,Yasamal q.,no,83.0,3,7,16,good,unknown
+6500300,https://bina.az/items/6500300,2026-09-28T23:40:03+04:00,195000,apartment,old_building,Nizami,Qara Qarayev m.,yes,65.0,2,4,9,average,unknown
+6410657,https://bina.az/items/6410657,2026-09-28T23:39:25+04:00,255000,apartment,old_building,Narimanov,Gənclik m.,yes,85.0,3,3,5,good,unknown
+6466968,https://bina.az/items/6466968,2026-09-28T23:39:07+04:00,330000,apartment,new_building,Narimanov,28 May m.,yes,114.0,2,14,18,good,yes
+5621472,https://bina.az/items/5621472,2026-09-28T23:38:22+04:00,900000,house,house,Sabunchu,Bakıxanov q.,no,450.0,8,1,2,good,unknown
+5767108,https://bina.az/items/5767108,2026-09-28T23:36:08+04:00,330000,apartment,old_building,Nizami,Qara Qarayev m.,yes,120.0,5,7,9,good,unknown
+6499284,https://bina.az/items/6499284,2026-09-28T23:36:01+04:00,340000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,133.0,4,11,17,good,yes
+6313738,https://bina.az/items/6313738,2026-09-29T07:33:50+04:00,230000,apartment,new_building,Nizami,Qara Qarayev m.,yes,54.0,2,4,16,good,unknown
+6195338,https://bina.az/items/6195338,2026-09-28T23:33:40+04:00,345000,apartment,new_building,Sabail,Badamdar q.,no,125.0,3,6,7,good,unknown
+6492664,https://bina.az/items/6492664,2026-09-28T23:34:14+04:00,74500,apartment,new_building,Absheron,Məmmədli q.,no,57.0,1,11,11,needs_repair,unknown
+4672911,https://bina.az/items/4672911,2026-09-29T07:34:05+04:00,165500,apartment,new_building,Sabunchu,Nardaran q.,no,48.0,1,3,7,needs_repair,unknown
+6429926,https://bina.az/items/6429926,2026-09-28T23:33:05+04:00,205000,apartment,new_building,Garadagh,Lökbatan q.,no,122.0,4,10,16,excellent,unknown
+6216627,https://bina.az/items/6216627,2026-09-29T07:32:17+04:00,225000,apartment,old_building,Yasamal,Nizami m.,yes,80.0,4,4,4,average,unknown
+6461123,https://bina.az/items/6461123,2026-09-29T13:43:15+04:00,227000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,58.0,2,3,6,good,unknown
+6414964,https://bina.az/items/6414964,2026-09-28T23:30:30+04:00,459000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,180.0,5,8,18,good,unknown
+6391494,https://bina.az/items/6391494,2026-09-29T07:29:50+04:00,140000,apartment,new_building,Sabunchu,Sea Breeze q.,no,57.0,1,2,9,needs_repair,yes
+6500295,https://bina.az/items/6500295,2026-09-28T23:29:19+04:00,345000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,115.0,3,3,16,excellent,unknown
+6495263,https://bina.az/items/6495263,2026-09-28T23:29:26+04:00,161000,apartment,old_building,Narimanov,Nərimanov r.,no,45.0,2,4,5,good,unknown
+6469981,https://bina.az/items/6469981,2026-09-28T23:29:01+04:00,128000,apartment,new_building,Yasamal,Yasamal q.,no,40.0,1,10,12,good,unknown
+6098873,https://bina.az/items/6098873,2026-09-28T23:29:19+04:00,700000,apartment,new_building,Khatai,Ağ şəhər q.,no,146.0,3,3,7,needs_repair,unknown
+6500292,https://bina.az/items/6500292,2026-09-28T23:28:25+04:00,345000,apartment,new_building,Yasamal,Nizami m.,yes,110.0,3,13,19,good,yes
+6500293,https://bina.az/items/6500293,2026-09-28T23:28:46+04:00,198000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,60.0,2,3,21,good,unknown
+6422017,https://bina.az/items/6422017,2026-09-28T23:26:48+04:00,164000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,67.0,3,10,15,needs_repair,unknown
+6465527,https://bina.az/items/6465527,2026-09-28T23:26:38+04:00,135500,apartment,new_building,Surakhani,Hövsan q.,no,75.0,3,8,9,good,unknown
+6286363,https://bina.az/items/6286363,2026-09-28T23:26:38+04:00,65000,house,house,Absheron,Masazır q.,no,80.0,3,1,1,good,unknown
+6444384,https://bina.az/items/6444384,2026-09-28T23:27:40+04:00,134000,apartment,old_building,Yasamal,Yasamal q.,no,40.0,2,5,5,good,unknown
+6349802,https://bina.az/items/6349802,2026-09-29T13:26:47+04:00,420000,apartment,new_building,Nasimi,Nizami m.,yes,130.0,3,10,17,good,unknown
+6440600,https://bina.az/items/6440600,2026-09-28T23:24:29+04:00,728475,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,132.4,3,15,18,needs_repair,yes
+6425086,https://bina.az/items/6425086,2026-09-28T23:24:19+04:00,225000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,110.0,3,1,9,good,unknown
+6490242,https://bina.az/items/6490242,2026-09-28T23:23:55+04:00,140000,apartment,old_building,Yasamal,Nizami m.,yes,35.0,2,5,5,good,unknown
+6116436,https://bina.az/items/6116436,2026-09-28T23:22:08+04:00,330000,house,house,Khazar,Şüvəlan q.,no,360.0,6,1,1,needs_repair,unknown
+6500280,https://bina.az/items/6500280,2026-09-28T23:21:38+04:00,117000,apartment,new_building,Surakhani,Yeni Günəşli q.,no,37.0,2,13,15,excellent,unknown
+6259286,https://bina.az/items/6259286,2026-09-28T23:20:43+04:00,359000,apartment,new_building,Nasimi,Nəsimi r.,no,95.0,2,10,16,excellent,unknown
+6382379,https://bina.az/items/6382379,2026-09-28T23:20:40+04:00,275000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,68.0,3,8,9,good,unknown
+6241228,https://bina.az/items/6241228,2026-09-29T17:48:32+04:00,119500,apartment,new_building,Surakhani,Yeni Günəşli q.,no,40.0,2,18,18,good,unknown
+6453533,https://bina.az/items/6453533,2026-09-28T23:18:56+04:00,210000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,80.0,3,4,18,excellent,unknown
+6367499,https://bina.az/items/6367499,2026-09-28T23:18:05+04:00,285000,house,house,Khazar,Mərdəkan q.,no,170.0,4,1,2,good,unknown
+6229414,https://bina.az/items/6229414,2026-09-28T23:17:54+04:00,280000,house,house,Khazar,Mərdəkan q.,no,140.0,4,1,1,good,unknown
+6500287,https://bina.az/items/6500287,2026-09-28T23:17:40+04:00,410000,house,house,Khazar,Şüvəlan q.,no,200.0,4,1,1,good,unknown
+6080664,https://bina.az/items/6080664,2026-09-28T23:17:43+04:00,168000,house,house,Khazar,Şüvəlan q.,no,120.0,3,1,1,excellent,unknown
+6480057,https://bina.az/items/6480057,2026-09-28T23:17:26+04:00,370000,apartment,old_building,Nasimi,28 May m.,yes,80.0,3,2,5,good,yes
+6222017,https://bina.az/items/6222017,2026-09-28T23:16:32+04:00,365000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,2,good,unknown
+6500285,https://bina.az/items/6500285,2026-09-29T15:28:15+04:00,284000,apartment,new_building,Yasamal,Nizami m.,yes,90.0,3,2,6,good,unknown
+6488153,https://bina.az/items/6488153,2026-09-28T23:16:17+04:00,187000,apartment,new_building,Khatai,Əhmədli m.,yes,72.0,3,4,16,good,unknown
+6402837,https://bina.az/items/6402837,2026-09-28T23:16:22+04:00,168000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,50.0,2,3,5,good,unknown
+6425396,https://bina.az/items/6425396,2026-09-28T23:16:27+04:00,117000,apartment,old_building,Nizami,Neftçilər m.,yes,35.0,2,1,5,excellent,unknown
+6391009,https://bina.az/items/6391009,2026-09-28T23:14:56+04:00,405000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,153.0,4,6,16,good,unknown
+6500284,https://bina.az/items/6500284,2026-09-28T23:14:39+04:00,395000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6270604,https://bina.az/items/6270604,2026-09-28T23:14:39+04:00,635000,apartment,new_building,Khatai,Ağ şəhər q.,no,162.0,3,4,20,needs_repair,unknown
+6460675,https://bina.az/items/6460675,2026-09-28T23:14:25+04:00,130000,apartment,new_building,Absheron,Saray q.,no,91.0,3,2,13,good,unknown
+5943145,https://bina.az/items/5943145,2026-09-28T23:13:22+04:00,265000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,106.0,3,2,16,good,unknown
+6066835,https://bina.az/items/6066835,2026-09-28T23:13:20+04:00,290000,apartment,new_building,Sabail,Bayıl q.,no,130.0,3,4,5,good,unknown
+6483544,https://bina.az/items/6483544,2026-09-28T23:12:07+04:00,325000,apartment,new_building,Nasimi,Nəsimi r.,no,77.0,3,8,10,good,unknown
+6460416,https://bina.az/items/6460416,2026-09-28T23:11:59+04:00,185000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,65.0,2,5,9,good,unknown
+6495214,https://bina.az/items/6495214,2026-09-28T23:11:49+04:00,220000,apartment,new_building,Khatai,Əhmədli m.,yes,68.0,2,4,13,good,unknown
+6500168,https://bina.az/items/6500168,2026-09-28T23:11:02+04:00,130000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,44.5,2,6,16,good,unknown
+6499574,https://bina.az/items/6499574,2026-09-29T08:41:34+04:00,127000,apartment,old_building,Surakhani,Hövsan q.,no,54.0,2,8,9,good,unknown
+6234477,https://bina.az/items/6234477,2026-09-28T23:11:37+04:00,259000,apartment,new_building,Yasamal,20 Yanvar m.,yes,98.0,2,4,24,good,yes
+6481462,https://bina.az/items/6481462,2026-09-28T23:10:58+04:00,375000,house,house,Absheron,Novxanı q.,no,360.0,8,1,1,good,unknown
+6364824,https://bina.az/items/6364824,2026-09-28T23:10:58+04:00,120000,apartment,old_building,Khatai,Əhmədli m.,yes,45.0,2,9,9,good,unknown
+6454216,https://bina.az/items/6454216,2026-09-28T23:09:40+04:00,180000,apartment,new_building,Yasamal,Yasamal q.,no,65.0,2,2,9,good,unknown
+6485615,https://bina.az/items/6485615,2026-09-28T23:10:01+04:00,136000,apartment,new_building,Surakhani,Yeni Günəşli q.,no,50.0,2,9,17,good,yes
+6297770,https://bina.az/items/6297770,2026-09-28T23:10:47+04:00,202000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,77.0,3,6,9,good,unknown
+6104605,https://bina.az/items/6104605,2026-09-28T23:10:18+04:00,530000,apartment,new_building,Sabail,Bayıl q.,no,163.0,4,4,19,needs_repair,unknown
+6459781,https://bina.az/items/6459781,2026-09-28T23:08:43+04:00,167000,apartment,new_building,Yasamal,Yasamal q.,no,63.0,2,2,9,good,unknown
+6461186,https://bina.az/items/6461186,2026-09-28T23:08:49+04:00,165000,apartment,new_building,Surakhani,Yeni Günəşli q.,no,61.0,2,15,17,excellent,unknown
+6439273,https://bina.az/items/6439273,2026-09-28T23:08:17+04:00,165000,apartment,new_building,Surakhani,Yeni Günəşli q.,no,70.0,3,3,15,good,unknown
+6473085,https://bina.az/items/6473085,2026-09-29T15:07:30+04:00,175000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,75.0,3,8,9,good,unknown
+6453668,https://bina.az/items/6453668,2026-09-29T14:00:10+04:00,365000,apartment,new_building,Nasimi,Nəsimi r.,no,92.0,3,15,19,good,unknown
+6376944,https://bina.az/items/6376944,2026-09-28T23:04:15+04:00,150000,house,house,Surakhani,Hövsan q.,no,180.0,4,1,1,good,unknown
+6498217,https://bina.az/items/6498217,2026-09-29T13:11:12+04:00,127500,apartment,new_building,Sabunchu,Bakıxanov q.,no,69.0,2,15,20,good,unknown
+6375708,https://bina.az/items/6375708,2026-09-28T23:04:05+04:00,83000,house,house,Surakhani,Hövsan q.,no,110.0,4,1,1,good,unknown
+6345863,https://bina.az/items/6345863,2026-09-28T23:02:12+04:00,40000,house,house,Surakhani,Hövsan q.,no,58.0,2,1,1,good,unknown
+6476193,https://bina.az/items/6476193,2026-09-29T15:37:55+04:00,179000,apartment,old_building,Sabunchu,Bakıxanov q.,no,83.0,3,7,9,good,unknown
+6350121,https://bina.az/items/6350121,2026-09-28T23:03:12+04:00,84000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,unknown
+6328400,https://bina.az/items/6328400,2026-09-28T23:01:55+04:00,187000,apartment,new_building,Khatai,Köhnə Günəşli q.,no,98.0,3,4,6,good,unknown
+6150280,https://bina.az/items/6150280,2026-09-28T23:01:55+04:00,141000,house,house,Surakhani,Hövsan q.,no,180.0,4,1,1,good,unknown
+6376968,https://bina.az/items/6376968,2026-09-28T23:01:25+04:00,175000,house,house,Absheron,Novxanı q.,no,150.0,4,1,1,good,unknown
+6459833,https://bina.az/items/6459833,2026-09-28T23:00:48+04:00,78000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,unknown
+6500276,https://bina.az/items/6500276,2026-09-28T23:00:54+04:00,168000,apartment,old_building,Khatai,Xalqlar Dostluğu m.,yes,65.0,2,3,9,excellent,unknown
+6226997,https://bina.az/items/6226997,2026-09-28T23:00:05+04:00,650000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,168.0,4,9,16,good,unknown
+6132671,https://bina.az/items/6132671,2026-09-28T22:59:33+04:00,282000,apartment,new_building,Khatai,Həzi Aslanov q.,no,103.7,4,9,16,good,unknown
+6329333,https://bina.az/items/6329333,2026-09-28T22:58:43+04:00,117000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,unknown
+6329105,https://bina.az/items/6329105,2026-09-28T22:58:40+04:00,158000,house,house,Surakhani,Hövsan q.,no,114.0,4,1,1,good,unknown
+6465265,https://bina.az/items/6465265,2026-09-28T22:57:53+04:00,68000,house,house,Surakhani,Hövsan q.,no,36.0,2,1,1,good,unknown
+6409055,https://bina.az/items/6409055,2026-09-28T22:57:39+04:00,83000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,unknown
+6455028,https://bina.az/items/6455028,2026-09-28T22:57:11+04:00,92000,apartment,old_building,Sabail,Sahil m.,yes,20.0,1,1,2,good,unknown
+6482319,https://bina.az/items/6482319,2026-09-28T22:57:02+04:00,300000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,76.0,2,15,17,needs_repair,yes
+6329300,https://bina.az/items/6329300,2026-09-28T22:57:04+04:00,195000,house,house,Surakhani,Hövsan q.,no,250.0,8,1,3,good,unknown
+6469996,https://bina.az/items/6469996,2026-09-28T22:56:41+04:00,169000,house,house,Absheron,Məmmədli q.,no,118.4,5,1,1,excellent,unknown
+6450870,https://bina.az/items/6450870,2026-09-28T22:55:59+04:00,178000,house,house,Surakhani,Hövsan q.,no,103.0,4,1,1,good,unknown
+6061680,https://bina.az/items/6061680,2026-09-28T22:56:22+04:00,115000,house,house,Surakhani,Hövsan q.,no,100.0,4,1,1,good,unknown
+6475473,https://bina.az/items/6475473,2026-09-28T22:55:33+04:00,108000,house,house,Surakhani,Hövsan q.,no,160.0,4,1,2,good,unknown
+6500273,https://bina.az/items/6500273,2026-09-28T22:55:29+04:00,715000,house,house,Khazar,Şüvəlan q.,no,220.0,5,1,1,good,unknown
+6460071,https://bina.az/items/6460071,2026-09-28T22:54:43+04:00,210000,apartment,new_building,Yasamal,Yasamal q.,no,101.0,2,6,16,good,unknown
+6459427,https://bina.az/items/6459427,2026-09-28T22:54:38+04:00,159000,house,house,Surakhani,Hövsan q.,no,200.0,6,1,1,good,unknown
+6434881,https://bina.az/items/6434881,2026-09-28T22:54:38+04:00,139000,apartment,new_building,Surakhani,Hövsan q.,no,77.0,3,9,12,good,unknown
+6465710,https://bina.az/items/6465710,2026-09-28T22:54:24+04:00,107000,house,house,Surakhani,Hövsan q.,no,100.0,3,1,1,good,unknown
+6488378,https://bina.az/items/6488378,2026-09-28T22:54:13+04:00,128000,house,house,Surakhani,Hövsan q.,no,146.0,3,1,1,good,unknown
+6192774,https://bina.az/items/6192774,2026-09-28T22:54:12+04:00,105000,apartment,new_building,Surakhani,Suraxanı r.,no,52.0,2,5,11,good,unknown
+6500271,https://bina.az/items/6500271,2026-09-29T17:14:58+04:00,65000,apartment,new_building,Absheron,Masazır q.,no,35.0,2,1,6,good,unknown
+6429090,https://bina.az/items/6429090,2026-09-28T22:53:56+04:00,158500,apartment,new_building,Surakhani,Hövsan q.,no,100.0,4,2,9,good,unknown
+6427167,https://bina.az/items/6427167,2026-09-28T22:53:56+04:00,116000,house,house,Surakhani,Hövsan q.,no,120.0,4,1,1,good,unknown
+6495072,https://bina.az/items/6495072,2026-09-28T22:53:30+04:00,140000,apartment,new_building,Surakhani,Hövsan q.,no,77.0,3,11,12,good,unknown
+5497955,https://bina.az/items/5497955,2026-09-28T22:53:52+04:00,155000,apartment,new_building,Surakhani,Zığ q.,no,114.0,3,5,11,needs_repair,yes
+6453372,https://bina.az/items/6453372,2026-09-28T22:53:19+04:00,107000,house,house,Surakhani,Hövsan q.,no,88.0,3,1,1,good,unknown
+5818478,https://bina.az/items/5818478,2026-09-28T22:53:04+04:00,143000,house,house,Absheron,Mehdiabad q.,no,136.0,4,1,1,good,unknown
+6251992,https://bina.az/items/6251992,2026-09-28T22:52:02+04:00,100000,house,house,Surakhani,Hövsan q.,no,100.0,3,1,1,good,unknown
+6134159,https://bina.az/items/6134159,2026-09-28T22:51:25+04:00,105000,house,house,Surakhani,Hövsan q.,no,180.0,5,1,1,good,unknown
+6487110,https://bina.az/items/6487110,2026-09-29T17:03:58+04:00,175000,apartment,old_building,Khatai,Əhmədli m.,yes,70.0,3,4,9,excellent,yes
+6500269,https://bina.az/items/6500269,2026-09-28T22:51:05+04:00,185000,house,house,Surakhani,Bülbülə q.,no,180.0,7,1,1,good,unknown
+6426989,https://bina.az/items/6426989,2026-09-28T22:50:40+04:00,128000,house,house,Surakhani,Hövsan q.,no,140.0,4,1,1,good,unknown
+5992094,https://bina.az/items/5992094,2026-09-28T22:50:12+04:00,109000,house,house,Surakhani,Hövsan q.,no,150.0,3,1,1,good,unknown
+6333293,https://bina.az/items/6333293,2026-09-28T22:48:10+04:00,169000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,60.0,3,1,9,excellent,unknown
+6489293,https://bina.az/items/6489293,2026-09-28T22:48:00+04:00,162000,apartment,old_building,Nizami,Neftçilər m.,yes,43.0,2,3,5,good,unknown
+6500265,https://bina.az/items/6500265,2026-09-28T22:48:20+04:00,125000,house,house,Absheron,Digah q.,no,145.0,3,1,1,good,unknown
+6477527,https://bina.az/items/6477527,2026-09-29T14:12:38+04:00,188000,apartment,new_building,Nizami,Neftçilər m.,yes,54.0,2,12,14,excellent,unknown
+6496829,https://bina.az/items/6496829,2026-09-28T22:45:26+04:00,105000,apartment,new_building,Absheron,Masazır q.,no,57.0,3,2,11,good,unknown
+6500262,https://bina.az/items/6500262,2026-09-28T22:45:23+04:00,360000,apartment,new_building,Sabunchu,Sea Breeze q.,no,99.0,2,6,7,good,unknown
+6292026,https://bina.az/items/6292026,2026-09-29T06:45:02+04:00,218000,apartment,old_building,Yasamal,İçəri Şəhər m.,yes,83.0,3,8,9,good,unknown
+6461146,https://bina.az/items/6461146,2026-09-28T22:44:25+04:00,468000,apartment,new_building,Nasimi,8 Noyabr m.,yes,156.0,4,18,19,good,unknown
+6431634,https://bina.az/items/6431634,2026-09-28T22:44:03+04:00,710000,apartment,old_building,Nasimi,Sahil m.,yes,140.0,5,2,3,good,unknown
+6500229,https://bina.az/items/6500229,2026-09-28T22:42:44+04:00,188000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,68.0,2,17,19,good,unknown
+6236821,https://bina.az/items/6236821,2026-09-29T17:10:33+04:00,38000,house,house,Garadagh,Lökbatan q.,no,60.0,3,1,1,average,unknown
+6500263,https://bina.az/items/6500263,2026-09-28T22:47:05+04:00,460000,house,house,Sabail,Badamdar q.,no,215.0,6,1,1,good,unknown
+6487042,https://bina.az/items/6487042,2026-09-28T22:42:55+04:00,165000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,85.0,3,8,9,good,unknown
+5640752,https://bina.az/items/5640752,2026-09-28T22:42:28+04:00,209900,house,house,Absheron,Novxanı q.,no,190.0,5,1,1,good,unknown
+6461156,https://bina.az/items/6461156,2026-09-28T22:42:36+04:00,375000,apartment,new_building,Yasamal,20 Yanvar m.,yes,107.0,3,18,19,good,yes
+6474938,https://bina.az/items/6474938,2026-09-28T22:39:52+04:00,245000,apartment,new_building,Nasimi,Nizami m.,yes,65.0,2,11,16,good,yes
+6412504,https://bina.az/items/6412504,2026-09-29T16:13:22+04:00,145000,house,house,Khazar,Mərdəkan q.,no,130.0,4,1,1,needs_repair,unknown
+6500254,https://bina.az/items/6500254,2026-09-28T22:38:59+04:00,210000,apartment,new_building,Yasamal,20 Yanvar m.,yes,70.0,2,5,19,good,unknown
+6483089,https://bina.az/items/6483089,2026-09-28T22:38:36+04:00,220000,house,house,Absheron,Məmmədli q.,no,130.0,4,1,1,good,unknown
+6483582,https://bina.az/items/6483582,2026-09-28T22:37:33+04:00,295000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,yes
+6436011,https://bina.az/items/6436011,2026-09-28T22:35:38+04:00,380000,apartment,new_building,Khatai,Ağ şəhər q.,no,67.1,1,6,20,excellent,unknown
+6291426,https://bina.az/items/6291426,2026-09-28T22:36:57+04:00,143500,apartment,new_building,Sabunchu,Bakıxanov q.,no,61.0,2,4,14,needs_repair,unknown
+6361365,https://bina.az/items/6361365,2026-09-28T22:35:33+04:00,235000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,good,unknown
+5608349,https://bina.az/items/5608349,2026-09-28T22:34:49+04:00,135000,house,house,Khazar,Şüvəlan q.,no,90.0,3,1,1,good,unknown
+6015444,https://bina.az/items/6015444,2026-09-28T22:34:32+04:00,175000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+6456627,https://bina.az/items/6456627,2026-09-28T22:34:16+04:00,70000,apartment,new_building,Absheron,Masazır q.,no,71.0,3,5,5,good,unknown
+6452927,https://bina.az/items/6452927,2026-09-28T22:34:14+04:00,235000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6307508,https://bina.az/items/6307508,2026-09-28T22:34:16+04:00,230000,house,house,Khazar,Şüvəlan q.,no,130.0,4,1,1,excellent,unknown
+5365328,https://bina.az/items/5365328,2026-09-28T22:33:55+04:00,260000,house,house,Khazar,Şüvəlan q.,no,200.0,4,1,1,good,unknown
+5550272,https://bina.az/items/5550272,2026-09-28T22:33:36+04:00,158000,house,house,Khazar,Şüvəlan q.,no,180.0,8,1,1,good,yes
+6455241,https://bina.az/items/6455241,2026-09-28T22:33:22+04:00,255000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,excellent,unknown
+6455039,https://bina.az/items/6455039,2026-09-28T22:33:22+04:00,235000,house,house,Khazar,Mərdəkan q.,no,165.0,4,1,1,excellent,unknown
+6455419,https://bina.az/items/6455419,2026-09-28T22:33:22+04:00,265000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,excellent,unknown
+6453699,https://bina.az/items/6453699,2026-09-28T22:33:22+04:00,495000,house,house,Khazar,Şüvəlan q.,no,180.0,5,1,1,excellent,unknown
+6375878,https://bina.az/items/6375878,2026-09-28T22:33:22+04:00,420000,house,house,Khazar,Mərdəkan q.,no,180.0,5,1,1,excellent,unknown
+6373740,https://bina.az/items/6373740,2026-09-28T22:33:22+04:00,480000,house,house,Khazar,Mərdəkan q.,no,170.0,4,1,1,excellent,unknown
+6365441,https://bina.az/items/6365441,2026-09-28T22:33:22+04:00,285000,house,house,Khazar,Mərdəkan q.,no,170.0,5,1,1,excellent,unknown
+5711389,https://bina.az/items/5711389,2026-09-28T22:33:22+04:00,490000,house,house,Khazar,Mərdəkan q.,no,220.0,5,1,1,excellent,unknown
+5434563,https://bina.az/items/5434563,2026-09-28T22:33:22+04:00,580000,house,house,Khazar,Mərdəkan q.,no,250.0,5,1,1,excellent,unknown
+6491559,https://bina.az/items/6491559,2026-09-28T22:33:07+04:00,79500,apartment,new_building,Absheron,Masazır q.,no,44.0,2,2,6,good,unknown
+6167648,https://bina.az/items/6167648,2026-09-28T22:33:05+04:00,165000,house,house,Khazar,Şüvəlan q.,no,120.0,3,1,1,good,unknown
+5544299,https://bina.az/items/5544299,2026-09-28T22:32:42+04:00,197000,house,house,Khazar,Şüvəlan q.,no,120.0,3,1,1,good,unknown
+6500240,https://bina.az/items/6500240,2026-09-28T22:32:07+04:00,350000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,106.0,2,6,20,good,unknown
+6500239,https://bina.az/items/6500239,2026-09-28T22:32:28+04:00,275000,apartment,new_building,Sabunchu,Sabunçu q.,no,140.0,3,18,18,good,yes
+6343102,https://bina.az/items/6343102,2026-09-28T22:32:19+04:00,155000,apartment,old_building,Khatai,Əhmədli m.,yes,60.0,2,9,9,good,unknown
+6171271,https://bina.az/items/6171271,2026-09-28T22:32:05+04:00,305000,house,house,Khazar,Şüvəlan q.,no,172.0,4,1,1,good,unknown
+6319506,https://bina.az/items/6319506,2026-09-28T22:32:01+04:00,77000,house,house,Khazar,Binə q.,no,120.0,4,1,1,good,unknown
+6305256,https://bina.az/items/6305256,2026-09-28T22:31:45+04:00,270000,house,house,Khazar,Şüvəlan q.,no,170.0,4,1,1,good,unknown
+6424599,https://bina.az/items/6424599,2026-09-28T22:31:42+04:00,102000,apartment,old_building,Surakhani,Massiv V q.,no,44.0,2,9,9,good,unknown
+6435157,https://bina.az/items/6435157,2026-09-28T22:31:22+04:00,225000,house,house,Absheron,Masazır q.,no,240.0,7,1,1,good,unknown
+6417410,https://bina.az/items/6417410,2026-09-28T22:31:01+04:00,349000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,105.0,3,12,15,good,unknown
+6417417,https://bina.az/items/6417417,2026-09-28T22:30:43+04:00,244000,apartment,new_building,Nizami,Neftçilər m.,yes,85.0,3,14,15,good,unknown
+6465018,https://bina.az/items/6465018,2026-09-28T22:30:33+04:00,115000,apartment,old_building,Surakhani,Suraxanı r.,no,40.0,2,6,9,good,unknown
+6454553,https://bina.az/items/6454553,2026-09-28T22:30:16+04:00,165000,apartment,old_building,Khatai,Xalqlar Dostluğu m.,yes,65.0,2,5,9,good,unknown
+6486804,https://bina.az/items/6486804,2026-09-28T22:29:57+04:00,220000,apartment,old_building,Khatai,Əhmədli m.,yes,110.0,5,5,9,good,unknown
+6330196,https://bina.az/items/6330196,2026-09-28T22:28:43+04:00,120000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,60.0,2,1,5,good,unknown
+6500241,https://bina.az/items/6500241,2026-09-28T22:28:03+04:00,149000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,51.0,2,2,5,good,unknown
+6500236,https://bina.az/items/6500236,2026-09-28T22:26:30+04:00,155000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,65.0,2,9,9,good,unknown
+6500234,https://bina.az/items/6500234,2026-09-28T22:25:42+04:00,100000,house,house,Sabunchu,Kürdəxanı q.,no,120.0,3,1,1,good,unknown
+6398537,https://bina.az/items/6398537,2026-09-28T22:24:53+04:00,350000,apartment,new_building,Nizami,Qara Qarayev m.,yes,115.0,3,4,17,good,unknown
+6500232,https://bina.az/items/6500232,2026-09-28T22:24:35+04:00,204000,apartment,old_building,Khatai,Əhmədli m.,yes,100.0,4,9,9,good,unknown
+6500233,https://bina.az/items/6500233,2026-09-28T22:24:13+04:00,255000,apartment,new_building,Sabunchu,Sabunçu q.,no,114.0,2,18,18,good,yes
+6444805,https://bina.az/items/6444805,2026-09-28T22:24:21+04:00,430000,apartment,new_building,Narimanov,Bakmil m.,yes,110.0,3,16,18,good,unknown
+6398541,https://bina.az/items/6398541,2026-09-28T22:24:07+04:00,175000,apartment,old_building,Khatai,Əhmədli m.,yes,85.0,3,1,9,good,yes
+6463968,https://bina.az/items/6463968,2026-09-29T14:11:08+04:00,215000,apartment,new_building,Khatai,Əhmədli m.,yes,90.0,3,10,16,good,unknown
+6469965,https://bina.az/items/6469965,2026-09-28T22:21:57+04:00,395000,house,house,Khazar,Mərdəkan q.,no,200.0,5,1,1,excellent,yes
+6442120,https://bina.az/items/6442120,2026-09-28T22:21:29+04:00,177000,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,70.0,3,1,5,good,unknown
+6425723,https://bina.az/items/6425723,2026-09-28T22:21:20+04:00,255000,apartment,old_building,Narimanov,Gənclik m.,yes,95.0,3,2,9,good,unknown
+6480509,https://bina.az/items/6480509,2026-09-28T22:21:38+04:00,180000,apartment,old_building,Narimanov,Nərimanov r.,no,80.0,3,5,5,good,unknown
+6390492,https://bina.az/items/6390492,2026-09-28T22:21:12+04:00,207000,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,75.0,3,2,4,good,unknown
+6477876,https://bina.az/items/6477876,2026-09-28T22:20:06+04:00,129000,apartment,new_building,Surakhani,Qaraçuxur q.,no,84.6,3,2,4,good,yes
+6332791,https://bina.az/items/6332791,2026-09-28T22:19:45+04:00,1050000,apartment,new_building,Sabail,28 May m.,yes,248.6,4,12,20,needs_repair,unknown
+6497331,https://bina.az/items/6497331,2026-09-28T22:18:24+04:00,165000,apartment,old_building,Sabunchu,Bakıxanov q.,no,80.0,3,5,5,good,unknown
+6463993,https://bina.az/items/6463993,2026-09-28T22:19:15+04:00,93000,house,house,Sabunchu,Maştağa q.,no,75.0,3,1,1,good,unknown
+5067148,https://bina.az/items/5067148,2026-09-28T22:16:19+04:00,720000,house,house,Khazar,Mərdəkan q.,no,250.0,5,1,1,good,unknown
+5767766,https://bina.az/items/5767766,2026-09-28T22:16:09+04:00,250000,house,house,Khazar,Şüvəlan q.,no,170.0,4,1,1,good,unknown
+5363938,https://bina.az/items/5363938,2026-09-28T22:16:00+04:00,190000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+4005560,https://bina.az/items/4005560,2026-09-28T22:16:06+04:00,490000,house,house,Khazar,Mərdəkan q.,no,400.0,6,1,1,good,unknown
+6186431,https://bina.az/items/6186431,2026-09-28T22:15:47+04:00,165000,house,house,Khazar,Mərdəkan q.,no,150.0,4,1,1,good,unknown
+6365668,https://bina.az/items/6365668,2026-09-28T22:15:47+04:00,675000,apartment,old_building,Sabail,Sahil m.,yes,130.0,4,4,8,good,yes
+6071271,https://bina.az/items/6071271,2026-09-28T22:15:49+04:00,248000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6468125,https://bina.az/items/6468125,2026-09-29T17:57:06+04:00,268000,apartment,new_building,Narimanov,Gənclik m.,yes,66.0,2,5,16,good,unknown
+6463593,https://bina.az/items/6463593,2026-09-29T18:53:20+04:00,132000,apartment,new_building,Sabunchu,Bakıxanov q.,no,240.0,3,23,23,needs_repair,unknown
+6433835,https://bina.az/items/6433835,2026-09-28T22:15:09+04:00,248880,apartment,new_building,Sabunchu,Nardaran q.,no,61.0,1,5,7,needs_repair,unknown
+6500221,https://bina.az/items/6500221,2026-09-28T22:15:04+04:00,235000,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,75.0,3,4,5,good,unknown
+6471693,https://bina.az/items/6471693,2026-09-28T22:14:53+04:00,750000,apartment,new_building,Khatai,Ağ şəhər q.,no,95.0,3,3,7,excellent,unknown
+6480287,https://bina.az/items/6480287,2026-09-29T14:00:57+04:00,210000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,66.0,2,14,16,good,unknown
+6489610,https://bina.az/items/6489610,2026-09-29T17:56:53+04:00,458000,apartment,new_building,Narimanov,Gənclik m.,yes,118.0,3,8,17,good,unknown
+6489562,https://bina.az/items/6489562,2026-09-28T22:14:27+04:00,470000,apartment,new_building,Narimanov,Gənclik m.,yes,163.3,3,1,12,good,unknown
+6495288,https://bina.az/items/6495288,2026-09-29T17:56:44+04:00,395000,apartment,new_building,Narimanov,Gənclik m.,yes,120.0,3,10,17,good,unknown
+6500219,https://bina.az/items/6500219,2026-09-28T22:14:05+04:00,194800,apartment,old_building,Nasimi,20 Yanvar m.,yes,85.0,3,2,5,good,unknown
+6465250,https://bina.az/items/6465250,2026-09-28T22:13:58+04:00,155000,house,house,Absheron,Masazır q.,no,150.0,4,1,1,good,unknown
+6498727,https://bina.az/items/6498727,2026-09-29T12:06:18+04:00,395000,apartment,new_building,Narimanov,28 May m.,yes,90.0,3,7,16,good,unknown
+5932496,https://bina.az/items/5932496,2026-09-28T22:13:30+04:00,240000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,excellent,yes
+6500220,https://bina.az/items/6500220,2026-09-28T22:13:28+04:00,293000,apartment,new_building,Nasimi,Nəsimi r.,no,80.0,2,10,11,good,unknown
+6498799,https://bina.az/items/6498799,2026-09-29T15:19:36+04:00,395000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,105.0,3,18,19,good,unknown
+6499161,https://bina.az/items/6499161,2026-09-29T12:04:43+04:00,490000,apartment,new_building,Narimanov,Gənclik m.,yes,135.0,3,7,16,good,unknown
+3884296,https://bina.az/items/3884296,2026-09-28T22:12:21+04:00,775000,house,house,Sabunchu,Bakıxanov q.,no,462.0,7,1,2,good,unknown
+6500218,https://bina.az/items/6500218,2026-09-28T22:12:28+04:00,187000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,80.0,4,4,5,good,unknown
+6495070,https://bina.az/items/6495070,2026-09-28T22:12:19+04:00,240000,apartment,old_building,Narimanov,Nərimanov r.,no,90.0,3,8,9,good,unknown
+6453680,https://bina.az/items/6453680,2026-09-28T22:10:38+04:00,495000,house,house,Khazar,Şüvəlan q.,no,180.0,4,1,1,excellent,unknown
+6500215,https://bina.az/items/6500215,2026-09-28T22:10:36+04:00,230000,apartment,new_building,Sabail,Bayıl q.,no,90.0,3,4,18,good,yes
+5376154,https://bina.az/items/5376154,2026-09-29T17:09:55+04:00,285000,apartment,new_building,Sabail,Badamdar q.,no,105.0,2,10,18,good,unknown
+6500212,https://bina.az/items/6500212,2026-09-28T22:08:21+04:00,669000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,159.0,4,7,17,good,unknown
+6458034,https://bina.az/items/6458034,2026-09-29T06:08:00+04:00,157000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,58.0,3,16,19,good,unknown
+6500211,https://bina.az/items/6500211,2026-09-28T22:07:25+04:00,110000,house,house,Sabunchu,Maştağa q.,no,130.0,4,1,2,good,unknown
+6500207,https://bina.az/items/6500207,2026-09-28T22:06:36+04:00,118000,apartment,old_building,Surakhani,Hövsan q.,no,52.0,2,3,9,good,unknown
+6483700,https://bina.az/items/6483700,2026-09-29T17:50:57+04:00,94000,apartment,new_building,Absheron,Masazır q.,no,84.0,3,12,16,needs_repair,unknown
+6464007,https://bina.az/items/6464007,2026-09-29T12:29:48+04:00,585000,house,house,Khazar,Mərdəkan q.,no,170.0,4,1,1,good,unknown
+6459777,https://bina.az/items/6459777,2026-09-28T22:06:16+04:00,109000,house,house,Absheron,Novxanı q.,no,120.0,3,1,1,good,unknown
+6423229,https://bina.az/items/6423229,2026-09-28T22:06:16+04:00,1400000,house,house,Absheron,Novxanı q.,no,1250.0,14,1,2,needs_repair,unknown
+6432677,https://bina.az/items/6432677,2026-09-28T22:05:37+04:00,195000,house,house,Absheron,Novxanı q.,no,150.0,4,1,1,good,unknown
+6500208,https://bina.az/items/6500208,2026-09-28T22:05:41+04:00,61000,apartment,new_building,Absheron,Saray q.,no,52.3,2,3,10,needs_repair,unknown
+6113213,https://bina.az/items/6113213,2026-09-28T22:05:41+04:00,225000,apartment,new_building,Yasamal,20 Yanvar m.,yes,78.0,2,14,17,good,yes
+6190260,https://bina.az/items/6190260,2026-09-28T22:05:24+04:00,290000,house,house,Khazar,Mərdəkan q.,no,180.0,4,1,1,excellent,unknown
+6477653,https://bina.az/items/6477653,2026-09-28T22:05:19+04:00,400000,apartment,new_building,Narimanov,Gənclik m.,yes,155.0,4,10,14,good,yes
+6495336,https://bina.az/items/6495336,2026-09-28T22:05:06+04:00,110000,apartment,old_building,Sabunchu,Bakıxanov q.,no,36.0,2,3,5,good,unknown
+5965433,https://bina.az/items/5965433,2026-09-28T22:04:53+04:00,178000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,80.0,3,7,16,excellent,yes
+6480610,https://bina.az/items/6480610,2026-09-28T22:04:53+04:00,174000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,54.0,2,4,5,good,yes
+6461084,https://bina.az/items/6461084,2026-09-28T22:03:42+04:00,599000,house,house,Sabunchu,Bilgəh q.,no,420.0,6,1,1,good,unknown
+6095195,https://bina.az/items/6095195,2026-09-28T22:04:34+04:00,300000,apartment,new_building,Nizami,Qara Qarayev m.,yes,110.0,3,15,17,good,unknown
+3118904,https://bina.az/items/3118904,2026-09-28T22:02:10+04:00,420000,apartment,new_building,Yasamal,Nizami m.,yes,170.0,4,7,11,good,unknown
+6231449,https://bina.az/items/6231449,2026-09-28T22:02:15+04:00,229000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,80.0,4,3,14,good,unknown
+5738163,https://bina.az/items/5738163,2026-09-28T22:01:53+04:00,350000,house,house,Sabail,Badamdar q.,no,390.0,4,1,1,needs_repair,yes
+6500201,https://bina.az/items/6500201,2026-09-28T22:01:43+04:00,260000,apartment,new_building,Khatai,Əhmədli q.,no,90.0,3,10,10,good,yes
+6464305,https://bina.az/items/6464305,2026-09-29T19:02:19+04:00,850000,house,house,Sabunchu,Sea Breeze q.,no,390.0,8,1,3,needs_repair,unknown
+6256953,https://bina.az/items/6256953,2026-09-28T22:01:31+04:00,250000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,excellent,unknown
+6353070,https://bina.az/items/6353070,2026-09-28T22:00:35+04:00,585500,apartment,new_building,Narimanov,Nərimanov r.,no,234.2,5,6,8,needs_repair,yes
+6083663,https://bina.az/items/6083663,2026-09-28T22:00:08+04:00,259000,apartment,new_building,Nizami,Qara Qarayev m.,yes,99.0,3,7,13,good,unknown
+6500197,https://bina.az/items/6500197,2026-09-28T22:00:34+04:00,355000,apartment,new_building,Nizami,Neftçilər m.,yes,107.0,3,4,17,good,yes
+6416866,https://bina.az/items/6416866,2026-09-28T21:59:35+04:00,300000,apartment,old_building,Yasamal,Nizami m.,yes,106.0,4,5,5,good,unknown
+6500195,https://bina.az/items/6500195,2026-09-28T21:58:35+04:00,179800,apartment,old_building,Yasamal,İnşaatçılar m.,yes,65.0,2,3,9,good,unknown
+6416082,https://bina.az/items/6416082,2026-09-28T21:58:22+04:00,215000,apartment,old_building,Khatai,Əhmədli m.,yes,100.0,4,8,9,good,unknown
+6248609,https://bina.az/items/6248609,2026-09-28T21:58:15+04:00,219900,apartment,new_building,Nasimi,Nəsimi r.,no,56.7,2,11,15,needs_repair,unknown
+6416346,https://bina.az/items/6416346,2026-09-28T21:58:15+04:00,205000,apartment,old_building,Khatai,Ağ şəhər q.,no,85.0,3,3,9,good,yes
+6406784,https://bina.az/items/6406784,2026-09-28T21:57:51+04:00,1023040,apartment,new_building,Narimanov,Nərimanov r.,no,476.0,6,16,17,needs_repair,yes
+6500194,https://bina.az/items/6500194,2026-09-28T21:58:15+04:00,169000,apartment,old_building,Khatai,Əhmədli q.,no,82.0,2,8,16,good,unknown
+6402973,https://bina.az/items/6402973,2026-09-28T21:58:06+04:00,248000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,88.0,3,5,20,excellent,unknown
+6469869,https://bina.az/items/6469869,2026-09-28T21:57:50+04:00,243000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,100.0,4,4,9,good,unknown
+6403538,https://bina.az/items/6403538,2026-09-28T21:57:39+04:00,249000,apartment,old_building,Nizami,Xalqlar Dostluğu m.,yes,75.0,3,9,9,good,unknown
+6240676,https://bina.az/items/6240676,2026-09-28T21:57:45+04:00,210000,apartment,new_building,Yasamal,Yasamal q.,no,70.0,3,2,16,good,unknown
+6431773,https://bina.az/items/6431773,2026-09-28T21:57:02+04:00,595000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,172.5,4,15,17,good,unknown
+6068123,https://bina.az/items/6068123,2026-09-28T21:56:26+04:00,340000,apartment,new_building,Narimanov,Nərimanov r.,no,125.0,3,8,12,excellent,unknown
+6477674,https://bina.az/items/6477674,2026-09-28T21:57:17+04:00,226000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,80.0,3,3,9,good,yes
+6430957,https://bina.az/items/6430957,2026-09-28T21:56:18+04:00,110000,apartment,old_building,Surakhani,Hövsan q.,no,52.0,2,2,5,average,unknown
+6494708,https://bina.az/items/6494708,2026-09-28T21:55:54+04:00,328500,apartment,old_building,Narimanov,Gənclik m.,yes,85.0,4,9,10,good,unknown
+6382065,https://bina.az/items/6382065,2026-09-28T21:55:20+04:00,420000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,144.0,4,4,16,good,yes
+6451284,https://bina.az/items/6451284,2026-09-28T21:55:28+04:00,265000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,good,unknown
+6290468,https://bina.az/items/6290468,2026-09-28T21:54:59+04:00,127000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,40.0,2,3,5,excellent,unknown
+6467021,https://bina.az/items/6467021,2026-09-28T21:54:25+04:00,541260,apartment,new_building,Sabunchu,Nardaran q.,no,76.7,2,22,28,good,unknown
+6335239,https://bina.az/items/6335239,2026-09-28T21:54:17+04:00,310000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,good,unknown
+6461339,https://bina.az/items/6461339,2026-09-28T21:54:12+04:00,230000,apartment,new_building,Yasamal,20 Yanvar m.,yes,96.0,2,11,14,good,yes
+6499952,https://bina.az/items/6499952,2026-09-29T11:06:56+04:00,275000,apartment,old_building,Narimanov,28 May m.,yes,120.0,3,3,3,average,yes
+6295837,https://bina.az/items/6295837,2026-09-28T21:52:40+04:00,79500,apartment,new_building,Sabail,Badamdar q.,no,53.0,2,3,5,needs_repair,unknown
+6500184,https://bina.az/items/6500184,2026-09-28T21:52:16+04:00,165000,apartment,new_building,Surakhani,Hövsan q.,no,100.0,4,2,9,good,unknown
+6477661,https://bina.az/items/6477661,2026-09-29T10:26:43+04:00,170000,house,house,Sabunchu,Savalan q.,no,120.0,4,1,1,good,unknown
+6406777,https://bina.az/items/6406777,2026-09-28T21:51:26+04:00,264000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,114.0,3,12,16,good,yes
+6155845,https://bina.az/items/6155845,2026-09-28T21:52:02+04:00,2750000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,285.0,5,11,16,good,unknown
+6406785,https://bina.az/items/6406785,2026-09-28T21:50:48+04:00,1002300,apartment,new_building,Narimanov,28 May m.,yes,476.0,8,16,17,needs_repair,yes
+6500183,https://bina.az/items/6500183,2026-09-29T09:55:49+04:00,163000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,60.0,2,2,5,good,unknown
+6408653,https://bina.az/items/6408653,2026-09-28T21:50:43+04:00,193000,apartment,old_building,Khatai,Əhmədli m.,yes,80.0,3,4,9,good,unknown
+6042591,https://bina.az/items/6042591,2026-09-28T21:50:43+04:00,175000,house,house,Absheron,Masazır q.,no,174.0,6,1,1,excellent,yes
+6492562,https://bina.az/items/6492562,2026-09-28T21:50:20+04:00,85000,apartment,new_building,Absheron,Masazır q.,no,50.0,2,2,6,good,unknown
+6411414,https://bina.az/items/6411414,2026-09-28T21:50:31+04:00,240000,apartment,new_building,Nizami,Qara Qarayev m.,yes,77.0,2,16,17,good,unknown
+6416424,https://bina.az/items/6416424,2026-09-28T21:50:16+04:00,205000,apartment,old_building,Khatai,Xətai r.,no,85.0,3,3,9,good,yes
+6496138,https://bina.az/items/6496138,2026-09-28T21:49:43+04:00,218000,apartment,new_building,Khatai,Xətai r.,no,90.0,3,10,16,good,unknown
+6348857,https://bina.az/items/6348857,2026-09-28T21:50:07+04:00,85000,house,house,Absheron,Ceyranbatan q.,no,85.9,4,1,1,good,unknown
+6500181,https://bina.az/items/6500181,2026-09-28T21:49:43+04:00,87000,apartment,new_building,Absheron,Masazır q.,no,41.0,2,8,10,excellent,unknown
+6366621,https://bina.az/items/6366621,2026-09-29T11:50:00+04:00,650000,apartment,new_building,Nasimi,Nəsimi r.,no,195.0,4,4,14,needs_repair,yes
+6500180,https://bina.az/items/6500180,2026-09-28T21:49:17+04:00,50000,house,house,Absheron,Masazır q.,no,100.0,3,1,1,good,unknown
+6468113,https://bina.az/items/6468113,2026-09-28T21:48:54+04:00,218000,apartment,new_building,Nizami,Qara Qarayev m.,yes,79.0,2,2,15,good,unknown
+5903240,https://bina.az/items/5903240,2026-09-28T21:48:52+04:00,365000,apartment,old_building,Nasimi,28 May m.,yes,90.0,3,2,5,excellent,unknown
+6052821,https://bina.az/items/6052821,2026-09-28T21:48:49+04:00,248500,apartment,new_building,Nizami,8-ci kilometr q.,no,102.0,3,9,18,good,unknown
+6458170,https://bina.az/items/6458170,2026-09-28T21:47:42+04:00,289000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,100.0,3,16,17,excellent,yes
+6455350,https://bina.az/items/6455350,2026-09-28T21:47:34+04:00,239000,house,house,Khazar,Mərdəkan q.,no,148.0,4,1,1,excellent,unknown
+6464097,https://bina.az/items/6464097,2026-09-28T21:47:34+04:00,175000,house,house,Khazar,Mərdəkan q.,no,135.0,4,1,1,excellent,unknown
+5923236,https://bina.az/items/5923236,2026-09-28T21:47:34+04:00,535000,house,house,Khazar,Mərdəkan q.,no,210.0,4,1,1,excellent,unknown
+6290534,https://bina.az/items/6290534,2026-09-28T21:47:34+04:00,378000,house,house,Khazar,Mərdəkan q.,no,180.0,4,1,1,excellent,unknown
+5913906,https://bina.az/items/5913906,2026-09-28T21:47:34+04:00,410000,house,house,Khazar,Şüvəlan q.,no,240.0,5,1,2,excellent,unknown
+6019981,https://bina.az/items/6019981,2026-09-28T21:47:34+04:00,250000,house,house,Khazar,Mərdəkan q.,no,160.0,4,1,1,excellent,unknown
+6471450,https://bina.az/items/6471450,2026-09-28T21:47:33+04:00,225000,house,house,Khazar,Şüvəlan q.,no,165.0,4,1,1,excellent,unknown
+5646757,https://bina.az/items/5646757,2026-09-28T21:47:34+04:00,680000,house,house,Khazar,Mərdəkan q.,no,260.0,5,1,1,excellent,unknown
+5699286,https://bina.az/items/5699286,2026-09-28T21:47:34+04:00,260000,house,house,Khazar,Mərdəkan q.,no,160.0,3,1,1,excellent,unknown
+5479027,https://bina.az/items/5479027,2026-09-28T21:47:34+04:00,285000,house,house,Khazar,Mərdəkan q.,no,137.0,4,1,1,excellent,yes
+6407207,https://bina.az/items/6407207,2026-09-28T21:47:11+04:00,165000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,60.0,3,8,12,good,unknown
+6481888,https://bina.az/items/6481888,2026-09-28T21:46:42+04:00,344000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,107.0,3,11,18,needs_repair,unknown
+6237515,https://bina.az/items/6237515,2026-09-28T21:46:37+04:00,455000,apartment,new_building,Narimanov,Gənclik m.,yes,134.0,3,14,17,excellent,unknown
+6482755,https://bina.az/items/6482755,2026-09-28T21:46:23+04:00,470000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,166.0,4,4,16,good,unknown
+6415977,https://bina.az/items/6415977,2026-09-28T21:46:10+04:00,209000,apartment,old_building,Khatai,Əhmədli m.,yes,80.0,3,9,9,good,yes
+5630284,https://bina.az/items/5630284,2026-09-28T21:46:02+04:00,350000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,120.0,3,3,14,good,unknown
+6411812,https://bina.az/items/6411812,2026-09-28T21:45:51+04:00,374000,apartment,new_building,Nasimi,Nəsimi r.,no,170.0,4,17,18,needs_repair,yes
+6500177,https://bina.az/items/6500177,2026-09-28T21:45:58+04:00,179900,apartment,old_building,Yasamal,Yeni Yasamal q.,no,60.0,2,3,9,good,unknown
+6454556,https://bina.az/items/6454556,2026-09-28T21:45:29+04:00,395000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,105.0,3,17,18,excellent,yes
+6368963,https://bina.az/items/6368963,2026-09-28T21:45:27+04:00,320000,apartment,new_building,Narimanov,28 May m.,yes,120.0,3,7,17,good,unknown
+6454752,https://bina.az/items/6454752,2026-09-28T21:45:00+04:00,395000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,105.0,3,18,20,good,yes
+6479193,https://bina.az/items/6479193,2026-09-28T21:45:15+04:00,650000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,135.0,4,4,4,good,unknown
+6500175,https://bina.az/items/6500175,2026-09-29T14:44:27+04:00,260000,apartment,new_building,Narimanov,Gənclik m.,yes,74.0,3,11,16,good,unknown
+6476907,https://bina.az/items/6476907,2026-09-28T21:44:49+04:00,395000,apartment,new_building,Narimanov,28 May m.,yes,90.0,3,6,15,good,yes
+5854291,https://bina.az/items/5854291,2026-09-28T21:44:23+04:00,300000,house,house,Absheron,Masazır q.,no,315.0,6,1,1,needs_repair,unknown
+6488348,https://bina.az/items/6488348,2026-09-28T21:44:35+04:00,265000,apartment,new_building,Nasimi,Nəsimi r.,no,51.0,2,7,16,good,yes
+6471228,https://bina.az/items/6471228,2026-09-28T21:44:13+04:00,275000,apartment,new_building,Narimanov,Gənclik m.,yes,65.0,2,10,17,good,yes
+6498745,https://bina.az/items/6498745,2026-09-28T21:43:44+04:00,227000,apartment,new_building,Narimanov,Gənclik m.,yes,55.0,2,6,16,good,unknown
+6447976,https://bina.az/items/6447976,2026-09-28T21:43:41+04:00,139000,apartment,new_building,Sabunchu,Nardaran q.,no,57.8,1,5,9,needs_repair,unknown
+6458177,https://bina.az/items/6458177,2026-09-28T21:43:21+04:00,320000,apartment,new_building,Sabail,Badamdar q.,no,90.0,3,6,20,good,unknown
+5885089,https://bina.az/items/5885089,2026-09-28T21:43:08+04:00,359000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,140.0,3,8,16,good,yes
+6495702,https://bina.az/items/6495702,2026-09-28T21:42:58+04:00,305000,apartment,new_building,Yasamal,Yasamal q.,no,107.0,4,4,16,good,unknown
+6308144,https://bina.az/items/6308144,2026-09-28T21:41:46+04:00,239000,apartment,new_building,Nasimi,20 Yanvar m.,yes,94.0,2,10,16,good,unknown
+6500009,https://bina.az/items/6500009,2026-09-29T15:45:39+04:00,300000,apartment,old_building,Nizami,Qara Qarayev m.,yes,85.0,3,1,5,good,unknown
+6500169,https://bina.az/items/6500169,2026-09-28T21:40:41+04:00,75500,house,house,Sabunchu,Nardaran q.,no,100.0,3,1,1,average,unknown
+6500165,https://bina.az/items/6500165,2026-09-28T21:39:05+04:00,75000,house,house,Sabunchu,Kürdəxanı q.,no,90.0,3,1,1,good,unknown
+6219912,https://bina.az/items/6219912,2026-09-28T21:38:47+04:00,669000,apartment,new_building,Nasimi,Nəsimi r.,no,286.0,5,7,18,good,unknown
+6500046,https://bina.az/items/6500046,2026-09-28T21:38:22+04:00,275000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,88.0,3,6,16,good,yes
+6412372,https://bina.az/items/6412372,2026-09-28T21:38:12+04:00,150000,house,house,Surakhani,Hövsan q.,no,170.0,6,1,1,good,yes
+6500065,https://bina.az/items/6500065,2026-09-28T21:37:52+04:00,185000,apartment,old_building,Khatai,Əhmədli m.,yes,60.0,2,6,9,good,unknown
+6479231,https://bina.az/items/6479231,2026-09-28T21:37:57+04:00,550000,apartment,new_building,Nasimi,Nəsimi r.,no,170.0,4,14,18,good,yes
+6379586,https://bina.az/items/6379586,2026-09-28T21:37:33+04:00,115000,apartment,old_building,Khatai,Həzi Aslanov q.,no,50.0,2,5,5,good,unknown
+6473339,https://bina.az/items/6473339,2026-09-28T21:37:10+04:00,178000,apartment,new_building,Surakhani,Yeni Günəşli q.,no,76.0,3,2,11,good,unknown
+6500163,https://bina.az/items/6500163,2026-09-28T21:36:07+04:00,189000,apartment,new_building,Nizami,Neftçilər m.,yes,54.0,2,12,14,good,unknown
+6267869,https://bina.az/items/6267869,2026-09-28T21:35:44+04:00,195000,house,house,Surakhani,Zığ q.,no,140.0,4,1,1,good,yes
+6489546,https://bina.az/items/6489546,2026-09-28T21:36:02+04:00,317000,apartment,new_building,Sabunchu,Sea Breeze q.,no,78.0,2,2,6,good,unknown
+6500162,https://bina.az/items/6500162,2026-09-29T17:09:34+04:00,167000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,72.0,2,4,14,good,yes
+6305952,https://bina.az/items/6305952,2026-09-29T13:20:45+04:00,210000,apartment,old_building,Narimanov,Gənclik m.,yes,65.0,2,7,9,good,unknown
+6469998,https://bina.az/items/6469998,2026-09-28T21:35:19+04:00,153000,apartment,old_building,Nizami,Neftçilər m.,yes,65.0,2,1,5,good,unknown
+6400535,https://bina.az/items/6400535,2026-09-28T21:34:41+04:00,310000,apartment,new_building,Yasamal,20 Yanvar m.,yes,98.0,4,15,18,excellent,unknown
+6489441,https://bina.az/items/6489441,2026-09-28T21:34:17+04:00,307000,apartment,new_building,Sabunchu,Sea Breeze q.,no,67.0,2,2,4,good,unknown
+6406263,https://bina.az/items/6406263,2026-09-28T21:32:11+04:00,310000,apartment,new_building,Nasimi,8 Noyabr m.,yes,120.0,3,3,19,good,unknown
+6458159,https://bina.az/items/6458159,2026-09-28T21:31:33+04:00,500000,house,house,Sabail,Şıxov q.,no,500.0,10,1,4,needs_repair,yes
+6172543,https://bina.az/items/6172543,2026-09-28T21:31:16+04:00,1180000,house,house,Khazar,Mərdəkan q.,no,330.0,6,1,1,good,yes
+6480966,https://bina.az/items/6480966,2026-09-28T21:31:11+04:00,123000,apartment,old_building,Khatai,Əhmədli m.,yes,45.0,2,3,9,good,unknown
+6500157,https://bina.az/items/6500157,2026-09-28T21:30:46+04:00,210000,apartment,new_building,Yasamal,20 Yanvar m.,yes,68.5,2,4,20,good,unknown
+6500156,https://bina.az/items/6500156,2026-09-28T21:30:31+04:00,145000,apartment,old_building,Khatai,Həzi Aslanov q.,no,50.0,3,1,5,good,unknown
+5469967,https://bina.az/items/5469967,2026-09-28T21:30:39+04:00,225000,house,house,Khazar,Şüvəlan q.,no,240.0,4,1,1,good,unknown
+6464954,https://bina.az/items/6464954,2026-09-28T21:30:13+04:00,192000,house,house,Absheron,Saray q.,no,200.0,7,1,3,good,unknown
+6500155,https://bina.az/items/6500155,2026-09-28T21:29:59+04:00,112000,apartment,new_building,Absheron,Masazır q.,no,77.0,2,2,6,good,unknown
+6500160,https://bina.az/items/6500160,2026-09-28T21:32:03+04:00,155000,apartment,old_building,Narimanov,Gənclik m.,yes,50.0,2,8,10,good,yes
+6479510,https://bina.az/items/6479510,2026-09-28T21:29:12+04:00,339500,apartment,old_building,Sabail,Sahil m.,yes,80.0,3,4,4,good,unknown
+6500153,https://bina.az/items/6500153,2026-09-28T21:28:53+04:00,140000,apartment,old_building,Nizami,Neftçilər m.,yes,38.0,2,3,5,good,unknown
+6282678,https://bina.az/items/6282678,2026-09-28T21:28:32+04:00,238000,apartment,old_building,Nizami,Xalqlar Dostluğu m.,yes,75.0,3,8,9,excellent,unknown
+6500154,https://bina.az/items/6500154,2026-09-28T21:29:16+04:00,227000,apartment,new_building,Narimanov,Gənclik m.,yes,58.0,2,6,16,good,unknown
+6348970,https://bina.az/items/6348970,2026-09-28T21:28:11+04:00,318000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,108.0,3,7,15,good,yes
+6066649,https://bina.az/items/6066649,2026-09-28T21:28:21+04:00,248000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+6500151,https://bina.az/items/6500151,2026-09-28T21:27:56+04:00,225000,apartment,old_building,Khatai,Əhmədli m.,yes,95.0,3,8,9,good,unknown
+6500150,https://bina.az/items/6500150,2026-09-28T21:27:39+04:00,228000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,80.0,3,2,9,good,unknown
+6490516,https://bina.az/items/6490516,2026-09-28T21:27:18+04:00,395000,apartment,new_building,Narimanov,Nərimanov r.,no,90.0,3,7,16,good,unknown
+5295087,https://bina.az/items/5295087,2026-09-28T21:27:38+04:00,360000,house,house,Khazar,Mərdəkan q.,no,560.0,12,1,1,good,unknown
+6500056,https://bina.az/items/6500056,2026-09-28T21:27:03+04:00,325000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,102.0,3,3,9,good,unknown
+6484491,https://bina.az/items/6484491,2026-09-28T21:27:07+04:00,120000,apartment,old_building,Narimanov,Gənclik m.,yes,33.5,1,2,9,good,unknown
+6497558,https://bina.az/items/6497558,2026-09-28T21:27:11+04:00,175000,house,house,Khazar,Mərdəkan q.,no,74.0,3,1,1,good,unknown
+6500148,https://bina.az/items/6500148,2026-09-28T21:26:30+04:00,325000,apartment,new_building,Nasimi,8 Noyabr m.,yes,67.0,2,9,9,good,unknown
+6500149,https://bina.az/items/6500149,2026-09-28T21:26:51+04:00,128000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,38.0,2,4,5,good,unknown
+6485602,https://bina.az/items/6485602,2026-09-28T21:25:25+04:00,755000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,185.0,4,5,20,excellent,unknown
+6232863,https://bina.az/items/6232863,2026-09-28T21:25:10+04:00,127000,house,house,Khazar,Binə q.,no,150.0,4,1,1,good,unknown
+6500142,https://bina.az/items/6500142,2026-09-28T21:24:38+04:00,187000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,100.0,4,4,5,good,unknown
+6207211,https://bina.az/items/6207211,2026-09-29T10:14:02+04:00,165000,apartment,new_building,Khatai,Əhmədli m.,yes,65.0,3,11,17,good,unknown
+6491736,https://bina.az/items/6491736,2026-09-28T21:24:31+04:00,380000,apartment,new_building,Narimanov,Gənclik m.,yes,125.0,3,9,17,good,yes
+6499983,https://bina.az/items/6499983,2026-09-28T21:23:05+04:00,46000,house,house,Sabail,Bayıl q.,no,46.0,2,1,1,good,unknown
+6477294,https://bina.az/items/6477294,2026-09-28T21:23:15+04:00,325000,apartment,new_building,Sabunchu,Sea Breeze q.,no,73.0,2,1,4,good,unknown
+6500144,https://bina.az/items/6500144,2026-09-28T21:22:59+04:00,160000,apartment,old_building,Khatai,Həzi Aslanov q.,no,65.0,2,8,9,good,unknown
+6480407,https://bina.az/items/6480407,2026-09-28T21:22:58+04:00,175000,apartment,new_building,Sabunchu,Sea Breeze q.,no,57.0,1,2,9,needs_repair,unknown
+6475769,https://bina.az/items/6475769,2026-09-29T14:18:08+04:00,266000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,120.0,3,16,20,good,yes
+6155749,https://bina.az/items/6155749,2026-09-29T17:48:46+04:00,83000,apartment,new_building,Absheron,Masazır q.,no,57.0,2,1,6,good,unknown
+6500143,https://bina.az/items/6500143,2026-09-28T21:21:54+04:00,135000,apartment,new_building,Khatai,Əhmədli q.,no,52.0,2,6,6,good,unknown
+5316442,https://bina.az/items/5316442,2026-09-28T21:22:40+04:00,2500000,house,house,Narimanov,Gənclik m.,yes,544.0,10,1,4,excellent,yes
+6495094,https://bina.az/items/6495094,2026-09-28T21:21:32+04:00,450000,house,house,Khatai,Əhmədli q.,no,264.0,8,1,1,good,unknown
+6195376,https://bina.az/items/6195376,2026-09-28T21:20:50+04:00,285000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,85.0,2,11,16,good,unknown
+6500141,https://bina.az/items/6500141,2026-09-28T21:20:32+04:00,318000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,105.0,3,6,15,good,unknown
+6499312,https://bina.az/items/6499312,2026-09-28T21:20:31+04:00,349000,apartment,new_building,Nasimi,Nəsimi r.,no,92.0,2,6,18,good,unknown
+6124611,https://bina.az/items/6124611,2026-09-28T21:19:56+04:00,320000,apartment,new_building,Narimanov,Nərimanov r.,no,80.0,3,8,16,good,unknown
+6259357,https://bina.az/items/6259357,2026-09-28T21:19:25+04:00,740000,house,house,Khazar,Şüvəlan q.,no,400.0,5,1,1,excellent,yes
+6358054,https://bina.az/items/6358054,2026-09-28T21:19:23+04:00,220000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+6416601,https://bina.az/items/6416601,2026-09-28T21:19:04+04:00,205000,house,house,Khazar,Şüvəlan q.,no,150.0,4,1,1,good,unknown
+6413992,https://bina.az/items/6413992,2026-09-28T21:19:18+04:00,330000,apartment,new_building,Nizami,Qara Qarayev m.,yes,105.0,3,3,18,good,yes
+6400673,https://bina.az/items/6400673,2026-09-28T21:18:33+04:00,343000,apartment,new_building,Nizami,Qara Qarayev m.,yes,186.0,4,10,17,needs_repair,yes
+6474882,https://bina.az/items/6474882,2026-09-29T19:03:05+04:00,260000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,75.0,2,8,17,good,unknown
+6491995,https://bina.az/items/6491995,2026-09-29T19:01:42+04:00,285000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,76.0,3,9,15,good,unknown
+6495508,https://bina.az/items/6495508,2026-09-29T18:37:55+04:00,288000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,110.0,3,7,20,good,unknown
+6491745,https://bina.az/items/6491745,2026-09-28T21:17:58+04:00,555000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,127.0,4,10,14,good,unknown
+6492464,https://bina.az/items/6492464,2026-09-28T21:17:20+04:00,119000,house,house,Khazar,Şüvəlan q.,no,75.0,3,1,1,good,unknown
+6500137,https://bina.az/items/6500137,2026-09-28T21:17:01+04:00,265000,apartment,new_building,Sabail,Badamdar q.,no,132.0,4,5,16,needs_repair,unknown
+6332414,https://bina.az/items/6332414,2026-09-28T21:17:03+04:00,237000,apartment,new_building,Narimanov,Koroğlu m.,yes,63.2,2,5,17,good,yes
+6464541,https://bina.az/items/6464541,2026-09-28T21:15:02+04:00,88000,apartment,new_building,Absheron,Masazır q.,no,43.0,2,2,8,excellent,yes
+6500134,https://bina.az/items/6500134,2026-09-28T21:13:43+04:00,205000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,78.0,3,10,18,good,unknown
+6496852,https://bina.az/items/6496852,2026-09-28T21:14:38+04:00,80000,apartment,new_building,Absheron,Masazır q.,no,48.0,2,2,6,good,unknown
+5261621,https://bina.az/items/5261621,2026-09-28T21:14:58+04:00,39000,apartment,new_building,Absheron,Masazır q.,no,44.0,1,6,6,needs_repair,unknown
+6450829,https://bina.az/items/6450829,2026-09-28T21:13:36+04:00,590000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,185.0,4,7,17,good,unknown
+6387940,https://bina.az/items/6387940,2026-09-28T21:13:21+04:00,298000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,108.0,3,7,20,good,yes
+6450206,https://bina.az/items/6450206,2026-09-29T18:16:31+04:00,450000,apartment,old_building,Nasimi,28 May m.,yes,91.9,4,5,5,good,unknown
+6453631,https://bina.az/items/6453631,2026-09-29T17:24:13+04:00,119000,apartment,old_building,Nizami,Qara Qarayev m.,yes,40.0,2,4,5,good,unknown
+5843866,https://bina.az/items/5843866,2026-09-29T13:23:17+04:00,79500,apartment,new_building,Absheron,Masazır q.,no,82.0,3,6,6,good,unknown
+6317576,https://bina.az/items/6317576,2026-09-28T21:12:16+04:00,138000,house,house,Surakhani,Hövsan q.,no,120.0,4,1,1,good,unknown
+6500132,https://bina.az/items/6500132,2026-09-28T21:10:46+04:00,176000,apartment,new_building,Khatai,Həzi Aslanov q.,no,52.0,2,5,19,good,unknown
+5453887,https://bina.az/items/5453887,2026-09-28T21:11:38+04:00,475000,house,house,Surakhani,Qaraçuxur q.,no,220.0,5,1,2,excellent,unknown
+6495211,https://bina.az/items/6495211,2026-09-29T13:03:50+04:00,510000,apartment,new_building,Nasimi,Nizami m.,yes,118.6,4,6,15,excellent,unknown
+6382748,https://bina.az/items/6382748,2026-09-29T17:48:57+04:00,72000,apartment,new_building,Absheron,Masazır q.,no,44.0,2,2,6,good,unknown
+6466966,https://bina.az/items/6466966,2026-09-28T21:10:25+04:00,750000,apartment,old_building,Khatai,Ağ şəhər q.,no,148.6,4,2,8,good,unknown
+6500130,https://bina.az/items/6500130,2026-09-28T21:09:57+04:00,169000,apartment,new_building,Khatai,Köhnə Günəşli q.,no,82.0,2,8,16,good,unknown
+6383439,https://bina.az/items/6383439,2026-09-28T21:10:04+04:00,300000,apartment,new_building,Nasimi,8 Noyabr m.,yes,120.0,3,3,19,good,unknown
+6500128,https://bina.az/items/6500128,2026-09-28T21:07:02+04:00,190000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,50.0,2,2,5,good,unknown
+6495003,https://bina.az/items/6495003,2026-09-28T21:07:56+04:00,485000,house,house,Khazar,Şüvəlan q.,no,165.0,4,1,1,excellent,unknown
+6416733,https://bina.az/items/6416733,2026-09-28T21:08:40+04:00,69000,apartment,new_building,Absheron,Masazır q.,no,37.0,2,1,6,good,unknown
+6469985,https://bina.az/items/6469985,2026-09-28T21:06:52+04:00,152000,house,house,Khazar,Şüvəlan q.,no,135.0,3,1,1,excellent,unknown
+6469862,https://bina.az/items/6469862,2026-09-28T21:06:52+04:00,195000,house,house,Khazar,Şüvəlan q.,no,135.0,4,1,1,excellent,unknown
+6455126,https://bina.az/items/6455126,2026-09-28T21:06:52+04:00,235000,house,house,Khazar,Mərdəkan q.,no,145.0,4,1,1,excellent,unknown
+6296568,https://bina.az/items/6296568,2026-09-28T21:06:52+04:00,155000,house,house,Khazar,Mərdəkan q.,no,100.0,4,1,1,excellent,unknown
+6491170,https://bina.az/items/6491170,2026-09-29T12:48:26+04:00,189000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,140.0,3,7,18,needs_repair,yes
+6365636,https://bina.az/items/6365636,2026-09-28T21:06:52+04:00,220000,house,house,Khazar,Şüvəlan q.,no,160.0,4,1,1,excellent,unknown
+6376050,https://bina.az/items/6376050,2026-09-28T21:06:52+04:00,245000,house,house,Khazar,Mərdəkan q.,no,150.0,4,1,1,excellent,unknown
+6477054,https://bina.az/items/6477054,2026-09-28T21:06:07+04:00,845000,apartment,new_building,Nasimi,28 May m.,yes,265.0,5,10,17,needs_repair,yes
+5219153,https://bina.az/items/5219153,2026-09-28T21:05:58+04:00,355000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,156.0,4,3,20,excellent,unknown
+6500125,https://bina.az/items/6500125,2026-09-28T21:05:22+04:00,234000,apartment,new_building,Narimanov,Ulduz m.,yes,90.0,2,3,14,needs_repair,unknown
+6455384,https://bina.az/items/6455384,2026-09-28T21:05:39+04:00,430000,apartment,new_building,Narimanov,28 May m.,yes,108.0,3,4,16,excellent,unknown
+6355142,https://bina.az/items/6355142,2026-09-28T21:05:12+04:00,188000,apartment,old_building,Nizami,Neftçilər m.,yes,70.0,3,3,5,good,yes
+6478702,https://bina.az/items/6478702,2026-09-28T21:05:02+04:00,470000,apartment,new_building,Nasimi,28 May m.,yes,225.0,3,7,14,excellent,yes
+6478761,https://bina.az/items/6478761,2026-09-28T21:04:47+04:00,430000,apartment,new_building,Yasamal,Nizami m.,yes,180.0,3,17,21,good,yes
+6403875,https://bina.az/items/6403875,2026-09-29T12:22:16+04:00,310000,apartment,new_building,Nizami,Neftçilər m.,yes,97.0,3,5,15,excellent,unknown
+6426420,https://bina.az/items/6426420,2026-09-28T21:04:34+04:00,175000,house,house,Sabunchu,Kürdəxanı q.,no,250.0,5,1,1,good,unknown
+6410661,https://bina.az/items/6410661,2026-09-28T21:04:04+04:00,390000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,85.0,2,8,16,excellent,unknown
+6410704,https://bina.az/items/6410704,2026-09-28T21:03:56+04:00,385000,apartment,new_building,Nasimi,Nəsimi r.,no,86.0,3,19,20,good,unknown
+6348591,https://bina.az/items/6348591,2026-09-28T21:03:38+04:00,113900,apartment,new_building,Sabunchu,Neftçilər m.,yes,51.0,2,11,14,needs_repair,unknown
+6410736,https://bina.az/items/6410736,2026-09-28T21:03:33+04:00,295000,apartment,new_building,Narimanov,Nərimanov r.,no,65.0,2,8,16,good,unknown
+6223043,https://bina.az/items/6223043,2026-09-28T21:02:53+04:00,189000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,65.0,2,10,12,good,unknown
+6500123,https://bina.az/items/6500123,2026-09-28T21:02:32+04:00,164000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,67.0,3,10,15,good,unknown
+6370661,https://bina.az/items/6370661,2026-09-28T21:02:17+04:00,550000,apartment,new_building,Nasimi,28 May m.,yes,151.0,3,8,14,good,yes
+6384519,https://bina.az/items/6384519,2026-09-28T21:02:17+04:00,125500,house,house,Absheron,Masazır q.,no,120.0,4,1,2,good,unknown
+6379363,https://bina.az/items/6379363,2026-09-28T21:02:00+04:00,103000,house,house,Absheron,Abşeron r.,no,210.0,5,1,2,good,unknown
+6500121,https://bina.az/items/6500121,2026-09-28T21:01:50+04:00,185000,apartment,new_building,Yasamal,Yasamal q.,no,60.0,2,8,9,good,yes
+6498807,https://bina.az/items/6498807,2026-09-28T21:01:50+04:00,490000,house,house,Khazar,Mərdəkan q.,no,200.0,5,1,1,good,unknown
+6379348,https://bina.az/items/6379348,2026-09-28T21:01:41+04:00,250000,house,house,Nasimi,Nəsimi m.,yes,210.0,4,1,1,good,unknown
+6405529,https://bina.az/items/6405529,2026-09-28T21:01:26+04:00,620000,apartment,new_building,Yasamal,İçəri Şəhər m.,yes,101.0,2,4,20,good,unknown
+6462326,https://bina.az/items/6462326,2026-09-28T21:01:41+04:00,310000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,100.0,3,3,7,good,unknown
+6383519,https://bina.az/items/6383519,2026-09-28T21:01:21+04:00,1299000,house,house,Nasimi,Nəsimi m.,yes,350.0,8,1,3,excellent,yes
+6393483,https://bina.az/items/6393483,2026-09-29T15:58:38+04:00,448000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,130.0,3,14,16,good,unknown
+6267801,https://bina.az/items/6267801,2026-09-28T21:01:07+04:00,175000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,42.0,1,3,5,good,unknown
+6496652,https://bina.az/items/6496652,2026-09-28T21:01:12+04:00,165000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,47.0,2,8,19,excellent,yes
+5630205,https://bina.az/items/5630205,2026-09-28T21:01:01+04:00,345000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,68.0,2,11,18,good,yes
+6500120,https://bina.az/items/6500120,2026-09-28T21:00:53+04:00,540000,apartment,old_building,Narimanov,Nərimanov r.,no,200.0,5,4,9,good,unknown
+6477115,https://bina.az/items/6477115,2026-09-28T21:00:53+04:00,1300000,apartment,new_building,Sabail,Sahil m.,yes,250.0,4,10,15,excellent,yes
+6253839,https://bina.az/items/6253839,2026-09-28T21:00:53+04:00,110000,house,house,Khazar,Şağan q.,no,100.0,3,1,1,excellent,unknown
+6485134,https://bina.az/items/6485134,2026-09-28T21:00:31+04:00,468000,apartment,new_building,Narimanov,28 May m.,yes,117.0,3,10,11,excellent,unknown
+6390013,https://bina.az/items/6390013,2026-09-28T21:00:25+04:00,470000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,170.0,4,15,17,good,yes
+6465525,https://bina.az/items/6465525,2026-09-28T21:00:29+04:00,220000,apartment,old_building,Nasimi,28 May m.,yes,75.0,3,6,6,good,unknown
+6434671,https://bina.az/items/6434671,2026-09-28T21:00:12+04:00,57000,house,house,Absheron,Ceyranbatan q.,no,190.0,7,1,2,good,unknown
+6267690,https://bina.az/items/6267690,2026-09-28T20:59:32+04:00,225000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,85.0,3,8,9,good,unknown
+6348223,https://bina.az/items/6348223,2026-09-28T20:59:21+04:00,125000,apartment,new_building,Absheron,Masazır q.,no,90.0,3,9,11,needs_repair,unknown
+6267696,https://bina.az/items/6267696,2026-09-28T20:59:15+04:00,237000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,82.0,3,8,9,good,unknown
+6500118,https://bina.az/items/6500118,2026-09-28T20:59:03+04:00,285000,apartment,new_building,Narimanov,Nərimanov r.,no,85.0,2,12,18,good,unknown
+6475227,https://bina.az/items/6475227,2026-09-28T20:59:00+04:00,220000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,85.0,3,5,9,good,unknown
+6489273,https://bina.az/items/6489273,2026-09-29T13:24:04+04:00,85500,apartment,new_building,Absheron,Masazır q.,no,43.0,2,7,8,good,unknown
+6471299,https://bina.az/items/6471299,2026-09-28T20:58:22+04:00,133000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,47.0,1,2,9,good,unknown
+5580298,https://bina.az/items/5580298,2026-09-29T14:10:05+04:00,59000,house,house,Sabunchu,Zabrat q.,no,100.0,4,1,1,good,unknown
+6431543,https://bina.az/items/6431543,2026-09-28T20:57:49+04:00,184000,apartment,old_building,Sabail,Bayıl q.,no,90.0,2,8,9,good,unknown
+5923713,https://bina.az/items/5923713,2026-09-29T10:38:52+04:00,378000,apartment,new_building,Nasimi,28 May m.,yes,140.0,3,9,16,good,unknown
+6445029,https://bina.az/items/6445029,2026-09-28T20:57:28+04:00,340000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,101.0,2,4,20,good,unknown
+6370500,https://bina.az/items/6370500,2026-09-28T20:57:32+04:00,275000,apartment,new_building,Nizami,Qara Qarayev m.,yes,86.0,3,10,15,good,unknown
+6185593,https://bina.az/items/6185593,2026-09-28T20:57:28+04:00,75000,apartment,old_building,Absheron,Pirallahı r.,no,60.0,3,4,5,average,unknown
+6500116,https://bina.az/items/6500116,2026-09-28T20:56:50+04:00,478000,house,house,Sabunchu,Nardaran q.,no,190.0,5,1,1,good,yes
+6494508,https://bina.az/items/6494508,2026-09-28T20:55:57+04:00,384000,apartment,new_building,Nasimi,Nəsimi r.,no,99.0,3,15,20,good,unknown
+6489199,https://bina.az/items/6489199,2026-09-28T20:55:34+04:00,253000,apartment,new_building,Nasimi,Memar Əcəmi m.,yes,110.0,3,10,16,needs_repair,yes
+6453555,https://bina.az/items/6453555,2026-09-28T20:54:46+04:00,160000,apartment,new_building,Khatai,Əhmədli q.,no,74.6,2,2,20,good,unknown
+6235073,https://bina.az/items/6235073,2026-09-28T20:54:28+04:00,158000,house,house,Surakhani,Zığ q.,no,155.0,4,1,2,excellent,unknown
+6491946,https://bina.az/items/6491946,2026-09-28T20:54:22+04:00,450000,apartment,new_building,Nasimi,Nəsimi r.,no,140.0,3,11,16,excellent,unknown
+6208406,https://bina.az/items/6208406,2026-09-29T12:48:06+04:00,288000,apartment,new_building,Sabail,Şıxov q.,no,125.4,3,4,5,needs_repair,yes
+6313555,https://bina.az/items/6313555,2026-09-28T20:54:17+04:00,349000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,124.0,3,6,16,good,unknown
+6457576,https://bina.az/items/6457576,2026-09-29T17:27:21+04:00,350000,apartment,new_building,Khatai,Əhmədli m.,yes,105.0,3,14,17,excellent,yes
+6417390,https://bina.az/items/6417390,2026-09-28T20:53:09+04:00,120000,house,house,Sabunchu,Kürdəxanı q.,no,240.0,6,1,2,good,unknown
+6500106,https://bina.az/items/6500106,2026-09-28T20:52:49+04:00,209500,house,house,Absheron,Novxanı q.,no,115.0,3,1,2,good,unknown
+6500112,https://bina.az/items/6500112,2026-09-28T20:52:48+04:00,128000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,52.0,2,6,9,good,unknown
+6329340,https://bina.az/items/6329340,2026-09-28T20:52:32+04:00,237000,apartment,new_building,Narimanov,Koroğlu m.,yes,65.0,2,5,17,good,yes
+6467136,https://bina.az/items/6467136,2026-09-28T20:52:16+04:00,595000,house,house,Khazar,Mərdəkan q.,no,180.0,4,1,1,excellent,unknown
+6477500,https://bina.az/items/6477500,2026-09-28T20:51:37+04:00,315000,apartment,new_building,Yasamal,Yasamal q.,no,107.0,4,5,16,excellent,unknown
+6321775,https://bina.az/items/6321775,2026-09-28T20:51:02+04:00,139000,house,house,Khazar,Binə q.,no,120.0,4,1,1,good,unknown
+6230413,https://bina.az/items/6230413,2026-09-28T20:51:14+04:00,338500,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,91.0,2,6,14,needs_repair,unknown
+6463430,https://bina.az/items/6463430,2026-09-28T20:50:26+04:00,149000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,50.0,2,2,5,good,unknown
+6166567,https://bina.az/items/6166567,2026-09-28T20:49:49+04:00,370000,apartment,new_building,Narimanov,28 May m.,yes,132.0,3,4,16,needs_repair,unknown
+6425364,https://bina.az/items/6425364,2026-09-28T20:48:59+04:00,270000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,102.0,3,7,11,needs_repair,unknown
+5824672,https://bina.az/items/5824672,2026-09-28T20:48:40+04:00,397000,apartment,new_building,Yasamal,20 Yanvar m.,yes,140.7,4,16,20,needs_repair,unknown
+6418297,https://bina.az/items/6418297,2026-09-28T20:48:59+04:00,171000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,54.0,2,18,19,good,unknown
+5869113,https://bina.az/items/5869113,2026-09-28T20:48:23+04:00,190000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,82.5,2,11,16,needs_repair,yes
+6265373,https://bina.az/items/6265373,2026-09-28T20:48:15+04:00,841500,apartment,new_building,Sabail,Bayıl q.,no,225.0,4,14,16,needs_repair,yes
+6499912,https://bina.az/items/6499912,2026-09-28T20:48:05+04:00,43000,house,house,Sabunchu,Bülbülə q.,no,55.0,2,1,1,good,unknown
+6433869,https://bina.az/items/6433869,2026-09-28T20:48:05+04:00,780000,apartment,new_building,Sabail,İçəri Şəhər m.,yes,170.0,3,11,16,needs_repair,yes
+6232518,https://bina.az/items/6232518,2026-09-29T18:39:20+04:00,178000,apartment,old_building,Khatai,Əhmədli m.,yes,75.0,3,9,9,good,unknown
+6493124,https://bina.az/items/6493124,2026-09-29T12:03:33+04:00,124000,apartment,old_building,Khatai,Əhmədli m.,yes,45.0,2,3,9,good,unknown
+6496303,https://bina.az/items/6496303,2026-09-29T11:35:17+04:00,225000,apartment,old_building,Khatai,Əhmədli q.,no,80.0,3,6,9,good,unknown
+6480934,https://bina.az/items/6480934,2026-09-28T20:47:18+04:00,265000,apartment,old_building,Sabunchu,Bakıxanov q.,no,80.0,3,2,5,good,yes
+6386543,https://bina.az/items/6386543,2026-09-29T19:02:52+04:00,735000,apartment,new_building,Nasimi,Nizami m.,yes,160.0,4,10,16,good,yes
+6486197,https://bina.az/items/6486197,2026-09-28T20:45:53+04:00,205000,apartment,new_building,Yasamal,20 Yanvar m.,yes,53.0,2,14,20,good,unknown
+6459229,https://bina.az/items/6459229,2026-09-28T20:46:27+04:00,185000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,75.0,3,5,5,good,unknown
+6500102,https://bina.az/items/6500102,2026-09-28T20:45:18+04:00,195000,apartment,new_building,Nasimi,8 Noyabr m.,yes,59.0,2,9,17,good,unknown
+6500105,https://bina.az/items/6500105,2026-09-28T20:45:16+04:00,265000,apartment,new_building,Narimanov,Nərimanov r.,no,51.0,2,7,16,good,unknown
+6136843,https://bina.az/items/6136843,2026-09-28T20:45:18+04:00,560000,apartment,new_building,Nasimi,Nəsimi r.,no,200.0,3,6,16,good,unknown
+6382241,https://bina.az/items/6382241,2026-09-28T20:44:53+04:00,380375,apartment,new_building,Sabunchu,Nardaran q.,no,89.5,2,5,12,needs_repair,unknown
+6335393,https://bina.az/items/6335393,2026-09-28T20:44:40+04:00,419000,house,house,Khazar,Şüvəlan q.,no,172.0,5,1,1,good,unknown
+6430883,https://bina.az/items/6430883,2026-09-28T20:43:40+04:00,175000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,66.0,2,4,9,good,unknown
+5300646,https://bina.az/items/5300646,2026-09-28T20:44:37+04:00,160000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,58.0,2,5,5,good,yes
+6398681,https://bina.az/items/6398681,2026-09-28T20:43:04+04:00,235000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,121.7,3,5,17,good,yes
+6430665,https://bina.az/items/6430665,2026-09-28T20:42:45+04:00,349000,apartment,new_building,Nasimi,Nəsimi r.,no,101.7,3,14,17,good,yes
+6314855,https://bina.az/items/6314855,2026-09-28T20:42:20+04:00,215000,apartment,new_building,Nizami,Qara Qarayev m.,yes,69.0,2,9,13,needs_repair,yes
+6497906,https://bina.az/items/6497906,2026-09-28T20:42:18+04:00,272000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,100.7,3,7,17,excellent,yes
+6329203,https://bina.az/items/6329203,2026-09-28T20:41:59+04:00,239000,apartment,old_building,Yasamal,Nizami m.,yes,65.0,2,2,5,needs_repair,yes
+6500098,https://bina.az/items/6500098,2026-09-28T20:41:13+04:00,510000,apartment,new_building,Nizami,Qara Qarayev m.,yes,186.0,4,17,18,needs_repair,yes
+6459244,https://bina.az/items/6459244,2026-09-29T13:19:27+04:00,244500,apartment,new_building,Khatai,Həzi Aslanov m.,yes,115.0,3,15,17,good,unknown
+6004300,https://bina.az/items/6004300,2026-09-28T20:39:51+04:00,155000,house,house,Khazar,Binə q.,no,200.0,5,1,1,good,unknown
+6491198,https://bina.az/items/6491198,2026-09-28T20:39:41+04:00,235000,apartment,new_building,Nizami,Neftçilər m.,yes,98.0,2,8,18,good,unknown
+6446916,https://bina.az/items/6446916,2026-09-28T20:39:26+04:00,260000,apartment,new_building,Khatai,Əhmədli m.,yes,90.0,2,15,17,good,unknown
+6386933,https://bina.az/items/6386933,2026-09-28T20:39:35+04:00,288949,apartment,new_building,Sabunchu,Nardaran q.,no,73.9,2,3,12,needs_repair,unknown
+6419292,https://bina.az/items/6419292,2026-09-28T20:39:10+04:00,112000,apartment,old_building,Surakhani,Qaraçuxur q.,no,50.0,2,4,5,good,unknown
+6473034,https://bina.az/items/6473034,2026-09-28T20:38:59+04:00,365000,apartment,new_building,Nizami,Qara Qarayev m.,yes,105.0,4,4,19,good,unknown
+6284587,https://bina.az/items/6284587,2026-09-28T20:38:37+04:00,175000,apartment,old_building,Khatai,Əhmədli q.,no,70.0,3,9,9,excellent,unknown
+6486818,https://bina.az/items/6486818,2026-09-28T20:38:30+04:00,330000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,135.0,4,12,18,good,unknown
+5964283,https://bina.az/items/5964283,2026-09-28T20:38:29+04:00,714000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,207.0,4,16,21,needs_repair,unknown
+5966794,https://bina.az/items/5966794,2026-09-28T20:37:27+04:00,285000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,120.0,5,6,6,good,unknown
+6500094,https://bina.az/items/6500094,2026-09-28T20:37:11+04:00,187000,apartment,old_building,Nizami,Neftçilər m.,yes,65.0,3,3,5,excellent,yes
+6500091,https://bina.az/items/6500091,2026-09-28T20:36:31+04:00,220000,house,house,Absheron,Novxanı q.,no,185.0,5,1,2,good,unknown
+6500089,https://bina.az/items/6500089,2026-09-29T12:22:44+04:00,470000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,180.0,4,3,16,excellent,unknown
+6500093,https://bina.az/items/6500093,2026-09-28T20:36:35+04:00,120000,house,house,Absheron,Mehdiabad q.,no,200.0,6,1,1,good,unknown
+6184625,https://bina.az/items/6184625,2026-09-29T17:29:02+04:00,680000,apartment,new_building,Sabail,İçəri Şəhər m.,yes,210.0,4,3,14,good,unknown
+6500087,https://bina.az/items/6500087,2026-09-29T11:08:08+04:00,710000,apartment,new_building,Nasimi,Nəsimi r.,no,250.0,5,5,17,good,yes
+4237623,https://bina.az/items/4237623,2026-09-28T20:35:17+04:00,543730,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,98.86,2,15,18,needs_repair,yes
+6417447,https://bina.az/items/6417447,2026-09-28T20:34:33+04:00,288000,apartment,new_building,Khatai,Xətai r.,no,110.0,3,7,20,good,yes
+6326509,https://bina.az/items/6326509,2026-09-28T20:34:51+04:00,1188715,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,216.1,4,15,18,needs_repair,yes
+6500086,https://bina.az/items/6500086,2026-09-28T20:34:24+04:00,155000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,65.0,3,1,6,good,unknown
+6406624,https://bina.az/items/6406624,2026-09-29T12:22:51+04:00,630000,apartment,new_building,Nasimi,Nəsimi r.,no,167.0,4,6,16,excellent,unknown
+6487193,https://bina.az/items/6487193,2026-09-28T20:33:52+04:00,130000,apartment,old_building,Khatai,Əhmədli q.,no,60.0,2,1,9,good,unknown
+6317819,https://bina.az/items/6317819,2026-09-28T20:33:45+04:00,339000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,179.0,4,14,16,needs_repair,yes
+5867067,https://bina.az/items/5867067,2026-09-28T20:34:26+04:00,812900,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,147.8,4,16,18,needs_repair,yes
+4190770,https://bina.az/items/4190770,2026-09-28T20:33:43+04:00,1128215,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,205.13,4,15,18,needs_repair,unknown
+6314587,https://bina.az/items/6314587,2026-09-28T20:33:41+04:00,184022,apartment,new_building,Sabunchu,Nardaran q.,no,42.1,1,3,18,needs_repair,unknown
+6317732,https://bina.az/items/6317732,2026-09-28T20:33:37+04:00,139500,apartment,new_building,Khatai,Həzi Aslanov m.,yes,55.0,1,3,16,needs_repair,yes
+6230565,https://bina.az/items/6230565,2026-09-28T20:33:20+04:00,685000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,225.0,4,16,18,good,unknown
+6412251,https://bina.az/items/6412251,2026-09-29T15:42:45+04:00,270000,apartment,new_building,Nizami,Qara Qarayev m.,yes,122.5,3,12,13,needs_repair,yes
+6089522,https://bina.az/items/6089522,2026-09-28T20:33:11+04:00,249000,apartment,new_building,Nizami,Neftçilər m.,yes,92.0,2,14,17,good,unknown
+6252014,https://bina.az/items/6252014,2026-09-28T20:33:01+04:00,1380000,apartment,new_building,Sabail,Bayıl q.,no,220.0,4,7,14,excellent,unknown
+6412449,https://bina.az/items/6412449,2026-09-28T20:33:09+04:00,340000,house,house,Khazar,Şüvəlan q.,no,161.0,4,1,1,good,unknown
+6450670,https://bina.az/items/6450670,2026-09-28T20:32:46+04:00,550000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,116.0,5,2,2,average,unknown
+6500081,https://bina.az/items/6500081,2026-09-28T20:32:38+04:00,135000,apartment,old_building,Yasamal,Yeni Yasamal q.,no,45.0,2,7,9,good,unknown
+6267842,https://bina.az/items/6267842,2026-09-28T20:32:43+04:00,1550000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,365.0,6,4,5,good,unknown
+5579475,https://bina.az/items/5579475,2026-09-28T20:32:46+04:00,690000,house,house,Khazar,Şüvəlan q.,no,900.0,5,1,1,needs_repair,unknown
+6314563,https://bina.az/items/6314563,2026-09-28T20:32:41+04:00,310000,apartment,new_building,Nizami,Qara Qarayev m.,yes,92.0,3,12,14,good,yes
+6304292,https://bina.az/items/6304292,2026-09-28T20:32:35+04:00,160000,apartment,old_building,Surakhani,Zığ q.,no,110.0,5,3,5,good,unknown
+6412129,https://bina.az/items/6412129,2026-09-28T20:32:16+04:00,158000,apartment,new_building,Nizami,Qara Qarayev m.,yes,65.0,2,13,17,good,unknown
+6412113,https://bina.az/items/6412113,2026-09-28T20:32:05+04:00,140000,apartment,old_building,Nizami,Xalqlar Dostluğu m.,yes,70.0,2,1,9,average,unknown
+6500080,https://bina.az/items/6500080,2026-09-28T20:30:30+04:00,395000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,85.0,3,7,15,excellent,unknown
+6442928,https://bina.az/items/6442928,2026-09-29T15:51:12+04:00,145000,house,house,Absheron,Novxanı q.,no,300.0,5,1,1,good,unknown
+6167930,https://bina.az/items/6167930,2026-09-28T20:30:02+04:00,690000,house,house,Absheron,Novxanı q.,no,500.0,7,1,3,excellent,yes
+5936849,https://bina.az/items/5936849,2026-09-28T20:29:55+04:00,177000,apartment,new_building,Sabunchu,Nardaran q.,no,60.0,1,12,24,needs_repair,unknown
+6441516,https://bina.az/items/6441516,2026-09-28T20:29:43+04:00,475000,house,house,Nizami,Qara Qarayev m.,yes,250.0,6,1,2,good,unknown
+6467864,https://bina.az/items/6467864,2026-09-28T20:29:43+04:00,77000,house,house,Absheron,Məmmədli q.,no,70.0,3,1,1,good,unknown
+6164061,https://bina.az/items/6164061,2026-09-28T20:29:43+04:00,390000,apartment,new_building,Yasamal,Yasamal r.,no,195.0,4,8,18,good,unknown
+6469614,https://bina.az/items/6469614,2026-09-28T20:28:45+04:00,310000,apartment,new_building,Nasimi,28 May m.,yes,70.0,3,6,18,excellent,yes
+6492502,https://bina.az/items/6492502,2026-09-28T20:28:39+04:00,130000,house,house,Surakhani,Yeni Suraxanı q.,no,150.0,4,1,1,excellent,unknown
+6299431,https://bina.az/items/6299431,2026-09-28T20:28:37+04:00,231608,apartment,new_building,Sabunchu,Nardaran q.,no,52.4,1,7,9,needs_repair,unknown
+6480464,https://bina.az/items/6480464,2026-09-28T20:28:30+04:00,100000,house,house,Absheron,Görədil q.,no,95.0,6,1,1,needs_repair,unknown
+6433091,https://bina.az/items/6433091,2026-09-28T20:28:20+04:00,335000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,100.0,3,12,16,good,yes
+6459498,https://bina.az/items/6459498,2026-09-28T20:28:30+04:00,165000,apartment,old_building,Narimanov,Gənclik m.,yes,55.0,3,3,4,good,unknown
+6422900,https://bina.az/items/6422900,2026-09-28T20:28:10+04:00,210000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,100.0,3,9,10,good,unknown
+6373579,https://bina.az/items/6373579,2026-09-28T20:27:47+04:00,145000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,90.0,3,9,9,good,yes
+6374185,https://bina.az/items/6374185,2026-09-28T20:28:02+04:00,195000,apartment,old_building,Nasimi,28 May m.,yes,65.0,2,4,5,good,unknown
+6500079,https://bina.az/items/6500079,2026-09-28T20:27:39+04:00,731000,house,house,Sabunchu,Sea Breeze q.,no,290.0,5,1,1,needs_repair,unknown
+6441052,https://bina.az/items/6441052,2026-09-28T20:27:39+04:00,200000,apartment,new_building,Surakhani,Qaraçuxur q.,no,106.0,3,5,12,needs_repair,yes
+6470587,https://bina.az/items/6470587,2026-09-28T20:27:27+04:00,335000,apartment,new_building,Nasimi,Nəsimi r.,no,85.0,3,3,17,good,unknown
+6439621,https://bina.az/items/6439621,2026-09-28T20:27:22+04:00,167000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,60.0,2,4,5,good,unknown
+6422300,https://bina.az/items/6422300,2026-09-28T20:27:12+04:00,258000,apartment,new_building,Narimanov,Nərimanov r.,no,58.0,2,13,17,good,unknown
+6299859,https://bina.az/items/6299859,2026-09-28T20:27:07+04:00,410000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,120.0,4,10,17,good,unknown
+6414773,https://bina.az/items/6414773,2026-09-29T16:04:47+04:00,157000,apartment,old_building,Khatai,Əhmədli q.,no,60.0,2,3,9,good,yes
+6500077,https://bina.az/items/6500077,2026-09-29T08:46:32+04:00,95000,house,house,Surakhani,Hövsan q.,no,110.0,4,1,1,good,unknown
+6482750,https://bina.az/items/6482750,2026-09-28T20:26:19+04:00,186000,apartment,old_building,Nizami,Xalqlar Dostluğu m.,yes,85.0,3,7,9,good,unknown
+6453905,https://bina.az/items/6453905,2026-09-28T20:26:10+04:00,2450000,apartment,new_building,Sabail,Bayıl q.,no,379.0,4,8,17,needs_repair,unknown
+6387351,https://bina.az/items/6387351,2026-09-28T20:25:44+04:00,805000,apartment,new_building,Nasimi,Nəsimi r.,no,232.0,4,12,16,needs_repair,yes
+6326283,https://bina.az/items/6326283,2026-09-28T20:25:27+04:00,188000,apartment,new_building,Nizami,Neftçilər m.,yes,52.0,2,10,16,good,unknown
+6500075,https://bina.az/items/6500075,2026-09-28T20:25:07+04:00,145000,apartment,new_building,Sabunchu,Sea Breeze q.,no,38.0,1,8,13,good,unknown
+6492338,https://bina.az/items/6492338,2026-09-28T20:24:53+04:00,680000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,155.0,3,14,18,good,unknown
+6480570,https://bina.az/items/6480570,2026-09-28T20:23:30+04:00,110000,house,house,Sabail,20-ci sahə q.,no,170.0,4,1,1,good,unknown
+6456991,https://bina.az/items/6456991,2026-09-29T09:24:27+04:00,210000,apartment,new_building,Sabail,Şıxov q.,no,84.0,2,2,5,needs_repair,yes
+6422293,https://bina.az/items/6422293,2026-09-28T20:22:51+04:00,358000,apartment,new_building,Narimanov,Nərimanov r.,no,88.0,3,13,17,good,unknown
+6209877,https://bina.az/items/6209877,2026-09-29T18:37:45+04:00,212000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,92.0,2,7,20,needs_repair,yes
+6494294,https://bina.az/items/6494294,2026-09-28T20:22:05+04:00,315000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,85.0,2,18,20,good,unknown
+6355221,https://bina.az/items/6355221,2026-09-29T11:29:37+04:00,380000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,125.0,4,10,17,excellent,yes
+6466345,https://bina.az/items/6466345,2026-09-28T20:22:25+04:00,220000,apartment,old_building,Narimanov,Gənclik m.,yes,60.0,2,3,9,average,unknown
+5848733,https://bina.az/items/5848733,2026-09-28T20:22:37+04:00,209000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,120.0,3,16,17,good,unknown
+6500067,https://bina.az/items/6500067,2026-09-28T20:21:56+04:00,118000,apartment,new_building,Sabunchu,Sea Breeze q.,no,36.0,1,18,18,needs_repair,unknown
+6499816,https://bina.az/items/6499816,2026-09-29T13:41:41+04:00,183000,apartment,new_building,Nizami,Qara Qarayev m.,yes,73.0,2,5,14,needs_repair,yes
+6195100,https://bina.az/items/6195100,2026-09-28T20:21:34+04:00,212000,apartment,new_building,Khatai,Xətai r.,no,92.0,2,7,20,needs_repair,yes
+6210195,https://bina.az/items/6210195,2026-09-28T20:21:00+04:00,399000,apartment,new_building,Nizami,Neftçilər m.,yes,180.0,4,2,16,good,unknown
+6011385,https://bina.az/items/6011385,2026-09-28T20:20:55+04:00,295000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,106.0,3,16,17,good,yes
+6296641,https://bina.az/items/6296641,2026-09-28T20:20:38+04:00,176120,apartment,new_building,Sabunchu,Nardaran q.,no,29.6,1,6,28,needs_repair,unknown
+6061468,https://bina.az/items/6061468,2026-09-28T20:20:05+04:00,325000,apartment,new_building,Narimanov,Nərimanov r.,no,150.0,3,8,9,needs_repair,unknown
+6484523,https://bina.az/items/6484523,2026-09-28T20:19:47+04:00,165000,apartment,old_building,Khatai,Əhmədli m.,yes,65.0,2,8,9,good,unknown
+6168820,https://bina.az/items/6168820,2026-09-28T20:19:37+04:00,1200000,apartment,new_building,Nasimi,28 May m.,yes,131.0,3,15,17,good,yes
+6498091,https://bina.az/items/6498091,2026-09-28T20:18:52+04:00,172000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,65.0,3,3,5,good,yes
+6500066,https://bina.az/items/6500066,2026-09-28T20:18:37+04:00,259000,apartment,new_building,Narimanov,Koroğlu m.,yes,71.5,2,15,16,good,unknown
+6458086,https://bina.az/items/6458086,2026-09-28T20:18:35+04:00,1400000,apartment,new_building,Narimanov,Gənclik m.,yes,360.0,6,11,18,good,unknown
+6500064,https://bina.az/items/6500064,2026-09-28T20:17:45+04:00,270000,house,house,Khazar,Mərdəkan q.,no,150.0,4,1,1,good,unknown
+6405333,https://bina.az/items/6405333,2026-09-28T20:18:33+04:00,395000,apartment,new_building,Narimanov,Nərimanov r.,no,140.0,3,10,18,good,unknown
+6494996,https://bina.az/items/6494996,2026-09-29T15:33:57+04:00,465000,apartment,new_building,Khatai,Ağ şəhər q.,no,86.0,3,7,7,good,unknown
+6500063,https://bina.az/items/6500063,2026-09-28T20:17:36+04:00,450000,house,house,Khazar,Şüvəlan q.,no,800.0,5,1,1,good,unknown
+6143376,https://bina.az/items/6143376,2026-09-28T20:17:31+04:00,510000,apartment,new_building,Nasimi,28 May m.,yes,205.0,4,8,17,good,unknown
+6500062,https://bina.az/items/6500062,2026-09-28T20:17:43+04:00,108000,apartment,new_building,Absheron,Masazır q.,no,50.0,2,2,12,good,yes
+6160228,https://bina.az/items/6160228,2026-09-28T20:17:02+04:00,545000,apartment,new_building,Narimanov,Nərimanov r.,no,240.0,5,8,9,good,yes
+6389510,https://bina.az/items/6389510,2026-09-28T20:17:11+04:00,97000,apartment,new_building,Surakhani,Zığ q.,no,42.0,2,11,14,needs_repair,unknown
+6332674,https://bina.az/items/6332674,2026-09-28T20:16:24+04:00,115000,apartment,new_building,Sabunchu,Bakıxanov q.,no,51.0,1,14,19,good,yes
+6439458,https://bina.az/items/6439458,2026-09-28T20:16:34+04:00,210000,apartment,old_building,Narimanov,Gənclik m.,yes,75.0,3,5,5,good,unknown
+6474785,https://bina.az/items/6474785,2026-09-28T20:16:52+04:00,370000,house,house,Absheron,Mehdiabad q.,no,400.0,14,1,1,needs_repair,yes
+6471728,https://bina.az/items/6471728,2026-09-28T20:16:22+04:00,570000,apartment,new_building,Nasimi,28 May m.,yes,137.0,3,9,17,good,yes
+6439772,https://bina.az/items/6439772,2026-09-28T20:15:59+04:00,275000,apartment,new_building,Nasimi,20 Yanvar m.,yes,135.0,3,10,16,good,unknown
+6102585,https://bina.az/items/6102585,2026-09-28T20:15:38+04:00,240000,apartment,new_building,Narimanov,Nərimanov r.,no,70.0,3,14,18,good,yes
+6248589,https://bina.az/items/6248589,2026-09-28T20:15:28+04:00,110000,apartment,old_building,Nasimi,28 May m.,yes,37.0,1,1,2,good,unknown
+6374725,https://bina.az/items/6374725,2026-09-28T20:15:25+04:00,210000,house,house,Khazar,Mərdəkan q.,no,140.0,4,1,1,excellent,unknown
+6280444,https://bina.az/items/6280444,2026-09-28T20:15:15+04:00,195000,house,house,Khazar,Şüvəlan q.,no,140.0,4,1,1,good,unknown
+6428586,https://bina.az/items/6428586,2026-09-28T20:15:10+04:00,255000,apartment,old_building,Narimanov,Nəriman Nərimanov m.,yes,73.0,3,3,5,good,unknown
+6328301,https://bina.az/items/6328301,2026-09-28T20:14:28+04:00,450000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,140.0,4,4,5,good,unknown
+6328273,https://bina.az/items/6328273,2026-09-28T20:14:48+04:00,585000,apartment,old_building,Sabail,İçəri Şəhər m.,yes,120.0,3,5,12,good,unknown
+6475052,https://bina.az/items/6475052,2026-09-28T20:14:58+04:00,235000,house,house,Khazar,Mərdəkan q.,no,170.0,4,1,1,good,unknown
+6480664,https://bina.az/items/6480664,2026-09-28T20:13:42+04:00,190000,apartment,old_building,Khatai,Əhmədli m.,yes,85.0,3,8,10,good,unknown
+5782232,https://bina.az/items/5782232,2026-09-28T20:13:06+04:00,190000,apartment,new_building,Sabunchu,Ramana q.,no,113.0,3,4,7,needs_repair,unknown
+6328176,https://bina.az/items/6328176,2026-09-28T20:13:38+04:00,739000,apartment,new_building,Sabail,İçəri Şəhər m.,yes,231.0,4,2,14,needs_repair,unknown
+6500058,https://bina.az/items/6500058,2026-09-28T20:13:03+04:00,530000,apartment,new_building,Nasimi,Nəsimi r.,no,170.0,3,6,17,good,unknown
+6219733,https://bina.az/items/6219733,2026-09-28T20:12:54+04:00,567095,apartment,new_building,Sabunchu,Nardaran q.,no,95.3,3,15,28,needs_repair,unknown
+6500057,https://bina.az/items/6500057,2026-09-29T13:28:04+04:00,275000,apartment,new_building,Yasamal,20 Yanvar m.,yes,135.0,3,10,16,average,unknown
+6500053,https://bina.az/items/6500053,2026-09-28T20:11:14+04:00,158000,apartment,old_building,Nasimi,Sahil m.,yes,40.0,1,2,5,good,unknown
+6475470,https://bina.az/items/6475470,2026-09-28T20:11:09+04:00,127000,apartment,old_building,Sabail,Badamdar q.,no,55.0,2,5,5,good,unknown
+6500054,https://bina.az/items/6500054,2026-09-29T14:55:00+04:00,245000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,80.0,3,4,5,good,unknown
+6488006,https://bina.az/items/6488006,2026-09-28T20:10:53+04:00,430000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,203.0,4,14,16,needs_repair,yes
+6500049,https://bina.az/items/6500049,2026-09-28T20:10:02+04:00,119000,apartment,new_building,Sabunchu,Sea Breeze q.,no,34.0,1,2,28,needs_repair,unknown
+6500050,https://bina.az/items/6500050,2026-09-28T20:09:52+04:00,245000,apartment,old_building,Khatai,Şah İsmayıl Xətai m.,yes,65.0,2,4,4,excellent,unknown
+6500051,https://bina.az/items/6500051,2026-09-28T20:09:35+04:00,162000,house,house,Sabunchu,Pirşağı q.,no,165.0,4,1,1,good,unknown
+6472655,https://bina.az/items/6472655,2026-09-28T20:09:40+04:00,405000,apartment,new_building,Nizami,Koroğlu m.,yes,146.4,3,6,16,needs_repair,yes
+6500048,https://bina.az/items/6500048,2026-09-28T20:09:23+04:00,135000,apartment,new_building,Surakhani,Qaraçuxur q.,no,54.0,3,10,12,good,unknown
+6494172,https://bina.az/items/6494172,2026-09-28T20:09:32+04:00,169000,apartment,old_building,Nizami,Xalqlar Dostluğu m.,yes,70.0,3,1,9,good,unknown
+6475187,https://bina.az/items/6475187,2026-09-28T20:09:20+04:00,165000,apartment,old_building,Nizami,8-ci kilometr q.,no,90.0,3,4,7,good,unknown
+6477579,https://bina.az/items/6477579,2026-09-28T20:09:15+04:00,425000,apartment,new_building,Narimanov,Koroğlu m.,yes,178.0,4,12,13,needs_repair,yes
+6348227,https://bina.az/items/6348227,2026-09-28T20:09:07+04:00,269000,apartment,new_building,Yasamal,İçəri Şəhər m.,yes,80.0,2,14,17,good,unknown
+6460128,https://bina.az/items/6460128,2026-09-28T20:08:59+04:00,248000,apartment,new_building,Khatai,Həzi Aslanov q.,no,107.0,3,8,12,good,unknown
+6489014,https://bina.az/items/6489014,2026-09-28T20:08:48+04:00,142000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,65.0,3,3,5,good,unknown
+6493758,https://bina.az/items/6493758,2026-09-28T20:08:36+04:00,218000,apartment,new_building,Khatai,Həzi Aslanov q.,no,94.0,3,10,16,good,unknown
+6009355,https://bina.az/items/6009355,2026-09-28T20:08:41+04:00,590000,house,house,Sabail,Badamdar q.,no,215.0,5,1,1,good,yes
+6297179,https://bina.az/items/6297179,2026-09-28T20:08:38+04:00,350780,apartment,new_building,Sabunchu,Nardaran q.,no,46.6,1,3,13,good,unknown
+6497087,https://bina.az/items/6497087,2026-09-29T09:49:41+04:00,980000,house,house,Khazar,Mərdəkan q.,no,550.0,6,1,1,good,yes
+6467631,https://bina.az/items/6467631,2026-09-28T20:08:20+04:00,168000,apartment,old_building,Khatai,Köhnə Günəşli q.,no,69.1,3,1,9,good,unknown
+6467371,https://bina.az/items/6467371,2026-09-28T20:08:02+04:00,173000,apartment,old_building,Khatai,Həzi Aslanov q.,no,80.0,3,1,9,good,unknown
+6451694,https://bina.az/items/6451694,2026-09-29T06:32:17+04:00,235000,house,house,Khazar,Mərdəkan q.,no,150.0,4,1,1,good,yes
+6500045,https://bina.az/items/6500045,2026-09-28T20:07:06+04:00,150000,apartment,old_building,Surakhani,Hövsan q.,no,70.0,3,8,9,good,unknown
+6496143,https://bina.az/items/6496143,2026-09-28T20:07:06+04:00,145000,apartment,old_building,Khatai,Həzi Aslanov m.,yes,50.0,2,1,5,good,unknown
+6309841,https://bina.az/items/6309841,2026-09-28T20:06:43+04:00,390000,house,house,Absheron,Novxanı q.,no,980.0,16,1,1,good,unknown
+6451466,https://bina.az/items/6451466,2026-09-28T20:06:38+04:00,161000,apartment,new_building,Khazar,Buzovna q.,no,115.0,3,2,3,needs_repair,unknown
+6469078,https://bina.az/items/6469078,2026-09-28T20:06:31+04:00,249000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,82.0,3,6,17,good,unknown
+6500044,https://bina.az/items/6500044,2026-09-28T20:05:45+04:00,76000,apartment,new_building,Absheron,Məmmədli q.,no,70.0,3,2,4,good,unknown
+6430593,https://bina.az/items/6430593,2026-09-28T20:06:10+04:00,660000,apartment,new_building,Narimanov,Nərimanov r.,no,217.0,3,11,17,excellent,yes
+6409461,https://bina.az/items/6409461,2026-09-28T20:05:26+04:00,300000,apartment,new_building,Nizami,Qara Qarayev m.,yes,105.0,3,8,16,excellent,unknown
+6481413,https://bina.az/items/6481413,2026-09-28T20:05:22+04:00,250000,apartment,new_building,Nizami,Neftçilər m.,yes,76.0,2,12,16,good,unknown
+6103408,https://bina.az/items/6103408,2026-09-28T20:04:34+04:00,136000,apartment,new_building,Absheron,Masazır q.,no,97.0,3,4,9,good,unknown
+6417018,https://bina.az/items/6417018,2026-09-28T20:05:12+04:00,215000,apartment,old_building,Sabunchu,Bakıxanov q.,no,110.0,5,8,9,good,unknown
+6209749,https://bina.az/items/6209749,2026-09-29T15:25:41+04:00,338000,apartment,new_building,Narimanov,Koroğlu m.,yes,107.0,3,9,17,good,yes
+6472281,https://bina.az/items/6472281,2026-09-28T20:04:22+04:00,323000,apartment,new_building,Narimanov,Koroğlu m.,yes,99.0,3,7,17,good,yes
+6500043,https://bina.az/items/6500043,2026-09-28T20:04:13+04:00,285000,house,house,Khazar,Şüvəlan q.,no,140.0,4,1,1,good,unknown
+6462373,https://bina.az/items/6462373,2026-09-29T13:47:51+04:00,249000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,82.0,3,7,17,good,unknown
+6396685,https://bina.az/items/6396685,2026-09-28T20:04:03+04:00,157000,apartment,new_building,Khatai,Xalqlar Dostluğu m.,yes,55.0,2,4,14,average,unknown
+6500042,https://bina.az/items/6500042,2026-09-28T20:03:14+04:00,175000,house,house,Absheron,Novxanı q.,no,144.0,3,1,1,excellent,unknown
+6488761,https://bina.az/items/6488761,2026-09-28T20:03:25+04:00,339300,apartment,new_building,Yasamal,Nizami m.,yes,117.0,3,23,23,needs_repair,yes
+5610874,https://bina.az/items/5610874,2026-09-28T20:03:12+04:00,90000,house,house,Surakhani,Hövsan q.,no,100.0,3,1,1,good,unknown
+6442272,https://bina.az/items/6442272,2026-09-28T20:03:11+04:00,165000,apartment,old_building,Nasimi,Nəsimi r.,no,60.0,2,5,5,good,unknown
+6368426,https://bina.az/items/6368426,2026-09-28T20:03:11+04:00,229000,apartment,new_building,Sabunchu,Sea Breeze q.,no,58.0,2,6,7,good,unknown
+6385464,https://bina.az/items/6385464,2026-09-28T20:03:09+04:00,270000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,92.0,2,19,20,good,yes
+6499787,https://bina.az/items/6499787,2026-09-29T13:29:08+04:00,42000,house,house,Sabunchu,Balaxanı q.,no,50.0,3,1,2,good,yes
+6414665,https://bina.az/items/6414665,2026-09-28T20:03:06+04:00,240000,apartment,old_building,Surakhani,Yeni Günəşli q.,no,120.0,5,3,9,good,unknown
+6499989,https://bina.az/items/6499989,2026-09-28T20:03:05+04:00,330000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,120.0,3,6,16,good,unknown
+6435718,https://bina.az/items/6435718,2026-09-28T20:02:58+04:00,380000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,160.0,3,3,19,good,yes
+6483341,https://bina.az/items/6483341,2026-09-28T20:02:53+04:00,265000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,98.0,2,15,17,good,yes
+6500040,https://bina.az/items/6500040,2026-09-28T20:02:32+04:00,207000,apartment,new_building,Nizami,Koroğlu m.,yes,71.5,1,15,16,needs_repair,unknown
+6472287,https://bina.az/items/6472287,2026-09-29T18:55:17+04:00,195000,apartment,new_building,Narimanov,Koroğlu m.,yes,63.2,2,11,17,needs_repair,yes
+6291281,https://bina.az/items/6291281,2026-09-28T20:02:28+04:00,325000,apartment,new_building,Nasimi,Nəsimi r.,no,100.0,3,4,16,needs_repair,yes
+6465544,https://bina.az/items/6465544,2026-09-28T20:02:17+04:00,270000,apartment,new_building,Sabail,Bayıl q.,no,125.0,3,14,17,good,unknown
+6500038,https://bina.az/items/6500038,2026-09-28T20:02:20+04:00,178000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,65.0,2,14,15,needs_repair,yes
+6500039,https://bina.az/items/6500039,2026-09-28T20:01:53+04:00,248000,apartment,new_building,Nizami,Qara Qarayev m.,yes,70.0,3,7,12,good,unknown
+6465129,https://bina.az/items/6465129,2026-09-29T12:39:51+04:00,777000,apartment,new_building,Nasimi,28 May m.,yes,229.0,4,14,16,needs_repair,unknown
+6499223,https://bina.az/items/6499223,2026-09-28T20:01:46+04:00,545000,house,house,Khazar,Mərdəkan q.,no,220.0,5,1,1,good,unknown
+6460672,https://bina.az/items/6460672,2026-09-28T20:01:35+04:00,465000,apartment,new_building,Nasimi,28 May m.,yes,146.0,3,9,17,needs_repair,unknown
+6500035,https://bina.az/items/6500035,2026-09-29T14:57:09+04:00,221000,apartment,old_building,Yasamal,Yasamal r.,no,60.0,3,5,5,good,unknown
+6499993,https://bina.az/items/6499993,2026-09-28T20:01:19+04:00,620000,house,house,Khazar,Mərdəkan q.,no,200.0,5,1,1,good,unknown
+6209748,https://bina.az/items/6209748,2026-09-29T18:35:32+04:00,225000,apartment,new_building,Narimanov,Koroğlu m.,yes,59.0,2,13,17,good,yes
+6446929,https://bina.az/items/6446929,2026-09-28T20:01:08+04:00,745000,apartment,new_building,Nasimi,Nəsimi r.,no,196.1,4,6,17,needs_repair,yes
+5888565,https://bina.az/items/5888565,2026-09-28T20:01:10+04:00,249000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,110.0,4,6,9,good,unknown
+6465108,https://bina.az/items/6465108,2026-09-29T12:44:24+04:00,670000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,179.0,4,11,16,excellent,yes
+6497695,https://bina.az/items/6497695,2026-09-28T20:01:07+04:00,575000,apartment,new_building,Nasimi,Nizami m.,yes,130.0,3,5,12,good,yes
+6500033,https://bina.az/items/6500033,2026-09-28T20:00:32+04:00,275000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,68.0,2,8,17,needs_repair,unknown
+6465153,https://bina.az/items/6465153,2026-09-28T20:00:33+04:00,770000,house,house,Khazar,Mərdəkan q.,no,200.0,6,1,1,needs_repair,unknown
+6500032,https://bina.az/items/6500032,2026-09-28T20:00:07+04:00,325000,apartment,new_building,Nasimi,Nəsimi r.,no,96.0,2,4,12,needs_repair,yes
+6473917,https://bina.az/items/6473917,2026-09-28T20:00:05+04:00,308000,apartment,new_building,Narimanov,28 May m.,yes,96.0,3,5,16,good,unknown
+6176976,https://bina.az/items/6176976,2026-09-28T20:00:09+04:00,188000,house,house,Khazar,Qala q.,no,250.0,4,1,1,needs_repair,unknown
+6465072,https://bina.az/items/6465072,2026-09-28T20:00:04+04:00,335000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,80.0,2,3,16,excellent,yes
+6494415,https://bina.az/items/6494415,2026-09-29T18:28:54+04:00,154000,apartment,old_building,Narimanov,Gənclik m.,yes,50.0,2,8,10,good,unknown
+5728722,https://bina.az/items/5728722,2026-09-28T19:59:44+04:00,123000,house,house,Surakhani,Hövsan q.,no,150.0,4,1,1,good,unknown
+6113495,https://bina.az/items/6113495,2026-09-29T12:47:29+04:00,430000,apartment,new_building,Narimanov,Gənclik m.,yes,135.0,3,15,17,needs_repair,unknown
+6500030,https://bina.az/items/6500030,2026-09-28T19:59:23+04:00,350000,apartment,new_building,Narimanov,Nərimanov r.,no,152.0,3,15,15,excellent,yes
+6464963,https://bina.az/items/6464963,2026-09-29T12:45:48+04:00,290000,apartment,new_building,Sabail,Səbail r.,no,70.0,2,6,12,good,unknown
+6034493,https://bina.az/items/6034493,2026-09-28T19:58:45+04:00,520608,apartment,new_building,Sabunchu,Nardaran q.,no,127.6,3,25,27,needs_repair,unknown
+6323500,https://bina.az/items/6323500,2026-09-28T19:59:22+04:00,785000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,185.0,4,4,17,good,yes
+6484945,https://bina.az/items/6484945,2026-09-28T19:58:42+04:00,235000,apartment,new_building,Khatai,Xalqlar Dostluğu m.,yes,108.0,3,16,17,good,unknown
+6055158,https://bina.az/items/6055158,2026-09-28T19:58:31+04:00,220000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,66.0,2,17,17,good,unknown
+5837812,https://bina.az/items/5837812,2026-09-28T19:58:30+04:00,309000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,68.0,2,2,20,excellent,unknown
+6405793,https://bina.az/items/6405793,2026-09-28T19:58:31+04:00,219000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,85.0,3,18,18,good,unknown
+5550632,https://bina.az/items/5550632,2026-09-28T19:58:28+04:00,330000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,79.0,2,7,17,good,unknown
+6464886,https://bina.az/items/6464886,2026-09-29T12:43:01+04:00,1550000,apartment,new_building,Sabail,Səbail r.,no,240.0,4,17,22,excellent,yes
+6472950,https://bina.az/items/6472950,2026-09-28T19:58:44+04:00,79000,house,house,Sabunchu,Sabunçu q.,no,70.0,4,1,1,good,unknown
+6500027,https://bina.az/items/6500027,2026-09-28T19:58:24+04:00,370000,apartment,new_building,Nasimi,Nəsimi r.,no,115.0,3,9,12,needs_repair,yes
+6460911,https://bina.az/items/6460911,2026-09-28T19:57:47+04:00,310000,apartment,new_building,Narimanov,Nərimanov r.,no,94.0,3,5,16,good,unknown
+6451615,https://bina.az/items/6451615,2026-09-28T19:58:19+04:00,104900,apartment,new_building,Absheron,Masazır q.,no,56.0,2,8,16,good,unknown
+6238187,https://bina.az/items/6238187,2026-09-28T19:58:01+04:00,299000,apartment,new_building,Narimanov,Nərimanov r.,no,80.0,2,3,10,good,yes
+6500026,https://bina.az/items/6500026,2026-09-28T19:57:29+04:00,215000,house,house,Khatai,NZS q.,no,130.0,4,1,1,good,yes
+6491106,https://bina.az/items/6491106,2026-09-28T19:57:13+04:00,205000,apartment,new_building,Narimanov,Koroğlu m.,yes,71.0,2,15,17,needs_repair,unknown
+5963231,https://bina.az/items/5963231,2026-09-28T19:56:50+04:00,83000,apartment,old_building,Surakhani,Suraxanı r.,no,42.0,1,1,5,good,yes
+5841324,https://bina.az/items/5841324,2026-09-28T19:56:38+04:00,55000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,yes
+6500023,https://bina.az/items/6500023,2026-09-28T19:56:37+04:00,187000,apartment,old_building,Nizami,Nizami r.,no,70.0,3,3,5,good,unknown
+6209296,https://bina.az/items/6209296,2026-09-28T19:56:15+04:00,870000,apartment,new_building,Yasamal,Elmlər Akademiyası m.,yes,181.0,4,6,17,good,unknown
+5689271,https://bina.az/items/5689271,2026-09-28T19:56:35+04:00,165000,house,house,Khazar,Şüvəlan q.,no,127.0,4,1,2,good,unknown
+6332544,https://bina.az/items/6332544,2026-09-28T19:56:01+04:00,115000,house,house,Surakhani,Hövsan q.,no,110.0,4,1,1,good,yes
+6171113,https://bina.az/items/6171113,2026-09-28T19:56:15+04:00,57000,house,house,Surakhani,Hövsan q.,no,90.0,3,1,1,good,yes
+6500020,https://bina.az/items/6500020,2026-09-28T19:55:44+04:00,365000,apartment,new_building,Nizami,Qara Qarayev m.,yes,132.0,4,4,16,needs_repair,unknown
+6267077,https://bina.az/items/6267077,2026-09-29T11:16:05+04:00,205000,apartment,new_building,Khatai,Həzi Aslanov m.,yes,96.0,3,7,16,good,unknown
+6417260,https://bina.az/items/6417260,2026-09-28T19:55:46+04:00,83000,house,house,Surakhani,Hövsan q.,no,100.0,3,1,1,excellent,unknown
+6500021,https://bina.az/items/6500021,2026-09-29T15:40:19+04:00,236390,apartment,new_building,Sabunchu,Nardaran q.,no,39.1,1,5,28,good,unknown
+6472671,https://bina.az/items/6472671,2026-09-28T19:54:57+04:00,274000,apartment,old_building,Nasimi,Nəsimi r.,no,120.0,4,4,9,good,unknown
+6289351,https://bina.az/items/6289351,2026-09-28T19:54:48+04:00,90000,house,house,Absheron,Novxanı q.,no,100.0,3,1,1,good,unknown
+6441504,https://bina.az/items/6441504,2026-09-28T19:54:24+04:00,116000,house,house,Absheron,Novxanı q.,no,135.0,4,1,1,needs_repair,unknown
+6277065,https://bina.az/items/6277065,2026-09-28T19:54:24+04:00,309000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,68.0,2,3,19,good,yes
+6483396,https://bina.az/items/6483396,2026-09-28T19:54:10+04:00,150000,apartment,old_building,Yasamal,İnşaatçılar m.,yes,50.0,2,2,5,good,yes
+6360385,https://bina.az/items/6360385,2026-09-28T19:53:54+04:00,99500,house,house,Absheron,Novxanı q.,no,100.0,3,1,1,good,unknown
+6489110,https://bina.az/items/6489110,2026-09-28T19:53:36+04:00,142000,house,house,Absheron,Novxanı q.,no,80.0,3,1,1,good,unknown
+5766243,https://bina.az/items/5766243,2026-09-28T19:52:37+04:00,370000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,157.0,3,6,18,good,unknown
+4265363,https://bina.az/items/4265363,2026-09-28T19:52:31+04:00,360000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,125.0,3,6,16,good,unknown
+6500018,https://bina.az/items/6500018,2026-09-28T19:51:45+04:00,172000,apartment,new_building,Sabunchu,Bakıxanov q.,no,78.0,3,7,13,needs_repair,unknown
+6396254,https://bina.az/items/6396254,2026-09-28T19:52:00+04:00,329000,apartment,new_building,Yasamal,İnşaatçılar m.,yes,123.0,3,12,20,excellent,yes
+6500017,https://bina.az/items/6500017,2026-09-28T19:51:43+04:00,155000,apartment,new_building,Yasamal,Yeni Yasamal q.,no,60.0,2,16,17,good,yes
+6488453,https://bina.az/items/6488453,2026-09-28T19:51:31+04:00,147000,apartment,new_building,Khatai,Həzi Aslanov q.,no,55.0,2,3,20,good,unknown
+6450580,https://bina.az/items/6450580,2026-09-28T19:50:48+04:00,237000,house,house,Sabunchu,Savalan q.,no,150.0,5,1,1,good,unknown
+5638065,https://bina.az/items/5638065,2026-09-28T19:50:48+04:00,289000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,75.0,2,14,18,good,unknown
+6496234,https://bina.az/items/6496234,2026-09-28T19:50:38+04:00,315000,apartment,new_building,Nizami,Qara Qarayev m.,yes,127.5,3,4,14,needs_repair,unknown
+6040469,https://bina.az/items/6040469,2026-09-28T19:50:31+04:00,140000,apartment,new_building,Absheron,Məmmədli q.,no,140.0,3,8,10,needs_repair,unknown
+6444937,https://bina.az/items/6444937,2026-09-28T19:50:10+04:00,269000,apartment,new_building,Nasimi,Nəsimi r.,no,117.0,2,3,17,needs_repair,unknown
+6500015,https://bina.az/items/6500015,2026-09-28T19:50:06+04:00,245000,apartment,new_building,Sabunchu,Bakıxanov q.,no,84.0,3,3,12,good,unknown
+6500016,https://bina.az/items/6500016,2026-09-28T19:50:10+04:00,169000,apartment,new_building,Nizami,Neftçilər m.,yes,60.0,2,8,16,good,unknown
+6500004,https://bina.az/items/6500004,2026-09-28T19:49:58+04:00,117000,apartment,new_building,Surakhani,Hövsan q.,no,59.0,2,5,7,good,unknown
+6486052,https://bina.az/items/6486052,2026-09-28T19:50:05+04:00,435000,apartment,new_building,Khatai,Şah İsmayıl Xətai m.,yes,115.0,3,16,17,good,yes
+6458260,https://bina.az/items/6458260,2026-09-28T19:49:43+04:00,245000,apartment,old_building,Nasimi,Memar Əcəmi m.,yes,90.0,3,7,9,good,unknown
+5914718,https://bina.az/items/5914718,2026-09-28T19:49:01+04:00,284000,apartment,new_building,Sabunchu,Bakıxanov q.,no,138.0,3,20,23,needs_repair,yes
+6500012,https://bina.az/items/6500012,2026-09-28T19:48:37+04:00,430000,house,house,Khazar,Mərdəkan q.,no,190.0,5,1,1,good,unknown
+6472938,https://bina.az/items/6472938,2026-09-28T19:48:46+04:00,379500,apartment,new_building,Nasimi,Memar Əcəmi m.,yes,175.0,4,5,10,excellent,unknown
+6500006,https://bina.az/items/6500006,2026-09-28T19:48:36+04:00,245000,apartment,new_building,Narimanov,28 May m.,yes,65.0,2,15,17,good,unknown
+6500011,https://bina.az/items/6500011,2026-09-29T14:55:23+04:00,385000,apartment,old_building,Yasamal,Elmlər Akademiyası m.,yes,120.0,4,6,9,good,unknown
+6177583,https://bina.az/items/6177583,2026-09-28T19:48:31+04:00,555000,apartment,new_building,Narimanov,Nəriman Nərimanov m.,yes,130.0,4,10,16,good,yes
+6436920,https://bina.az/items/6436920,2026-09-28T19:48:26+04:00,385000,apartment,new_building,Nasimi,28 May m.,yes,145.0,4,17,17,good,yes
+6483256,https://bina.az/items/6483256,2026-09-28T19:48:25+04:00,130000,apartment,old_building,Nasimi,Nizami m.,yes,35.0,1,2,6,good,unknown
+6500007,https://bina.az/items/6500007,2026-09-28T19:48:14+04:00,248500,apartment,new_building,Nizami,Neftçilər m.,yes,104.0,3,9,18,good,unknown

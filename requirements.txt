@@ -2,3 +2,6 @@ pandas
 scikit-learn
 joblib
 streamlit
+requests
+folium
+streamlit-folium

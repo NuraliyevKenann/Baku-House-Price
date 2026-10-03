@@ -6,10 +6,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.metrics import r2_score
 import joblib
 
-DATA_PATH = "data/baku_housing_sample.csv"
+DATA_PATH = "data/baku_housing_all_current.csv"
 
 
 df = pd.read_csv(DATA_PATH)
@@ -47,17 +48,16 @@ numeric_features = [
     "area_m2",
     "rooms",
     "floor",
-    "total_floors",
-    "building_age",
-    "distance_center_km"
+    "total_floors"
 ]
 
 categorical_features = [
     "property_type",
+    "building_type",
     "district",
+    "location_name",
     "metro_near",
     "repair_quality",
-    "has_elevator",
     "has_parking"
 ]
 
@@ -85,7 +85,11 @@ preprocessor = ColumnTransformer(
 )
 
 
-model = RandomForestRegressor(n_estimators=100,random_state=42)
+model = RandomForestRegressor(
+    n_estimators=100,
+    random_state=42,
+    n_jobs=-1
+)
 
 final_model=Pipeline(
     steps=[
@@ -102,6 +106,9 @@ y_pred=final_model.predict(X_test)
 mae=mean_absolute_error(y_test,y_pred)
 print("Mean Absolute Error:", mae)
 
+mape=mean_absolute_percentage_error(y_test,y_pred) * 100
+print("Mean Absolute Percentage Error:", mape)
+
 r2=r2_score(y_test,y_pred)
 print("The R2 score:" , r2 )
 
@@ -111,4 +118,4 @@ print(y_test[0:5])
 final_model.fit(X,y)
 print(final_model)
 
-joblib.dump(final_model , 'baku_price_model.joblib')
+joblib.dump(final_model, 'baku_price_model.joblib', compress=("xz", 3))

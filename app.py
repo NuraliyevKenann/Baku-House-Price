@@ -1,84 +1,234 @@
+import base64
+import json
+from pathlib import Path
+
+import folium
 import joblib
 import pandas as pd
 import streamlit as st
+from branca.element import MacroElement, Template
+from streamlit_folium import st_folium
 
 
-st.set_page_config(page_title="Baku Property Price", layout="centered")
+ROOT = Path(__file__).parent
+MODEL_PATH = ROOT / "baku_price_model.joblib"
+METADATA_PATH = ROOT / "model_metadata.json"
+EVALUATION_PATH = ROOT / "model_evaluation.json"
+MAP_PATH = ROOT / "assets" / "baku-districts-land.geojson"
+BAKU_MAP_BOUNDS = [[39.45, 49.10], [40.85, 50.45]]
+MAP_MIN_ZOOM = 9
+MAP_MAX_ZOOM = 14
+PREDICTION_ZOOM = 12
+
+TEXT = {
+    "ru": {
+        "page_title": "Оценка недвижимости в Баку",
+        "title": "Baku Home Value",
+        "subtitle": "Оценка стоимости недвижимости в Баку",
+        "details": "Параметры объекта",
+        "property": "Недвижимость",
+        "apartment": "Квартира",
+        "house": "Дом",
+        "district": "Район",
+        "location": "Расположение",
+        "location_in_district": "Место в выбранном районе",
+        "area": "Площадь, м²",
+        "rooms": "Количество комнат",
+        "building": "Тип здания",
+        "new_building": "Новостройка",
+        "old_building": "Старое здание",
+        "house_building": "Частный дом",
+        "floor": "Этаж",
+        "total_floors": "Этажей в здании",
+        "repair": "Состояние ремонта",
+        "needs_repair": "Требуется ремонт",
+        "average": "Средний ремонт",
+        "good": "Хороший ремонт",
+        "excellent": "Отличный ремонт",
+        "metro": "Метро рядом",
+        "parking": "Парковка",
+        "yes": "Да",
+        "no": "Нет",
+        "unknown": "Не указано",
+        "map": "Районы Баку",
+        "selected": "Выбранный район",
+        "estimate": "Рассчитать стоимость",
+        "result": "Примерная рыночная стоимость",
+        "range": "Ожидаемый диапазон",
+        "model_quality": "Средняя процентная ошибка модели на тесте: {mape:.1f}%",
+        "fresh_quality": "Проверка на {rows:,} новых объявлениях: средняя ошибка {mape:.1f}% ({mae:,.0f} AZN)",
+        "disclaimer": "Экспериментальная оценка по открытым объявлениям, не профессиональная экспертиза.",
+        "data_note": "Модель обучена на {rows:,} объявлениях о продаже.",
+    },
+    "az": {
+        "page_title": "Bakıda daşınmaz əmlak qiyməti",
+        "title": "Baku Home Value",
+        "subtitle": "Bakıda daşınmaz əmlakın qiymətləndirilməsi",
+        "details": "Əmlakın parametrləri",
+        "property": "Əmlak",
+        "apartment": "Mənzil",
+        "house": "Həyət evi",
+        "district": "Rayon",
+        "location": "Ərazi",
+        "location_in_district": "Seçilmiş rayon daxilində ərazi",
+        "area": "Sahə, m²",
+        "rooms": "Otaq sayı",
+        "building": "Bina növü",
+        "new_building": "Yeni tikili",
+        "old_building": "Köhnə tikili",
+        "house_building": "Həyət evi",
+        "floor": "Mərtəbə",
+        "total_floors": "Binanın mərtəbə sayı",
+        "repair": "Təmir vəziyyəti",
+        "needs_repair": "Təmirsiz",
+        "average": "Orta təmir",
+        "good": "Yaxşı təmir",
+        "excellent": "Əla təmir",
+        "metro": "Metro yaxınlığı",
+        "parking": "Dayanacaq",
+        "yes": "Bəli",
+        "no": "Xeyr",
+        "unknown": "Qeyd edilməyib",
+        "map": "Bakı rayonları",
+        "selected": "Seçilmiş rayon",
+        "estimate": "Qiyməti hesabla",
+        "result": "Təxmini bazar qiyməti",
+        "range": "Gözlənilən interval",
+        "model_quality": "Modelin test üzrə orta faiz xətası: {mape:.1f}%",
+        "fresh_quality": "{rows:,} yeni elan üzrə yoxlama: orta xəta {mape:.1f}% ({mae:,.0f} AZN)",
+        "disclaimer": "Açıq elanlar əsasında eksperimental qiymətləndirmədir, peşəkar ekspertiza deyil.",
+        "data_note": "Model {rows:,} satış elanı ilə öyrədilib.",
+    },
+}
+
+DISTRICT_NAMES = {
+    "Absheron": {"ru": "Абшерон", "az": "Abşeron"},
+    "Binagadi": {"ru": "Бинагади", "az": "Binəqədi"},
+    "Garadagh": {"ru": "Гарадаг", "az": "Qaradağ"},
+    "Khatai": {"ru": "Хатаи", "az": "Xətai"},
+    "Khazar": {"ru": "Хазар", "az": "Xəzər"},
+    "Narimanov": {"ru": "Нариманов", "az": "Nərimanov"},
+    "Nasimi": {"ru": "Насими", "az": "Nəsimi"},
+    "Nizami": {"ru": "Низами", "az": "Nizami"},
+    "Sabail": {"ru": "Сабаил", "az": "Səbail"},
+    "Sabunchu": {"ru": "Сабунчу", "az": "Sabunçu"},
+    "Surakhani": {"ru": "Сураханы", "az": "Suraxanı"},
+    "Yasamal": {"ru": "Ясамал", "az": "Yasamal"},
+}
+
+
+st.set_page_config(
+    page_title="Baku Home Value",
+    page_icon=str(ROOT / "assets" / "brand-mark.png"),
+    layout="wide",
+)
 
 st.markdown(
     """
     <style>
-        .stApp {
-            background: #f7f8f6;
-            color: #17211f;
+        :root {
+            --red: #c81d25;
+            --red-dark: #9f141b;
+            --ink: #202225;
+            --muted: #666a70;
+            --line: #e4e5e7;
+            --surface: #ffffff;
+            --canvas: #f5f5f4;
         }
-
+        .stApp { background: var(--canvas); color: var(--ink); }
         .block-container {
-            max-width: 980px;
-            padding-top: 1.25rem;
-            padding-bottom: 3rem;
+            max-width: 1440px;
+            padding-top: 1rem;
+            padding-bottom: 2.5rem;
+            animation: page-in .65s ease-out both;
         }
-
-        [data-testid="stImage"] img {
-            max-height: 280px;
-            object-fit: cover;
-            border-radius: 8px;
+        @keyframes page-in {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-
-        h1 {
-            color: #173f3a;
-            font-size: 2.25rem !important;
-            letter-spacing: 0 !important;
-            margin-bottom: 0.25rem !important;
+        @keyframes result-in {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-
-        h2, h3 {
-            color: #243b37;
-            letter-spacing: 0 !important;
+        h1, h2, h3, p { letter-spacing: 0 !important; }
+        h1 { font-size: 2rem !important; margin: .15rem 0 0 !important; }
+        h2 { font-size: 1.2rem !important; margin: .2rem 0 .7rem !important; }
+        [data-testid="stImage"] img { object-fit: contain; }
+        .brand-row { display: flex; align-items: center; gap: .8rem; min-height: 64px; }
+        .brand-row img { width: 58px; height: 58px; object-fit: contain; }
+        .brand-row h1 { margin: 0 !important; }
+        .brand-row p { margin: .15rem 0 0; color: var(--muted); font-size: .9rem; }
+        .hero [data-testid="stImage"] img { object-fit: cover; }
+        .hero-copy {
+            margin: -7.2rem 0 2rem;
+            padding: 2.2rem 2rem 1.25rem;
+            position: relative;
+            color: white;
+            background: linear-gradient(0deg, rgba(20, 8, 9, .84), transparent);
+            pointer-events: none;
         }
-
+        .hero-copy h1 { color: white; font-size: 2.25rem !important; }
+        .hero-copy p { margin: .2rem 0 0; color: rgba(255,255,255,.88); }
+        .control-panel {
+            border-top: 3px solid var(--red);
+            padding: 1rem 0 .35rem;
+            margin-bottom: .35rem;
+        }
+        [data-testid="stSelectbox"] label,
+        [data-testid="stNumberInput"] label {
+            color: var(--ink);
+            font-weight: 650;
+        }
         div[data-testid="stButton"] button {
             min-height: 48px;
-            background: #0f766e;
-            color: #ffffff;
-            border: 1px solid #0f766e;
+            background: var(--red);
+            color: white;
+            border: 1px solid var(--red);
             border-radius: 6px;
-            font-weight: 700;
+            font-weight: 750;
         }
-
         div[data-testid="stButton"] button:hover {
-            background: #115e59;
-            color: #ffffff;
-            border-color: #115e59;
+            background: var(--red-dark);
+            color: white;
+            border-color: var(--red-dark);
         }
-
+        .map-heading {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 1rem;
+            border-top: 3px solid var(--red);
+            padding-top: .9rem;
+            margin-bottom: .55rem;
+        }
+        .map-heading strong { font-size: 1.2rem; }
+        .map-heading span { color: var(--red-dark); font-weight: 700; }
+        [data-testid="stIFrame"] {
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        iframe {
+            display: block;
+            border-radius: 6px;
+        }
         .price-result {
-            margin-top: 1.25rem;
-            padding: 1.25rem 1.5rem;
-            background: #ffffff;
-            border: 1px solid #cad8d4;
-            border-left: 5px solid #c65d3b;
-            border-radius: 8px;
+            margin: .7rem 0 1.15rem;
+            padding: 1.15rem 1.3rem;
+            background: var(--surface);
+            border: 1px solid #dedfe1;
+            border-left: 5px solid var(--red);
+            border-radius: 6px;
+            animation: result-in .4s ease-out both;
         }
-
-        .price-label {
-            color: #53635f;
-            font-size: 0.9rem;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        .price-value {
-            color: #173f3a;
-            font-size: 2rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin: 0.25rem 0;
-        }
-
-        .price-range {
-            color: #53635f;
-            font-size: 0.95rem;
+        .price-label { color: var(--muted); font-size: .86rem; font-weight: 700; }
+        .price-value { color: var(--ink); font-size: 2rem; font-weight: 800; margin: .2rem 0; }
+        .price-range { color: var(--muted); font-size: .93rem; }
+        .quality-note { color: var(--muted); font-size: .82rem; margin-top: .65rem; }
+        footer { visibility: hidden; }
+        @media (max-width: 760px) {
+            .hero-copy { margin-top: -6.4rem; padding-left: 1rem; }
+            .hero-copy h1 { font-size: 1.65rem !important; }
+            .block-container { padding-left: .8rem; padding-right: .8rem; }
         }
     </style>
     """,
@@ -88,176 +238,403 @@ st.markdown(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("baku_price_model.joblib")
+    return joblib.load(MODEL_PATH)
+
+
+@st.cache_data
+def load_json(path):
+    with Path(path).open(encoding="utf-8") as file:
+        return json.load(file)
+
+
+def geometry_points(coordinates):
+    if coordinates and isinstance(coordinates[0], (int, float)):
+        yield coordinates
+        return
+    for item in coordinates:
+        yield from geometry_points(item)
+
+
+def selected_bounds(features, district):
+    feature = next(
+        item for item in features if item["properties"]["district"] == district
+    )
+    points = list(geometry_points(feature["geometry"]["coordinates"]))
+    longitudes = [point[0] for point in points]
+    latitudes = [point[1] for point in points]
+    return [[min(latitudes), min(longitudes)], [max(latitudes), max(longitudes)]]
+
+
+class MapPresentation(MacroElement):
+    def __init__(self, fly_bounds=None):
+        super().__init__()
+        self.fly_bounds_json = json.dumps(fly_bounds) if fly_bounds else "null"
+        self.prediction_zoom = PREDICTION_ZOOM
+        self._template = Template(
+            """
+            {% macro script(this, kwargs) %}
+            var map = {{ this._parent.get_name() }};
+            map.attributionControl.setPrefix(false);
+            var flyBounds = {{ this.fly_bounds_json }};
+            if (flyBounds) {
+                var center = [
+                    (flyBounds[0][0] + flyBounds[1][0]) / 2,
+                    (flyBounds[0][1] + flyBounds[1][1]) / 2
+                ];
+                map.flyTo(center, {{ this.prediction_zoom }}, {
+                    animate: true,
+                    duration: 1.25
+                });
+            }
+            {% endmacro %}
+            """
+        )
+
+
+def build_map(
+    boundaries,
+    selected_district,
+    language,
+    supported_districts,
+    highlight_selected,
+    focus_selected,
+):
+    features = []
+    for feature in boundaries["features"]:
+        district = feature["properties"]["district"]
+        if district not in supported_districts:
+            continue
+        feature = json.loads(json.dumps(feature))
+        feature["properties"]["display_name"] = DISTRICT_NAMES[district][language]
+        features.append(feature)
+
+    map_data = {"type": "FeatureCollection", "features": features}
+    district_map = folium.Map(
+        location=[40.40, 49.90],
+        tiles=None,
+        zoom_start=10,
+        min_zoom=MAP_MIN_ZOOM,
+        max_zoom=MAP_MAX_ZOOM,
+        min_lat=BAKU_MAP_BOUNDS[0][0],
+        max_lat=BAKU_MAP_BOUNDS[1][0],
+        min_lon=BAKU_MAP_BOUNDS[0][1],
+        max_lon=BAKU_MAP_BOUNDS[1][1],
+        max_bounds=True,
+        zoom_control=True,
+        control_scale=True,
+        prefer_canvas=True,
+    )
+    district_map.options.update(
+        minZoom=MAP_MIN_ZOOM,
+        maxZoom=MAP_MAX_ZOOM,
+        maxBoundsViscosity=1.0,
+    )
+    folium.TileLayer(
+        "OpenStreetMap",
+        min_zoom=MAP_MIN_ZOOM,
+        max_zoom=MAP_MAX_ZOOM,
+        no_wrap=True,
+        control=False,
+    ).add_to(district_map)
+    folium.GeoJson(
+        map_data,
+        name="districts",
+        style_function=lambda feature: {
+            "fillColor": (
+                "#c81d25"
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
+                else "#aeb2b7"
+            ),
+            "color": "#ffffff",
+            "weight": 1.5,
+            "fillOpacity": (
+                0.72
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
+                else 0.35
+            ),
+        },
+        highlight_function=lambda feature: {
+            "fillColor": (
+                "#e21d2d"
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
+                else "#c7cbd0"
+            ),
+            "color": (
+                "#9f141b"
+                if highlight_selected
+                and feature["properties"]["district"] == selected_district
+                else "#6f747a"
+            ),
+            "weight": 2.5,
+            "fillOpacity": 0.72,
+        },
+        tooltip=folium.GeoJsonTooltip(
+            fields=["display_name"], aliases=[""], labels=False, sticky=True
+        ),
+    ).add_to(district_map)
+    MapPresentation(
+        selected_bounds(features, selected_district) if focus_selected else None
+    ).add_to(district_map)
+    return district_map
+
+
+def sync_district_from_select():
+    st.session_state.selected_district = st.session_state.district_widget
+    st.session_state.has_district_selection = True
+    st.session_state.focus_selected_district = True
+
+
+def canonical_district(value, available_districts):
+    if value in available_districts:
+        return value
+    for district in available_districts:
+        if value in DISTRICT_NAMES[district].values():
+            return district
+    return "Yasamal" if "Yasamal" in available_districts else available_districts[0]
+
+
+def district_location_options(locations):
+    def location_order(value):
+        normalized = value.strip().lower()
+        if normalized.endswith(" q."):
+            return 0
+        if normalized.endswith(" r."):
+            return 1
+        if normalized.endswith(" m."):
+            return 2
+        return 3
+
+    return sorted(locations, key=lambda value: (location_order(value), value))
 
 
 model = load_model()
+metadata = load_json(METADATA_PATH)
+evaluation = load_json(EVALUATION_PATH)
+boundaries = load_json(MAP_PATH)
 
-st.image("assets/baku-skyline.png", width="stretch")
-st.title("Baku Property Price")
-st.caption("Estimate a property's market price from its main characteristics.")
+brand_column, language_column = st.columns(
+    [0.84, 0.16], vertical_alignment="center"
+)
+with language_column:
+    language_label = st.segmented_control(
+        "Language",
+        ["AZ", "RU"],
+        default="AZ",
+        label_visibility="collapsed",
+    )
+language = (language_label or "AZ").lower()
+t = TEXT[language]
 
-st.subheader("Property details")
+brand_mark = base64.b64encode(
+    (ROOT / "assets" / "brand-mark.png").read_bytes()
+).decode("ascii")
+with brand_column:
+    st.markdown(
+        f'<div class="brand-row">'
+        f'<img src="data:image/png;base64,{brand_mark}" alt="">'
+        f'<div><h1>{t["title"]}</h1><p>{t["subtitle"]}</p></div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
 
-type_column, district_column = st.columns(2)
-with type_column:
+st.markdown('<div class="hero">', unsafe_allow_html=True)
+st.image(ROOT / "assets" / "baku-skyline-red.png", width="stretch")
+st.markdown(
+    f'<div class="hero-copy"><h1>{t["page_title"]}</h1></div>',
+    unsafe_allow_html=True,
+)
+st.markdown("</div>", unsafe_allow_html=True)
+
+districts = metadata["districts"]
+st.session_state.selected_district = canonical_district(
+    st.session_state.get("selected_district", "Yasamal"), districts
+)
+st.session_state.district_widget = canonical_district(
+    st.session_state.get("district_widget", st.session_state.selected_district),
+    districts,
+)
+if st.session_state.district_widget != st.session_state.selected_district:
+    st.session_state.district_widget = st.session_state.selected_district
+
+st.markdown('<div class="control-panel">', unsafe_allow_html=True)
+st.subheader(t["details"])
+
+first_row = st.columns([1, 1, 1.35, 1], gap="medium")
+with first_row[0]:
     property_choice = st.selectbox(
-        "Property type",
+        t["property"],
         ["apartment", "house"],
-        format_func=lambda value: value.title(),
+        format_func=lambda value: t[value],
     )
-with district_column:
-    district_choice = st.selectbox(
-        "District",
-        [
-            "Absheron",
-            "Binagadi",
-            "Garadagh",
-            "Khatai",
-            "Khazar",
-            "Narimanov",
-            "Nasimi",
-            "Nizami",
-            "Sabail",
-            "Surakhani",
-            "Yasamal",
-        ],
+with first_row[1]:
+    st.selectbox(
+        t["district"],
+        districts,
+        key="district_widget",
+        format_func=lambda value: DISTRICT_NAMES[value][language],
+        on_change=sync_district_from_select,
+    )
+district_choice = st.session_state.selected_district
+with first_row[2]:
+    locations = district_location_options(
+        metadata["locations_by_district"][district_choice]
+    )
+    location_choice = st.selectbox(t["location_in_district"], locations)
+with first_row[3]:
+    building_options = (
+        ["new_building", "old_building"]
+        if property_choice == "apartment"
+        else ["house"]
+    )
+    building_type = st.selectbox(
+        t["building"],
+        building_options,
+        format_func=lambda value: (
+            t["house_building"] if value == "house" else t[value]
+        ),
+        disabled=property_choice == "house",
     )
 
-if property_choice == "apartment":
-    minimum_area, maximum_area, default_area = 42, 120, 80
-    minimum_floors, maximum_floors, default_floors = 5, 20, 9
-    minimum_age, maximum_age = 2, 40
-else:
-    minimum_area, maximum_area, default_area = 155, 280, 180
-    minimum_floors, maximum_floors, default_floors = 2, 3, 2
-    minimum_age, maximum_age = 5, 18
-
-area_column, rooms_column, metro_column = st.columns(3)
-with area_column:
+second_row = st.columns(4, gap="medium")
+with second_row[0]:
+    area_limits = metadata["area_limits"][property_choice]
+    area_default = 85 if property_choice == "apartment" else 160
     area_m2 = st.number_input(
-        "Area (m2)",
-        min_value=minimum_area,
-        max_value=maximum_area,
-        value=default_area,
+        t["area"],
+        min_value=int(area_limits["min"]),
+        max_value=int(area_limits["max"]),
+        value=area_default,
         step=1,
     )
-with rooms_column:
+with second_row[1]:
     rooms_count = st.number_input(
-        "Rooms",
-        min_value=1,
-        max_value=7,
-        value=2,
-        step=1,
+        t["rooms"], min_value=1, max_value=16, value=3, step=1
     )
-with metro_column:
-    metro_choice = st.selectbox(
-        "Metro nearby",
-        ["yes", "no"],
-        format_func=lambda value: value.title(),
-    )
-
-floors_column, floor_column, age_column = st.columns(3)
-with floors_column:
-    total_floors = st.number_input(
-        "Total floors",
-        min_value=minimum_floors,
-        max_value=maximum_floors,
-        value=default_floors,
-        step=1,
-    )
-with floor_column:
+with second_row[2]:
     if property_choice == "apartment":
         floor = st.number_input(
-            "Apartment floor",
+            t["floor"],
             min_value=1,
-            max_value=total_floors,
-            value=1,
+            max_value=40,
+            value=6,
             step=1,
         )
     else:
+        st.number_input(t["floor"], min_value=1, value=1, disabled=True)
         floor = 1
-        st.number_input("Property floor", value=1, disabled=True)
-with age_column:
-    building_age = st.number_input(
-        "Building age",
-        min_value=minimum_age,
-        max_value=maximum_age,
-        value=10,
-        step=1,
-    )
-
-repair_column, elevator_column, parking_column = st.columns(3)
-with repair_column:
+with second_row[3]:
     repair_choice = st.selectbox(
-        "Repair quality",
+        t["repair"],
         ["needs_repair", "average", "good", "excellent"],
-        format_func=lambda value: value.replace("_", " ").title(),
         index=2,
-    )
-with elevator_column:
-    if property_choice == "apartment":
-        elevator_choice = st.selectbox(
-            "Elevator",
-            ["yes", "no"],
-            format_func=lambda value: value.title(),
-        )
-    else:
-        elevator_choice = "no"
-        st.selectbox("Elevator", ["No"], disabled=True)
-with parking_column:
-    parking_choice = st.selectbox(
-        "Parking",
-        ["yes", "no"],
-        format_func=lambda value: value.title(),
+        format_func=lambda value: t[value],
     )
 
-distance_center_km = st.number_input(
-    "Distance to city center (km)",
-    min_value=1.2,
-    max_value=20.2,
-    value=5.0,
-    step=0.1,
-)
+typical_total_floors = {
+    "new_building": 16,
+    "old_building": 9,
+    "house": 1,
+}
+total_floors = max(floor, typical_total_floors[building_type])
+
+third_row = st.columns([1, 1, 1.15], gap="medium", vertical_alignment="bottom")
+with third_row[0]:
+    metro_choice = st.selectbox(
+        t["metro"], ["yes", "no"], format_func=lambda value: t[value]
+    )
+with third_row[1]:
+    parking_choice = st.selectbox(
+        t["parking"],
+        ["yes", "unknown"],
+        format_func=lambda value: t[value],
+    )
+with third_row[2]:
+    estimate = st.button(
+        t["estimate"],
+        icon=":material/calculate:",
+        width="stretch",
+        type="primary",
+    )
+st.markdown("</div>", unsafe_allow_html=True)
 
 input_data = pd.DataFrame(
     [
         {
             "property_type": property_choice,
+            "building_type": building_type,
             "district": district_choice,
+            "location_name": location_choice,
             "metro_near": metro_choice,
             "area_m2": area_m2,
             "rooms": rooms_count,
             "floor": floor,
             "total_floors": total_floors,
-            "building_age": building_age,
             "repair_quality": repair_choice,
-            "has_elevator": elevator_choice,
             "has_parking": parking_choice,
-            "distance_center_km": distance_center_km,
         }
     ]
 )
 
-if st.button("Estimate price", width="stretch"):
+if estimate:
     prediction = float(model.predict(input_data)[0])
-    error_margin = 22742
+    property_metrics = evaluation["by_property_type"][property_choice]
+    error_margin = float(property_metrics["mae_azn"])
     lower_price = max(0, prediction - error_margin)
     upper_price = prediction + error_margin
-
     st.markdown(
         f"""
         <div class="price-result">
-            <div class="price-label">Estimated market price</div>
+            <div class="price-label">{t["result"]}</div>
             <div class="price-value">{prediction:,.0f} AZN</div>
             <div class="price-range">
-                Expected range: {lower_price:,.0f} - {upper_price:,.0f} AZN
+                {t["range"]}: {lower_price:,.0f} - {upper_price:,.0f} AZN
+            </div>
+            <div class="quality-note">
+                {t["fresh_quality"].format(
+                    rows=property_metrics["rows"],
+                    mape=property_metrics["mape_percent"],
+                    mae=property_metrics["mae_azn"],
+                )}<br>
+                {t["disclaimer"]}
             </div>
         </div>
         """,
         unsafe_allow_html=True,
     )
-    st.caption(
-        "Experimental estimate based on a small sample dataset. "
-        "It should not be treated as a professional valuation."
-    )
+
+district_display = DISTRICT_NAMES[district_choice][language]
+st.markdown(
+    f'<div class="map-heading"><strong>{t["map"]}</strong>'
+    f'<span>{t["selected"]}: {district_display}</span></div>',
+    unsafe_allow_html=True,
+)
+focus_selected = bool(st.session_state.pop("focus_selected_district", False)) or estimate
+highlight_selected = bool(st.session_state.get("has_district_selection", False)) or estimate
+map_result = st_folium(
+    build_map(
+        boundaries,
+        district_choice,
+        language,
+        set(districts),
+        highlight_selected=highlight_selected,
+        focus_selected=focus_selected,
+    ),
+    height=720,
+    width=None,
+    returned_objects=["last_object_clicked_tooltip"],
+    key=f"district_map_{district_choice}_{language}_{int(focus_selected)}",
+)
+clicked_name = map_result.get("last_object_clicked_tooltip")
+district_by_display_name = {
+    DISTRICT_NAMES[district][language]: district for district in districts
+}
+clicked_district = district_by_display_name.get(clicked_name)
+if clicked_district and clicked_district != district_choice:
+    st.session_state.selected_district = clicked_district
+    st.session_state.district_widget = clicked_district
+    st.session_state.has_district_selection = True
+    st.session_state.focus_selected_district = True
+    st.rerun()
